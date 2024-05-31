@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
-
 from utils import connector
 
 
@@ -277,6 +276,15 @@ def update_all_companies_score():
             add_into_mongodb(company_doc['name'], dec_dict, temp_goal, contr_dict, inv_dict, sdg_dict)
 
 
+def update_single_company(ticker):
+    """
+    Updates the ESG scores for company given.
+    """
+    company = connector.companies.find_one({"ticker": ticker})
+    dec_dict, temp_goal, contr_dict, inv_dict, sdg_dict = scrape_msci(ticker=ticker)
+    add_into_mongodb(company['name'], dec_dict, temp_goal, contr_dict, inv_dict, sdg_dict)
+
+
 def add_into_mongodb(company_name, dec_dict, temp_goal, contr_dict, inv_dict, sdg_dict):
     """
     Updates MongoDB with ESG-related information for a company.
@@ -301,8 +309,7 @@ def add_into_mongodb(company_name, dec_dict, temp_goal, contr_dict, inv_dict, sd
             update_fields["Temperature Goal"] = temp_goal
         if 'Controversies' not in existing_entry:
             update_fields["Controversies"] = contr_dict
-        if 'involvement msci' not in existing_entry and (
-                existing_entry.get('involvement') == 'null' or 'involvement' not in existing_entry):
+        if 'involvement msci' not in existing_entry:
             update_fields["involvement_msci"] = inv_dict
         if 'sdg' not in existing_entry:
             update_fields["sdg"] = sdg_dict
@@ -314,10 +321,5 @@ def add_into_mongodb(company_name, dec_dict, temp_goal, contr_dict, inv_dict, sd
 
 
 if __name__ == '__main__':
-    '''
-    tickers = ['GOOGL', 'AAPL', 'MSFT']
-    for ticker in tickers:
-        a, b, c, d, e = scrape_msci(ticker=ticker)
-        print(f"{ticker}: Decarbonization Target: {a}, Global Temperature:{b}, Controversies: {c}, Involvement: {d}, SDG: {e}")
-    '''
     update_all_companies_score()
+    # update_single_company('FFIV')

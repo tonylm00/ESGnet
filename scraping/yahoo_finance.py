@@ -1,42 +1,79 @@
-import requests
-from bs4 import BeautifulSoup
-import time
 from utils import connector
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
 
 
-def get_product_involvement_areas(ticker):
-    search_url = f"https://finance.yahoo.com/quote/{ticker}/sustainability"
-    headers = {"User-Agent": "Mozilla/5.0"}
-    response = requests.get(search_url, headers=headers)
+def scrape_yf(ticker):
+    """
+    Retrieves product involvement areas for a given stock ticker from Yahoo Finance.
 
-    if response.status_code == 200:
-        if search_url == response.url:
-            soup = BeautifulSoup(response.text, "html.parser")
+    Args:
+        ticker (str): The stock ticker symbol.
 
-            involvement = soup.findAll("td", class_="svelte-jjhdng")
+    Returns:
+        dict: Product involvement areas.
+    """
+    involvement_dict = {}
+    url = f"https://finance.yahoo.com/quote/{ticker}/sustainability"
+    eq_url = f"https://finance.yahoo.com/quote/{ticker}/sustainability?guccounter=1"
 
-            involvement_dict = {}
+    # browser options
+    options = Options()
+    options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
 
-            for index, wrapper in enumerate(involvement):
-                if index % 2 == 0:
-                    involvement_dict[wrapper.text] = ''
-                if index % 2 != 0:
-                    involvement_dict[involvement[index - 1].text] = wrapper.text
+    # initialize the webdriver
+    driver = webdriver.Chrome(options=options)
 
-            print("Done for ", ticker, "Dict = ", involvement_dict)
-            return involvement_dict
-        else:
-            print(f"{response.url[8:]} is different than {search_url[8:]}!!! Fuck YahooFinance")
-            time.sleep(120)
-            update_all_companies_involvements()
-    else:
-        print("Status code :", response.status_code, "for ", ticker)
-        if response.status_code == 404:
-            time.sleep(60)
-            update_all_companies_involvements()
+    driver.get(url)
+    action = ActionChains(driver)
+
+    # accept cookie
+    cookies_button = driver.find_element(By.ID, 'scroll-down-btn')
+    cookies_button.click()
+
+    for _ in range(6):
+        action.send_keys(Keys.TAB).perform()
+
+    action.send_keys(Keys.ENTER).perform()
+
+    if driver.current_url != eq_url:
+        print(f'{ticker}: !eq {driver.current_url}')
+        return 'null'
+
+    try:
+        involvement = driver.find_elements(By.CLASS_NAME, "svelte-jjhdng")[0].text
+    except IndexError as e:
+        print(f"{ticker}: {e} - {driver.current_url}")
+        return 'null'
+
+    # Split the input string into lines
+    lines = involvement.split('\n')
+    lines.pop(0)
+    # Iterate over each line
+    for line in lines:
+        # Split the line into key and value
+        key, value = line.rsplit(' ', 1)
+        # Add the key-value pair to the dictionary
+        involvement_dict[key] = value
+
+    print(f"{ticker} Dict = {involvement_dict}")
+    return involvement_dict
 
 
 def add_involvement_to_mongodb(company_name, involvement_dict):
+    """
+    Adds product involvement areas for a company to the MongoDB database.
+
+    Args:
+        company_name (str): The name of the company.
+        involvement_dict (dict): Product involvement areas.
+    """
+
     query = {"name": company_name}
     existing_entry = connector.companies.find_one(query)
 
@@ -46,20 +83,17 @@ def add_involvement_to_mongodb(company_name, involvement_dict):
 
 
 def update_all_companies_involvements():
-    for company_doc in connector.companies.find({"involvement": {"$exists": False}}):
-        company_name = company_doc["name"]
-        ticker = company_doc["ticker"]
+    """
+    Updates product involvement areas for all companies in the database that do not have involvement information.
 
-        if not ticker or ticker == 'null':
-            add_involvement_to_mongodb(company_name, involvement_dict="null")
-        else:
-            involvement_dict = get_product_involvement_areas(ticker)
-            if involvement_dict:
-                add_involvement_to_mongodb(company_name, involvement_dict)
-            else:
-                add_involvement_to_mongodb(company_name, involvement_dict="null")
+    This function fetches the necessary involvement data from Yahoo Finance and updates the company's
+    information in the MongoDB database.
+    """
+
+    for company_doc in connector.companies.find({"involvement": {"$exists": False}, "ticker": {"$exists": True}}):
+        if company_doc['ticker'] != 'null':
+            add_involvement_to_mongodb(company_doc['name'], scrape_yf(company_doc['ticker']))
 
 
 if __name__ == '__main__':
     update_all_companies_involvements()
-    connector.client.close()
