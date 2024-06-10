@@ -4,6 +4,18 @@ import smogn
 
 
 def balancing_kmeans(df):
+    """
+    Balances the DataFrame `df` using the K-means clustering technique.
+
+    Args:
+    df (pd.DataFrame): The DataFrame containing the data to be balanced. It is assumed to have a column named 'esg'.
+
+    Returns:
+    tuple: Two objects (X_balanced, y_balanced) where:
+        - X_balanced (pd.DataFrame): The balanced features DataFrame.
+        - y_balanced (pd.Series): The balanced target Series.
+    """
+
     X = df.drop(columns=['esg'])
     y = df['esg']
 
@@ -30,6 +42,18 @@ def balancing_kmeans(df):
 
 
 def balancing_smogn(df):
+    """
+    Balances the DataFrame `df` using the SMOGN (Synthetic Minority Over-sampling Technique for Regression) technique.
+
+    Args:
+    df (pd.DataFrame): The DataFrame containing the data to be balanced. It is assumed to have a column named 'esg'.
+
+    Returns:
+    tuple: Two objects (X_balanced, y_balanced) where:
+        - X_balanced (pd.DataFrame): The balanced features DataFrame.
+        - y_balanced (pd.Series): The balanced target Series.
+    """
+
     esg_smogn = smogn.smoter(
         data=df.dropna(),
         y='esg',

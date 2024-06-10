@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ESGnet">
+    <meta name="author" content="tonylm">
+    <title>Data Company</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="../static/css/tooplate-clean-work.css" rel="stylesheet">
+
+
+</head>
+<body>
+<header class="site-header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-12 d-flex flex-wrap">
+                    <p class="d-flex me-4 mb-0">
+                        <img src="../static/asset/header/unisa.png" height="24" style="margin-right: 3px">
+                        Università degli Studi di Salerno
+                    </p>
+
+                    <p class="d-flex me-4 mb-0">
+                        <img src="../static/asset/header/jads.png" height="24" style="margin-right: 3px">
+                        Jheronimous Academy of Data Science
+                    </p>
+
+                    <p class="site-header-icon-wrap text-white d-flex mb-0 ms-auto">
+                        <img src="../static/asset/header/github.png" height="24" style="margin-right: 3px">
+                        <a href="https://github.com/tonylm00" class="text-white">
+                            github.com/tonylm00
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="banner-section d-flex justify-content-center align-items-end">
+            <div class="section-overlay"></div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-7 col-12">
+                        <h1 class="text-white mb-lg-0">Data Company</h1>
+                    </div>
+
+                    <div class="col-lg-4 col-12 d-flex justify-content-lg-end align-items-center ms-auto">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="{{url_for('index')}}" style="color:#4F83D1">Home</a></li>
+
+                                <li class="breadcrumb-item active" aria-current="page">by data</li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    <!-- FORM -->
+<section class="contact-section section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-5 col-12 me-auto mb-lg-0 mb-5">
+                            <h2 class="my-3">We're happy to help</h2>
+                                <p>The ESG score is a comprehensive measure that evaluates a company's performance based on
+
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+
+                            <form class="custom-form consulting-form bg-white shadow-lg mb-5 mb-lg-0" action="#" method="post" role="form">
+                                <div class="consulting-form-header d-flex align-items-center">
+                                    <h3 class="mb-4">Get your ESG score</h3>
+                                </div>
+
+                                <div class="consulting-form-body">
+                                    <input type="number" name="employees" id="employees" class="form-control" placeholder="Number of employees" required>
+                                    <input type="number" name="altman" id="altman" class="form-control" placeholder="Altman Z-score" required>
+                                    <input type="number" name="piotroski" id="piotroski" class="form-control" placeholder="Piotroski Score" required>
+
+                                    <div class="col-lg-6 col-md-10 col-8 mx-auto">
+                                        <button type="submit" class="form-control">Submit</button>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+</section>
+
+
+<footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12 d-flex align-items-center mb-4 pb-2">
+                        <div>
+                            <img src="../static/asset/header/jads.png" class="logo img-fluid" alt="" href="#">
+                        </div>
+
+                        <ul class="footer-menu d-flex flex-wrap ms-5">
+                            <li class="footer-menu-item"><a href="https://github.com/tonylm00/ESGnet" class="footer-menu-link">Repository Github</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Paper</a></li>
+                            <li class="footer-menu-item"><a href="https://www.linkedin.com/in/tonylm00/" class="footer-menu-link">Author</a></li>
+                        </ul>
+                    </div>
+            </div>
+            </div>
+        </footer>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="../static/js/jquery.min.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+        <script src="../static/js/jquery.backstretch.min.js"></script>
+        <script src="../static/js/counter.js"></script>
+        <script src="../static/js/countdown.js"></script>
+        <script src="../static/js/init.js"></script>
+        <script src="../static/js/modernizr.js"></script>
+        <script src="../static/js/animated-headline.js"></script>
+        <script src="../static/js/custom.js"></script>
+</body>
+</html>

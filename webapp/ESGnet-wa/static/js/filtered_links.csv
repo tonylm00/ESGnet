@@ -1,0 +1,4561 @@
+home_name,link_name,type
+F5 Networks,Dell,partnership
+F5 Networks,Hewlett Packard,partnership
+F5 Networks,IBM,partnership
+Accenture,Microsoft,partnership
+Accenture,Oracle,partnership
+AMD,Adobe,partnership
+AMD,Altair Engineering,partnership
+AMD,ANSYS,partnership
+AMD,Autodesk,partnership
+AMD,Microsoft,partnership
+AMD,Symantec,partnership
+AMD,Hewlett Packard,partnership
+AMD,IBM,partnership
+Arista Networks,Intel,partnership
+Arista Networks,Microsoft,partnership
+Arista Networks,NetApp,partnership
+Arista Networks,Palo Alto Networks,partnership
+Arista Networks,Zscaler,partnership
+Cognizant Technology Solutions,Adobe,partnership
+Cognizant Technology Solutions,Hewlett Packard,partnership
+Cognizant Technology Solutions,Cisco,partnership
+Cognizant Technology Solutions,IBM,partnership
+Cognizant Technology Solutions,Infor,partnership
+Cognizant Technology Solutions,Microsoft,partnership
+Cognizant Technology Solutions,NetApp,partnership
+Cognizant Technology Solutions,Oracle,partnership
+Cognizant Technology Solutions,Pega,partnership
+NetApp,Cisco,partnership
+NetApp,Microsoft,partnership
+NetApp,Oracle,partnership
+Accenture,Adobe,partnership
+Accenture,Dell,partnership
+Accenture,Hewlett Packard,partnership
+Accenture,IBM,partnership
+Accenture,NetApp,partnership
+Accenture,ServiceNow,partnership
+Accenture,Symantec,partnership
+Accenture,Telstra,partnership
+Accenture,Workday,partnership
+Google,Twilio,partnership
+IBM,Accenture,partnership
+IBM,CD,partnership
+IBM,Cognizant Technology Solutions,partnership
+Booz Allen Hamilton,Intel,partnership
+Booz Allen Hamilton,Microsoft,partnership
+NetApp,CAE,partnership
+NetApp,CD,partnership
+NetApp,IBM,partnership
+NetApp,Mitre Corp.,partnership
+NetApp,F5 Networks,partnership
+NetApp,Hewlett Packard,partnership
+NetApp,Intel,partnership
+NetApp,Juniper Networks,partnership
+NetApp,Palo Alto Networks,partnership
+NetApp,Symantec,partnership
+Microsoft,Dell,partnership
+Microsoft,CD,partnership
+Microsoft,Hewlett Packard,partnership
+Microsoft,Okta,partnership
+Microsoft,MSI,partnership
+Microsoft,NetApp,partnership
+Microsoft,IBM,partnership
+Microsoft,Cisco,partnership
+Microsoft,F5 Networks,partnership
+Microsoft,Zscaler,partnership
+Oracle,Accenture,partnership
+Oracle,Cognizant Technology Solutions,partnership
+Oracle,Dell,partnership
+Oracle,Hewlett Packard,partnership
+Oracle,IBM,partnership
+Oracle,MT,partnership
+Oracle,Open Technologies,partnership
+Dell,Emerson,partnership
+Dell,Microsoft,partnership
+Dell,Oracle,partnership
+Dell,Symantec,partnership
+Workday,Accenture,partnership
+Workday,Aon,partnership
+Workday,Hewlett Packard,partnership
+Workday,IBM,partnership
+Workday,Towers Watson,partnership
+Workday,Adobe,partnership
+Twilio,IBM,partnership
+Workday,Microsoft,partnership
+Workday,Okta,partnership
+Workday,ServiceNow,partnership
+Adobe,Accenture,partnership
+Adobe,Cognizant Technology Solutions,partnership
+Adobe,EPAM Systems,partnership
+Cisco,CD,partnership
+Cisco,Accenture,partnership
+Cisco,IBM,partnership
+Cisco,Optiv,partnership
+Cisco,"Johnson Controls, Inc.",partnership
+Cisco,ADS INC,partnership
+Cisco,Motorola Solutions,partnership
+Cisco,"B &amp; J Computers, Inc.",partnership
+Cisco,NETWORKS INC,partnership
+Cisco,"IP-COM, INC.",partnership
+Cisco,EBS,partnership
+Cisco,Tech-Keys,partnership
+Cisco,SITA,partnership
+Cisco,TECHNOLOGY SOLUTIONS,partnership
+Cisco,Williams &amp; Williams Logistics Inc.,partnership
+Cisco,Class Group Inc,partnership
+Cisco,DISCOVERY COMMUNICATIONS INC,partnership
+Cisco,"ENT, INC",partnership
+Cisco,B &amp; I Computer Systems,partnership
+Cisco,SNAP INC,partnership
+Cisco,WDS,partnership
+Cisco,Akamai,partnership
+Cisco,COMMSCOPE,partnership
+Cisco,Oracle,partnership
+Cisco,Symantec,partnership
+Cisco,Networks Inc.,partnership
+Cisco,Google,partnership
+Cisco,Pega,partnership
+Cisco,Power &amp; Telephone Supply Company,partnership
+Cisco,Dell,partnership
+Cisco,LD&amp;J CONSULTING SERVICES,partnership
+Cisco,Cognizant Technology Solutions,partnership
+Cisco,Schlumberger,partnership
+Cisco,Inc Technologies,partnership
+Cisco,M C M INC,partnership
+Cisco,C S C INC,partnership
+Cisco,Emerson,partnership
+Cisco,Corp,partnership
+Cisco,Apple,partnership
+Cisco,WSM,partnership
+Cisco,SYSTEM &amp; NETWORK CONSULTANTS,partnership
+Cisco,Facebook,partnership
+Cisco,MACHINES &amp; MEDIA INC,partnership
+Cisco,Palo,partnership
+Cisco,SCIENCES INC,partnership
+Cisco,LEIDOS,partnership
+Cisco,Hewlett Packard,partnership
+Cisco,L-COM INC,partnership
+Cisco,NVIDIA,partnership
+Cisco,"Hamilton &amp; Company, LLC",partnership
+Cisco,"Systems &amp; Supplies, Inc.",partnership
+Cisco,NORTHROP GRUMMAN CORPORATION,partnership
+Cisco,Best Buy,partnership
+Cisco,HP Inc.,partnership
+Cisco,eBay,partnership
+Cisco,"Open Technologies, Inc.",partnership
+Cisco,MSI,partnership
+Okta,Optiv,partnership
+Okta,Accenture,partnership
+Okta,CD,partnership
+Symantec,Accenture,partnership
+Symantec,Dell,partnership
+Symantec,IBM,partnership
+Symantec,Intel,partnership
+Symantec,Hewlett Packard,partnership
+Symantec,Microsoft,partnership
+Juniper Networks,IBM,partnership
+Juniper Networks,Intel,partnership
+Juniper Networks,Akamai,partnership
+Juniper Networks,LEIDOS,partnership
+Juniper Networks,Northrop Grumman,partnership
+Juniper Networks,Optiv,partnership
+ServiceNow,AstraZeneca,customer
+ServiceNow,Cars.com,customer
+ServiceNow,Equinix,customer
+ServiceNow,Lennox International,customer
+ServiceNow,NetApp,customer
+Palo Alto Networks,Arista Networks,partnership
+Palo Alto Networks,Extreme Networks,partnership
+Palo Alto Networks,Symantec,partnership
+Palo Alto Networks,IBM,partnership
+Palo Alto Networks,OSRAM,customer
+Palo Alto Networks,Nordson Corporation,customer
+Palo Alto Networks,Qualcomm,customer
+Palo Alto Networks,DTE Energy,customer
+Akamai,HP,partnership
+Akamai,IBM,partnership
+Akamai,Telstra,partnership
+Fortinet,LEIDOS,partnership
+Fortinet,Optiv,partnership
+Pega,Accenture,partnership
+Pega,Cognizant Technology Solutions,partnership
+Pega,Cisco,partnership
+Pega,Equifax,partnership
+Pega,IBM,partnership
+Pega,Oracle,partnership
+Pega,Bristol-Myers Squibb,customer
+Pega,Cisco,customer
+Pega,Paypal,customer
+Pega,Telstra,customer
+Pega,Vodafone,customer
+Autodesk,Apple,partnership
+Autodesk,Dell,partnership
+Autodesk,Hewlett Packard,partnership
+Autodesk,Intel,partnership
+Autodesk,Microsoft,partnership
+Autodesk,NVIDIA,partnership
+Autodesk,Oracle,partnership
+Extreme Networks,Microsoft,partnership
+Extreme Networks,Palo Alto Networks,partnership
+Extreme Networks,Fortinet,partnership
+Altair Engineering,AMD,partnership
+Altair Engineering,Cisco,partnership
+Altair Engineering,Dell,partnership
+Altair Engineering,Hewlett Packard,partnership
+Altair Engineering,IBM,partnership
+Altair Engineering,Intel,partnership
+Altair Engineering,Microsoft,partnership
+Equinix,NetApp,partnership
+Open Technologies,Arista Networks,partnership
+Open Technologies,Cisco Systems,partnership
+Open Technologies,DELL,partnership
+Open Technologies,Extreme Networks,partnership
+Open Technologies,F5 Networks,partnership
+Open Technologies,Fortinet,partnership
+Open Technologies,HP,partnership
+Open Technologies,IBM,partnership
+Open Technologies,Juniper Networks,partnership
+Open Technologies,Microsoft,partnership
+Open Technologies,NetApp,partnership
+Open Technologies,NVIDIA,partnership
+Open Technologies,Symantec,partnership
+Zscaler,JABIL,customer
+Zscaler,"Johnson Controls, Inc.",customer
+Zscaler,Autodesk,customer
+Zscaler,Dr Pepper Snapple Group,customer
+Zscaler,Hormel,customer
+Zscaler,McCormick,customer
+Zscaler,Sage,customer
+Zscaler,Sealed Air,customer
+Palo Alto Networks,Juniper Networks,investment
+Microsoft,Motorola,partnership
+Dell,Microsoft,customer
+Adobe,Dell,customer
+Google,Dell,customer
+Qualcomm,Google,customer
+Accenture,Telstra,partnership
+Accenture,Telstra,customer
+Accenture,Oracle,investment
+Accenture,Kimberly-Clark,partnership
+Accenture,Vodafone,partnership
+Accenture,Cisco,partnership
+Accenture,Merck,partnership
+Accenture,Telstra,investment
+Accenture,AstraZeneca,customer
+Accenture,Exelon,customer
+Accenture,Dell,customer
+Accenture,IBM,competitor
+Accenture,Best Buy,customer
+Accenture,Microsoft,investment
+Microsoft,Cisco,customer
+Google,Delta Air Lines,investment
+Google,Delta Air Lines,partnership
+Illumina,Pfizer,customer
+Pfizer,Illumina,customer
+Pfizer,Google,investment
+Pfizer,Facebook,investment
+Adobe,Dell,investment
+Pinterest,Equifax,customer
+Pinterest,Dell,customer
+Google,Motorola,partnership
+3M,West Pharmaceutical,competitor
+Facebook,Oracle,customer
+Microsoft,Kimberly-Clark,customer
+Microsoft,Discovery Communications,customer
+Microsoft,Facebook,competitor
+Microsoft,Corning,competitor
+Motorola,Microsoft,customer
+Intel,Motorola,customer
+Oracle,Intel,customer
+Google,Microsoft,customer
+Google,AMD,customer
+Google,eBay,customer
+IBM,Google,customer
+Starbucks,IBM,customer
+Oracle,Starbucks,customer
+Oracle,IBM,investment
+Oracle,Pinterest,partnership
+Oracle,Booz Allen Hamilton,partnership
+Cisco,Microsoft,customer
+AMD,Intel,customer
+AMD,Microsoft,customer
+AMD,Dell,investment
+TrueCar,Snapchat,competitor
+Adobe,TrueCar,partnership
+Adobe,Google,customer
+Adobe,Motorola,customer
+Adobe,IAG,investment
+Adobe,Lowe's,investment
+Adobe,Netflix,investment
+Adobe,IBM,partnership
+Adobe,Dell,partnership
+Adobe,Cisco,customer
+Google,Facebook,investment
+Google,Microsoft,investment
+Microsoft,Walmart,customer
+Facebook,Microsoft,customer
+Best Buy,Uber,partnership
+Best Buy,Google,partnership
+Best Buy,Pfizer,partnership
+Best Buy,Facebook,partnership
+Best Buy,Cisco,partnership
+Best Buy,Pinterest,partnership
+Best Buy,Walgreens,partnership
+Microsoft,IBM,customer
+Microsoft,Accenture,competitor
+AbbVie,Pfizer,partnership
+AbbVie,Boston Scientific,competitor
+Qiagen,AstraZeneca,partnership
+AstraZeneca,Qiagen,customer
+AstraZeneca,Boston Scientific,investment
+Woolworths,Telstra,customer
+Woolworths,AbbVie,investment
+Woolworths,Johnson & Johnson,investment
+Woolworths,Pfizer,investment
+Woolworths,Biogen Idec,partnership
+Woolworths,Delta Air Lines,partnership
+Woolworths,IBM,partnership
+Woolworths,Facebook,investment
+Woolworths,AstraZeneca,investment
+Woolworths,Microsoft,investment
+Woolworths,Telstra,investment
+Woolworths,Walgreens,investment
+Woolworths,Walmart,investment
+Woolworths,Ameren,investment
+eBay,Woolworths,customer
+Microsoft,Autodesk,investment
+Microsoft,Autodesk,partnership
+Microsoft,Adobe,investment
+Microsoft,Netflix,customer
+Microsoft,Pinterest,partnership
+Microsoft,Netflix,partnership
+Microsoft,Netflix,investment
+Accenture,IBM,customer
+IBM,Microsoft,customer
+Google,Intel,customer
+Google,Microsoft,partnership
+Google,Intel,partnership
+AMD,eBay,customer
+AMD,Qualcomm,customer
+AMD,Microsoft,competitor
+AMD,Intel,competitor
+AMD,Google,competitor
+Intel,Microsoft,partnership
+Microsoft,AMD,customer
+Microsoft,eBay,customer
+Microsoft,Intel,competitor
+Corning,Western Digital,customer
+Microsoft,Intel,customer
+Cisco,Dell,investment
+Amgen,AstraZeneca,customer
+Johnson & Johnson,Merck,competitor
+Johnson & Johnson,Merck,partnership
+Johnson & Johnson,AstraZeneca,partnership
+Johnson & Johnson,Google,partnership
+Johnson & Johnson,AstraZeneca,investment
+Johnson & Johnson,Delta Air Lines,investment
+Johnson & Johnson,AMD,investment
+Johnson & Johnson,Google,investment
+NetApp,Oracle,customer
+MGM,Oracle,customer
+Workday,Carrefour,customer
+Google,Oracle,customer
+ADB,Oracle,competitor
+JBL,Oracle,customer
+JBL,Intel,customer
+JBL,Google,customer
+JBL,Intel,partnership
+JBL,Microsoft,partnership
+JBL,Dell,investment
+JBL,Pfizer,investment
+Juniper Networks,Equifax,customer
+Cisco,Walmart,partnership
+Cisco,Autodesk,investment
+Qualcomm,Intel,partnership
+Oracle,Adobe,customer
+Cisco,General Mills,investment
+Adobe,Microsoft,competitor
+Adobe,Google,partnership
+Google,AMD,partnership
+Google,Facebook,customer
+Google,Facebook,partnership
+Akamai,Google,customer
+Facebook,Dell,partnership
+Facebook,Intel,competitor
+Facebook,Qualcomm,partnership
+Facebook,Google,customer
+Facebook,Google,investment
+IBM,Advanta,customer
+Facebook,IBM,customer
+Autodesk,Trimble,customer
+Autodesk,IBM,partnership
+aee,Exelon,competitor
+aee,CAE,customer
+Emerson,First Solar,customer
+UPS,NetApp,customer
+Qiagen,UPS,customer
+Intel,IBM,customer
+Intel,Akamai,partnership
+Intel,International Flavors & Fragrances Inc,investment
+F5 Networks,Microsoft,customer
+First Solar,F5 Networks,customer
+First Solar,Accenture,partnership
+First Solar,Telstra,partnership
+Oracle,ConocoPhillips,investment
+Oracle,Duke Energy,investment
+Microsoft,Google,customer
+Google,Facebook,competitor
+Cisco,Google,customer
+Cisco,Walgreens,partnership
+Oracle,Walmart,investment
+Oracle,Tesco,investment
+Oracle,Carrefour,investment
+Microsoft,CBRE,customer
+Accenture,Microsoft,customer
+Booz Allen Hamilton,Airbus,customer
+Booz Allen Hamilton,Oracle,partnership
+Booz Allen Hamilton,Etsy,partnership
+Booz Allen Hamilton,General Mills,partnership
+Lear,ADB,customer
+Oracle,Lear,customer
+CAE,Oracle,customer
+Airbnb,eBay,investment
+Akamai,Airbnb,customer
+Twilio,Google,customer
+Adobe,Delta Air Lines,investment
+IBM,Facebook,partnership
+MGM,Motorola,investment
+Airbus,Microsoft,competitor
+Airbus,Google,investment
+Airbus,Intel,investment
+IBM,Vodafone,competitor
+Adobe,Microsoft,partnership
+Adobe,Delta Air Lines,customer
+Adobe,Facebook,partnership
+Adobe,Delta Air Lines,partnership
+Adobe,Autodesk,customer
+Pinterest,DLT,customer
+Vodafone,Accenture,customer
+eBay,Walmart,investment
+Vodafone,Qualcomm,partnership
+Cisco,Vodafone,customer
+Motorola,Cisco,customer
+Motorola,Juniper Networks,investment
+Motorola,Telstra,partnership
+Telstra,JM Smucker,competitor
+Telstra,Motorola,competitor
+Facebook,IBM,investment
+Facebook,Starbucks,investment
+Facebook,Dell,investment
+Facebook,Walmart,investment
+Facebook,Best Buy,investment
+Facebook,Viacom,partnership
+Facebook,Google,partnership
+Google,Lowe's,partnership
+Cisco,eBay,investment
+Cisco,Facebook,investment
+Cisco,UPS,partnership
+Microsoft,Avery Dennison,partnership
+Microsoft,Oracle,partnership
+Microsoft,Qualcomm,investment
+Fortinet,DLT,partnership
+Intel,Dell,competitor
+AMD,Dell,customer
+Microsoft,Google,investment
+Oracle,Cisco,customer
+Oracle,CBRE,investment
+Oracle,EBS,investment
+Qualcomm,Google,partnership
+Qualcomm,Dell,competitor
+Oracle,Motorola,customer
+Cisco,Juniper Networks,customer
+Microsoft,Vodafone,partnership
+Oracle,Devon Energy,competitor
+Oracle,Kinder Morgan,partnership
+Oracle,ArcelorMittal,investment
+Juniper Networks,Cisco,customer
+Juniper Networks,Symantec,partnership
+Microsoft,Fortis,customer
+Intel,Altair Engineering,investment
+Synopsys,Intel,customer
+Intel,Microsoft,competitor
+Intel,Dell,customer
+Microsoft,Cisco,competitor
+Microsoft,Intel,partnership
+Intel,Adobe,customer
+Intel,Union Pacific,investment
+Google,Walmart,competitor
+Google,Viacom,customer
+Google,Netflix,customer
+Facebook,Microsoft,competitor
+Facebook,IBM,competitor
+JBL,Adobe,customer
+Cisco,Facebook,customer
+Cisco,eBay,competitor
+Cisco,MGM,customer
+BorgWarner,Cisco,customer
+Hologic,Emerson,customer
+Intel,Hologic,customer
+Intel,Vodafone,partnership
+Intel,Starbucks,partnership
+Intel,JBL,partnership
+Intel,Cisco,partnership
+Intel,Tesco,partnership
+Intel,Merck,investment
+Intel,Juniper Networks,investment
+Intel,JBL,investment
+IBM,Netflix,partnership
+IBM,MGM,investment
+IBM,Netflix,investment
+IBM,Pfizer,investment
+AMD,Intel,partnership
+IBM,Cisco,customer
+IBM,Pfizer,customer
+IBM,Juniper Networks,investment
+IBM,Dr Pepper Snapple Group,customer
+IBM,Netflix,customer
+IBM,Walmart,customer
+IBM,eBay,investment
+IBM,Cisco,competitor
+IBM,Walmart,competitor
+IBM,Pfizer,partnership
+Ameren,Exelon,competitor
+Oracle,eBay,partnership
+Microsoft,Oracle,customer
+Microsoft,Qualcomm,partnership
+Walgreens,Facebook,competitor
+Walgreens,Johnson & Johnson,competitor
+Walgreens,Google,competitor
+Walgreens,Facebook,customer
+Interpublic Group,Facebook,investment
+Adobe,Walmart,customer
+Akamai,IBM,investment
+Akamai,Motorola,partnership
+Akamai,Delta Air Lines,partnership
+Akamai,Google,partnership
+Akamai,Cisco,partnership
+Cisco,Tesco,investment
+Facebook,Pinterest,customer
+Facebook,eBay,investment
+Facebook,Etsy,investment
+Google,Walgreens,customer
+Starbucks,Walgreens,customer
+AMD,Walmart,partnership
+Qualcomm,Microsoft,customer
+Trimble,Dell,partnership
+Facebook,Trimble,customer
+Microsoft,MGM,partnership
+Microsoft,Facebook,partnership
+Cisco,American Water,customer
+Cisco,Oracle,customer
+AmerisourceBergen,Walgreens,partnership
+Oracle,MGM,partnership
+Walmart,West Pharmaceutical,partnership
+Walmart,IBM,partnership
+Walmart,Illumina,partnership
+Walmart,Qiagen,partnership
+Walmart,Microsoft,investment
+Walmart,Gilead Sciences,investment
+Walmart,Boston Scientific,investment
+Walmart,Johnson & Johnson,investment
+Walmart,Merck,competitor
+Motorola,American Water,customer
+Synopsys,Motorola,customer
+Oracle,IBM,customer
+Equinix,Kimberly-Clark,customer
+Equinix,Accenture,customer
+Equinix,IBM,customer
+Equinix,Oracle,customer
+Adobe,Netflix,customer
+Microsoft,Adobe,customer
+eBay,Cisco,partnership
+Google,Accenture,customer
+NetApp,Microsoft,customer
+Cisco,Corning,partnership
+Google,Kinder Morgan,partnership
+Google,Lululemon,competitor
+Google,Vodafone,investment
+Google,Vertex Pharmaceuticals,investment
+Facebook,Tractor Supply,partnership
+ANSYS,Autodesk,partnership
+Pinterest,Google,partnership
+Pinterest,Best Buy,partnership
+Google,Pinterest,partnership
+Motorola,Walmart,partnership
+Microsoft,Airbus,customer
+Intel,Microsoft,customer
+Intel,Google,customer
+Intel,Adobe,investment
+Intel,Microsoft,investment
+Intel,Google,partnership
+Intel,Facebook,partnership
+Google,Dell,competitor
+Qualcomm,Intel,competitor
+Qualcomm,Adobe,competitor
+Qualcomm,Intel,customer
+Intel,Booz Allen Hamilton,partnership
+Intel,Walgreens,investment
+Intel,Facebook,investment
+Cisco,Intel,competitor
+Cisco,Intel,customer
+Cisco,AMD,investment
+Cisco,Motorola,investment
+Vodafone,NetApp,customer
+Vodafone,Symantec,partnership
+Vodafone,Motorola,partnership
+eBay,Entergy,customer
+ArcelorMittal,STX,customer
+ArcelorMittal,Steel Dynamics,competitor
+AstraZeneca,Amgen,partnership
+Motorola,Exelon,partnership
+Motorola,Duke Energy,investment
+Motorola,Microsoft,partnership
+Motorola,Entergy,partnership
+Motorola,Exelon,investment
+Motorola,IBM,investment
+Google,IBM,partnership
+Google,Northrop Grumman,partnership
+Cisco,IBM,investment
+Tesco,Woolworths,investment
+Tesco,Microsoft,partnership
+Tesco,Symantec,partnership
+Tesco,Nike,partnership
+Tesco,Accenture,partnership
+Tesco,Vodafone,investment
+Tesco,Dell,investment
+Tesco,Facebook,investment
+Tesco,Google,investment
+Tesco,Delphi Automotive,investment
+Tesco,Nike,investment
+Microsoft,Synopsys,partnership
+Microsoft,Intel,investment
+Intel,AMD,partnership
+AMD,Synopsys,partnership
+IBM,AMD,customer
+Dell,IBM,customer
+Dell,Google,investment
+Facebook,Texas Instruments,customer
+Facebook,Oracle,investment
+Microsoft,Amgen,partnership
+Intel,Texas Instruments,customer
+Intel,Texas Instruments,partnership
+Intel,Cisco,investment
+Intel,Delta Air Lines,customer
+Intel,Juniper Networks,partnership
+Autodesk,Google,investment
+JBL,Google,competitor
+JBL,Autodesk,customer
+JBL,Google,investment
+Emerson,Google,customer
+Lowe's,AstraZeneca,investment
+Woolworths,Vodafone,customer
+Woolworths,Tesco,investment
+Woolworths,Google,customer
+Facebook,Woolworths,customer
+Facebook,Vodafone,partnership
+Microsoft,eBay,partnership
+Microsoft,Google,competitor
+Microsoft,Walmart,investment
+Microsoft,Walmart,competitor
+ADB,Microsoft,partnership
+Nike,Google,customer
+ASM,Accenture,investment
+Oracle,ASM,customer
+Oracle,Walgreens,customer
+Pinterest,Google,customer
+Intel,AST,customer
+IBM,Symantec,customer
+IBM,Symantec,competitor
+IBM,Microsoft,partnership
+IBM,Best Buy,investment
+Cisco,Intel,partnership
+AstraZeneca,Biogen Idec,customer
+AstraZeneca,Pfizer,competitor
+AstraZeneca,Pfizer,investment
+AstraZeneca,Pfizer,customer
+AstraZeneca,Merck,competitor
+Oracle,Amgen,partnership
+Oracle,IBM,competitor
+Facebook,Thermo Fisher Scientific,customer
+Microsoft,Nike,investment
+Microsoft,Cisco,investment
+Juniper Networks,Starbucks,partnership
+Juniper Networks,Motorola,partnership
+Juniper Networks,Starbucks,customer
+Juniper Networks,AstraZeneca,customer
+Motorola,Juniper Networks,partnership
+Lululemon,eBay,investment
+Lululemon,Nike,investment
+Facebook,Pinterest,partnership
+Zscaler,Cisco,investment
+Schlumberger,Intel,partnership
+Schlumberger,Microsoft,partnership
+Schlumberger,IBM,partnership
+Schlumberger,Microsoft,customer
+Schlumberger,Corning,customer
+Schlumberger,Baker & McKenzie,customer
+Schlumberger,Oracle,investment
+Schlumberger,NetApp,partnership
+Schlumberger,Google,partnership
+Schlumberger,Aon,partnership
+Schlumberger,Microsoft,investment
+Symantec,Microsoft,customer
+Symantec,eBay,customer
+Symantec,Facebook,customer
+Symantec,Facebook,investment
+Symantec,eBay,investment
+Symantec,Facebook,partnership
+Cisco,Microsoft,investment
+Autodesk,Adobe,customer
+Google,Microsoft,competitor
+Equinix,Facebook,customer
+Equinix,Adobe,competitor
+Equinix,Facebook,partnership
+Zoetis,Pfizer,customer
+Illumina,Zoetis,customer
+Illumina,Merck,competitor
+Illumina,Pfizer,competitor
+Illumina,Pfizer,investment
+Illumina,Pfizer,partnership
+Qualcomm,Motorola,competitor
+Qualcomm,IBM,partnership
+Juniper Networks,Google,partnership
+Juniper Networks,Microsoft,partnership
+Juniper Networks,Microsoft,competitor
+Juniper Networks,Accenture,competitor
+Microsoft,Google,partnership
+Adobe,Intel,customer
+Adobe,Rust,investment
+Adobe,Google,investment
+Adobe,IBM,investment
+Vodafone,IBM,partnership
+Equinix,Symantec,customer
+Equinix,NetApp,customer
+Equinix,NetApp,investment
+Intel,Symantec,customer
+Microsoft,Northrop Grumman,customer
+Intel,IBM,competitor
+Qualcomm,AMD,partnership
+Qualcomm,Motorola,investment
+Qualcomm,Walmart,investment
+Qualcomm,Wynn Resorts,investment
+Qualcomm,Schlumberger,investment
+Qualcomm,eBay,investment
+Cisco,eBay,customer
+Google,Cisco,customer
+Google,eBay,investment
+Google,IBM,investment
+Adobe,IBM,customer
+eBay,Adobe,investment
+Dell,Intel,customer
+Google,Airbnb,partnership
+Google,Airbnb,investment
+Facebook,Google,competitor
+Interpublic Group,Google,partnership
+Interpublic Group,Microsoft,investment
+Interpublic Group,eBay,investment
+Interpublic Group,Google,investment
+Microsoft,Dell,competitor
+Facebook,Northrop Grumman,customer
+IBM,Juniper Networks,customer
+Google,IBM,customer
+IBM,Google,partnership
+Google,Best Buy,competitor
+Google,Best Buy,partnership
+Google,Best Buy,investment
+Facebook,Nike,partnership
+AMD,IBM,investment
+AMD,Google,investment
+Akamai,AMD,customer
+Akamai,Facebook,customer
+Adobe,Akamai,customer
+Intel,AMD,customer
+Intel,AMD,competitor
+Telstra,Live Nation,customer
+Dell,Telstra,customer
+Dell,Facebook,partnership
+Dell,Motorola,partnership
+Dell,UPS,partnership
+Dell,Vodafone,partnership
+Dell,Best Buy,partnership
+Atlassian,Google,competitor
+Atlassian,Microsoft,partnership
+Oracle,Google,investment
+Schlumberger,ConocoPhillips,investment
+Oracle,Facebook,customer
+Oracle,Microsoft,partnership
+Intel,Nike,customer
+Intel,Pinterest,investment
+Intel,Google,investment
+Nike,eBay,investment
+Airbus,Vodafone,customer
+ANSYS,Corning,partnership
+ANSYS,Microsoft,partnership
+Juniper Networks,Equinix,partnership
+Accenture,Google,competitor
+Dell,Juniper Networks,customer
+Intel,Oracle,investment
+Intel,Tesco,investment
+Oracle,Microsoft,customer
+Oracle,Google,customer
+Oracle,eBay,customer
+Oracle,Walmart,customer
+Oracle,Best Buy,customer
+Oracle,Netflix,customer
+Oracle,Dell,customer
+Microsoft,NetApp,customer
+Facebook,Walmart,partnership
+eBay,Google,investment
+Fisher & Phillips,Delta Air Lines,customer
+Fisher & Phillips,Facebook,customer
+Fisher & Phillips,Amgen,customer
+Fisher & Phillips,Microsoft,partnership
+Fisher & Phillips,IBM,partnership
+Google,Snapchat,customer
+Google,Cars.com,customer
+Oracle,Facebook,investment
+Sonos,Microsoft,partnership
+Sonos,Google,investment
+Microsoft,Sonos,customer
+Microsoft,eBay,investment
+IBM,Telstra,customer
+IBM,Hershey,customer
+Motorola,AMD,partnership
+Motorola,IBM,partnership
+Motorola,Google,partnership
+Accenture,Cars.com,competitor
+Accenture,Viacom,partnership
+Akamai,Netflix,customer
+Google,Advanta,investment
+Autodesk,Microsoft,competitor
+Autodesk,Adobe,competitor
+Pinterest,Telstra,customer
+Texas Instruments,Autoliv,customer
+ServiceNow,Qiagen,partnership
+ServiceNow,AstraZeneca,investment
+ServiceNow,Johnson & Johnson,investment
+ServiceNow,Vertex Pharmaceuticals,partnership
+ServiceNow,Dell,partnership
+ServiceNow,Walmart,investment
+Intel,Motorola,partnership
+Google,Motorola,investment
+IBM,Nike,partnership
+IBM,Cisco,partnership
+Facebook,Microsoft,investment
+Facebook,Cisco,investment
+Adobe,Google,competitor
+Symantec,Oracle,partnership
+Symantec,Intel,investment
+Google,Wellpoint,customer
+Microsoft,Accenture,partnership
+IBM,Motorola,competitor
+Adobe,Dell,competitor
+Adobe,Cisco,partnership
+Adobe,IBM,competitor
+IBM,Microsoft,competitor
+Motorola,IBM,customer
+IBM,Extreme Networks,partnership
+IBM,Motorola,partnership
+Oracle,AMD,customer
+Oracle,Pfizer,partnership
+Oracle,Pfizer,investment
+Oracle,Merck,investment
+IBM,Merck,partnership
+Google,Walmart,investment
+Hill & Knowlton,Motorola,partnership
+Symantec,Walmart,investment
+Facebook,Motorola,customer
+Facebook,MGM,partnership
+Facebook,Equinix,investment
+Facebook,ConAgra Foods,investment
+Facebook,Microsoft,partnership
+Motorola,Accenture,customer
+Qualcomm,Microsoft,investment
+Qualcomm,Netflix,partnership
+Qualcomm,Cisco,customer
+Sandvik,Baker & McKenzie,customer
+Sandvik,Adobe,customer
+Sandvik,Intel,investment
+Sandvik,Lowe's,investment
+Sandvik,Adobe,investment
+Sandvik,Cisco,investment
+Sandvik,Best Buy,investment
+Sandvik,Walmart,investment
+Sandvik,Autodesk,investment
+Sandvik,Symantec,investment
+Sandvik,Microsoft,partnership
+Sandvik,Microsoft,investment
+Amgen,Merck,investment
+Vodafone,Tesco,partnership
+Microsoft,RBC,customer
+Microsoft,Johnson & Johnson,partnership
+Microsoft,Nike,partnership
+Microsoft,Walmart,partnership
+Microsoft,ADB,partnership
+Microsoft,Kimberly-Clark,partnership
+Microsoft,Molson Coors,partnership
+Microsoft,Williams-Sonoma,partnership
+Cisco,Rockwell Automation,competitor
+IBM,Oracle,customer
+IBM,Oracle,partnership
+Discovery Communications,eBay,investment
+Discovery Communications,Google,investment
+Discovery Communications,Tesco,investment
+Discovery Communications,Walmart,investment
+Discovery Communications,Microsoft,partnership
+Discovery Communications,Google,partnership
+Discovery Communications,Netflix,partnership
+Cisco,Accenture,customer
+Lululemon,Nike,customer
+Lululemon,Nike,competitor
+Pinterest,Lululemon,customer
+Pinterest,Starbucks,investment
+Pinterest,Facebook,investment
+Oracle,Pinterest,customer
+Oracle,Facebook,competitor
+Oracle,Google,partnership
+Intel,Motorola,competitor
+Intel,Walmart,customer
+Nike,Oracle,customer
+First Solar,Airbnb,investment
+Facebook,eBay,partnership
+Intel,Facebook,customer
+Cisco,DLT,investment
+ANSYS,Motorola,customer
+Northrop Grumman,TJX,customer
+Google,Starbucks,customer
+Google,Motorola,customer
+Adobe,Facebook,customer
+Intel,IBM,investment
+Intel,eBay,customer
+Qualcomm,MGM,customer
+Vodafone,IBM,competitor
+Vodafone,Pinterest,competitor
+Vodafone,Trimble,investment
+Vodafone,Best Buy,partnership
+Vodafone,Dell,partnership
+Akamai,Vodafone,customer
+IBM,Intel,partnership
+Synopsys,IBM,investment
+Facebook,Motorola,partnership
+IBM,Airbus,partnership
+IBM,Vodafone,partnership
+Microsoft,Tesco,customer
+Microsoft,Viacom,partnership
+Microsoft,Viacom,investment
+Microsoft,MGM,investment
+Microsoft,Tesco,investment
+Google,Dell,partnership
+Google,Uber,investment
+eBay,Google,competitor
+eBay,Facebook,customer
+eBay,Adobe,partnership
+eBay,Adobe,customer
+Google,Telstra,customer
+Autodesk,Cisco,customer
+Ball Corporation,ConAgra Foods,partnership
+Emerson,Thermo Fisher Scientific,customer
+Microsoft,Emerson,customer
+Emerson,Pfizer,investment
+Emerson,Technology,investment
+IBM,ADB,partnership
+Akamai,Microsoft,partnership
+Microsoft,Vodafone,investment
+Pinterest,Facebook,customer
+Workday,Oracle,competitor
+Accenture,Adobe,customer
+Facebook,Intel,customer
+Facebook,Accenture,customer
+Qualcomm,eBay,customer
+Facebook,Delta Air Lines,investment
+Woolworths,Lowe's,partnership
+Oracle,Qualcomm,customer
+Oracle,Facebook,partnership
+GoDaddy,Google,competitor
+GoDaddy,Microsoft,partnership
+GoDaddy,Google,partnership
+Microsoft,GoDaddy,customer
+ConocoPhillips,Rockwell Automation,partnership
+Duke Energy,Equifax,customer
+Google,Insurance Australia Group,partnership
+IBM,Google,competitor
+IBM,Dell,partnership
+Merck,Facebook,customer
+Merck,Google,customer
+Merck,eBay,customer
+Merck,eBay,investment
+Merck,Walgreens,investment
+Merck,Google,investment
+Microsoft,General Mills,competitor
+Microsoft,First Solar,competitor
+Microsoft,Tesco,competitor
+Dell,Accenture,customer
+Microsoft,Thor Industries,customer
+Netflix,Adobe,partnership
+Netflix,eBay,investment
+Netflix,MGM,partnership
+Netflix,Facebook,partnership
+Google,Lear,customer
+Microsoft,Tesco,partnership
+Western Digital,Cisco,partnership
+Western Digital,IBM,partnership
+Western Digital,Microsoft,investment
+Cisco,Motorola,customer
+Dell,Microsoft,investment
+IBM,Intel,competitor
+Intel,Qualcomm,customer
+Intel,Qualcomm,partnership
+Intel,Qualcomm,investment
+Microsoft,Facebook,customer
+Facebook,Cisco,customer
+Limited Brands,Bath & Body Works,customer
+Microsoft,Facebook,investment
+Microsoft,American Electric Power,partnership
+Microsoft,Schlumberger,partnership
+Nike,Dell,investment
+Nike,AstraZeneca,investment
+Nike,Johnson & Johnson,investment
+IBM,Chipotle,customer
+IBM,Autodesk,partnership
+IBM,Juniper Networks,partnership
+Vodafone,Cisco,customer
+Intel,Nike,partnership
+Intel,Johnson & Johnson,partnership
+Intel,Pfizer,partnership
+Intel,Amgen,partnership
+Intel,Boston Scientific,investment
+Autodesk,Pfizer,investment
+Google,Viacom,partnership
+Oracle,AstraZeneca,investment
+Facebook,eBay,competitor
+IBM,Merck,competitor
+IBM,Biogen Idec,competitor
+IBM,Johnson & Johnson,partnership
+IBM,Merck,investment
+Adobe,Netflix,competitor
+Adobe,Qualcomm,customer
+Adobe,eBay,customer
+Adobe,Cisco,investment
+Adobe,GoDaddy,competitor
+Adobe,Sonos,competitor
+Adobe,Pinterest,investment
+Adobe,eBay,investment
+Adobe,Intel,investment
+Adobe,Microsoft,investment
+Adobe,Motorola,investment
+Adobe,Autodesk,investment
+Adobe,Etsy,investment
+Adobe,Johnson & Johnson,investment
+Adobe,Palo Alto Networks,investment
+Adobe,Airbnb,investment
+Adobe,Qualcomm,investment
+Adobe,First Solar,investment
+Adobe,Vodafone,investment
+Adobe,Facebook,competitor
+Fortinet,Best Buy,partnership
+Motorola,Intel,investment
+Motorola,Cisco,investment
+Adobe,Intel,partnership
+Google,Vodafone,partnership
+Google,Vodafone,customer
+Google,MEC,partnership
+Motorola,Northrop Grumman,investment
+Walmart,Nike,customer
+Walmart,Viacom,customer
+Walmart,Google,customer
+Walmart,Symantec,partnership
+Walmart,Nike,partnership
+Walmart,Google,partnership
+Walmart,eBay,investment
+Walmart,Adobe,investment
+Walmart,Duke Energy,investment
+Walmart,Biogen Idec,investment
+Walmart,American Electric Power,investment
+Walmart,ArcelorMittal,investment
+Walmart,Pfizer,investment
+Walmart,Nike,investment
+Oracle,Viacom,investment
+Oracle,Pinterest,investment
+Cisco,Google,investment
+Starbucks,Google,investment
+Microsoft,Boston Scientific,investment
+Infor,IBM,partnership
+Infor,Juniper Networks,investment
+Infor,Google,investment
+Equinix,Cisco,customer
+Oracle,Accenture,customer
+Infor,Qualcomm,customer
+Pinterest,Adobe,customer
+Intel,Best Buy,customer
+Facebook,Parsons,partnership
+Google,Aon,customer
+Microsoft,Dell,investment
+Microsoft,IBM,investment
+Facebook,Oracle,partnership
+AstraZeneca,RBC,investment
+AstraZeneca,Johnson & Johnson,partnership
+AstraZeneca,Intel,partnership
+AstraZeneca,Microsoft,partnership
+Microsoft,Merck,customer
+Microsoft,Merck,partnership
+Microsoft,Biogen Idec,partnership
+Microsoft,AstraZeneca,partnership
+Microsoft,Telstra,partnership
+Microsoft,AstraZeneca,investment
+Microsoft,Biogen Idec,customer
+Oracle,Motorola,partnership
+Google,eBay,partnership
+Google,Netflix,partnership
+IBM,Intel,customer
+Pinterest,Intel,partnership
+Etsy,Akamai,customer
+Intel,Best Buy,investment
+Best Buy,Microsoft,partnership
+Best Buy,Walmart,competitor
+Akamai,Accenture,customer
+Facebook,Starbucks,customer
+Adobe,Airbnb,partnership
+Adobe,Autodesk,partnership
+ConocoPhillips,Oracle,customer
+Elbit Systems,Facebook,partnership
+Elbit Systems,Tesco,partnership
+Elbit Systems,Microsoft,partnership
+Elbit Systems,Google,investment
+Elbit Systems,Cisco,investment
+Elbit Systems,Oracle,investment
+Elbit Systems,Microsoft,investment
+Microsoft,Adobe,partnership
+Etsy,eBay,competitor
+Etsy,Google,investment
+Etsy,Pinterest,customer
+Pinterest,Etsy,customer
+Facebook,Walmart,customer
+Dick's Sporting Goods,Nike,investment
+Dick's Sporting Goods,Walmart,investment
+Dick's Sporting Goods,Google,investment
+Delta Air Lines,IBM,partnership
+Microsoft,Motorola,competitor
+Microsoft,Qualcomm,customer
+Microsoft,Corning,investment
+Qualcomm,Facebook,partnership
+Corning,Qualcomm,customer
+Oracle,Advanta,investment
+Oracle,Dell,investment
+Walmart,Pinterest,investment
+Walmart,Dell,partnership
+Walmart,Best Buy,customer
+Walmart,Motorola,investment
+Walmart,Best Buy,competitor
+Dell,Etsy,customer
+Dell,Google,customer
+Cisco,Qualcomm,partnership
+Cisco,Microsoft,partnership
+Accenture,Google,partnership
+Oracle,RBC,investment
+Molson Coors,DTE Energy,customer
+Molson Coors,Facebook,customer
+Molson Coors,eBay,customer
+Molson Coors,Dell,customer
+Molson Coors,Union Pacific,customer
+Molson Coors,Facebook,investment
+Molson Coors,Pinterest,investment
+Molson Coors,DTE Energy,investment
+Molson Coors,Motorola,investment
+Molson Coors,MGM,investment
+Molson Coors,Netflix,investment
+Molson Coors,Union Pacific,investment
+Molson Coors,Pfizer,investment
+Molson Coors,Etsy,investment
+Biomet,Zimmer Holdings,investment
+Motorola,Woolworths,partnership
+Motorola,Walgreens,investment
+Cisco,Walmart,investment
+Cisco,Netflix,investment
+Nike,Microsoft,customer
+Rockwell Automation,Accenture,customer
+Microsoft,Dell,customer
+Cisco,Salem Group,customer
+Oracle,Vodafone,customer
+IBM,eBay,customer
+Tesco,Google,partnership
+Motorola,WideOpenWest,customer
+Google,Autodesk,customer
+Intel,Thermo Fisher Scientific,investment
+IBM,Motorola,investment
+Oracle,Intel,partnership
+Microsoft,Lowe's,investment
+Sonoco,Microsoft,competitor
+Google,Infor,partnership
+Google,Walgreens,investment
+Microsoft,JM Smucker,investment
+Intel,IBM,partnership
+Intel,Telstra,partnership
+Microsoft,Autodesk,customer
+Microsoft,ConocoPhillips,investment
+Microsoft,Rockwell Automation,investment
+Akamai,ANSYS,customer
+Walmart,Intel,investment
+Walmart,Oracle,investment
+Oracle,Vodafone,partnership
+Oracle,Cisco,competitor
+Akamai,Dell,partnership
+Akamai,Motorola,investment
+Akamai,Viacom,partnership
+Akamai,Cisco,investment
+Akamai,Intel,investment
+Akamai,eBay,investment
+Akamai,First Solar,investment
+Accenture,Keurig,investment
+Accenture,Facebook,investment
+Accenture,Lowe's,investment
+Accenture,Emerson,investment
+Accenture,eBay,investment
+Accenture,Cisco,investment
+Equinix,Microsoft,partnership
+Oracle,Equinix,customer
+Oracle,NetApp,partnership
+ANSYS,Vodafone,partnership
+ANSYS,Google,customer
+ANSYS,Cisco,partnership
+Microsoft,Elbit Systems,partnership
+Microsoft,Thermo Fisher Scientific,investment
+Google,Discovery Communications,partnership
+Google,EBS,partnership
+Google,Symantec,partnership
+Google,Western Digital,partnership
+Google,Walgreens,partnership
+Google,Starbucks,investment
+Google,Amgen,investment
+Google,AMD,investment
+Google,AbbVie,investment
+Google,Dell,investment
+Google,Pinterest,investment
+Netflix,Google,customer
+Netflix,Microsoft,partnership
+Netflix,Viacom,investment
+Juniper Networks,Google,customer
+Juniper Networks,Symantec,investment
+Juniper Networks,Aon,investment
+Juniper Networks,Intel,investment
+Qualcomm,Starbucks,investment
+Qualcomm,Woolworths,investment
+Qualcomm,Google,investment
+Qualcomm,General Mills,investment
+Qualcomm,Walmart,competitor
+Qualcomm,Tesco,partnership
+Qualcomm,Starbucks,partnership
+Microsoft,Akamai,partnership
+Microsoft,Starbucks,customer
+Facebook,Johnson & Johnson,investment
+Facebook,Johnson & Johnson,partnership
+Dell,IBM,investment
+Dell,ConocoPhillips,partnership
+Dell,Discovery Communications,partnership
+Dell,CBRE,investment
+Dell,eBay,investment
+Adobe,Microsoft,customer
+Adobe,Starbucks,investment
+Emerson,Microsoft,investment
+Delta Air Lines,Equifax,investment
+Delta Air Lines,Tesco,partnership
+IBM,Adobe,partnership
+IBM,Walgreens,customer
+IBM,AstraZeneca,partnership
+Walgreens,AstraZeneca,customer
+Walgreens,Cisco,customer
+Walgreens,Dell,partnership
+Walgreens,Delta Air Lines,competitor
+Walgreens,Pfizer,customer
+Google,Snapchat,competitor
+Dell,GoDaddy,competitor
+Dell,Facebook,customer
+Dell,AMD,partnership
+NetApp,Cisco,customer
+Steel Dynamics,Intel,customer
+Steel Dynamics,IBM,investment
+Steel Dynamics,Microsoft,investment
+Adobe,Pinterest,customer
+Dell,Oracle,customer
+Microsoft,Molson Coors,investment
+Microsoft,Delta Air Lines,investment
+Autodesk,Google,customer
+Symantec,Autodesk,customer
+Pinterest,Vodafone,partnership
+West Pharmaceutical,3M,competitor
+West Marine,Google,customer
+West Marine,Walmart,competitor
+eBay,Google,customer
+Exelixis,Emerson,customer
+Exelixis,Biogen Idec,competitor
+Netflix,Duke Energy,customer
+Oracle,Google,competitor
+Microsoft,Accenture,customer
+Johnson & Johnson,Microsoft,customer
+Oracle,Autodesk,customer
+Bath & Body Works,Oracle,customer
+Bath & Body Works,eBay,partnership
+Bath & Body Works,Microsoft,customer
+Bath & Body Works,Facebook,customer
+Google,Bath & Body Works,customer
+Merck,Pfizer,customer
+Merck,Pfizer,investment
+Merck,Amgen,competitor
+Merck,HealthCare Partners,investment
+Microsoft,Union Pacific,partnership
+ServiceNow,Equifax,partnership
+ServiceNow,IBM,competitor
+Google,Akamai,customer
+Pinterest,Etsy,partnership
+Google,Walmart,partnership
+Cisco,Google,competitor
+Cisco,Equinix,competitor
+Intel,Google,competitor
+Oracle,Chipotle,customer
+Oracle,Walgreens,partnership
+Oracle,Starbucks,investment
+Oracle,eBay,investment
+Oracle,Chipotle,investment
+IBM,Johnson & Johnson,investment
+IBM,Qiagen,partnership
+IBM,Wellpoint,partnership
+Motorola,Google,customer
+Symantec,Google,partnership
+Symantec,ConAgra Foods,investment
+Netflix,Facebook,investment
+Netflix,Google,investment
+Motorola,Netflix,customer
+Microsoft,Motorola,customer
+Elbit Systems,Airbus,investment
+Cisco,Delta Air Lines,customer
+Cisco,Northrop Grumman,competitor
+General Mills,Facebook,customer
+Cisco,Tyson Foods,partnership
+Motorola,eBay,investment
+Motorola,Telstra,investment
+Motorola,Walmart,investment
+Motorola,Delta Air Lines,investment
+Motorola,Vodafone,investment
+Motorola,Avery Dennison,investment
+Motorola,Dell,investment
+Motorola,Best Buy,investment
+Motorola,Google,investment
+Motorola,Microsoft,investment
+Zimmer Holdings,Dr Pepper Snapple Group,customer
+MEC,Microsoft,competitor
+Cisco,Molson Coors,partnership
+Cisco,Vodafone,investment
+Oracle,Qualcomm,investment
+Facebook,Motorola,investment
+Facebook,Qualcomm,investment
+Wellpoint,IBM,partnership
+IBM,Wellpoint,customer
+Google,Qualcomm,customer
+Google,ServiceNow,investment
+Adobe,Oracle,customer
+Autodesk,Oracle,customer
+Starbucks,Google,customer
+Interpublic Group,Google,customer
+Intel,Dell,partnership
+Cisco,Adobe,customer
+Cisco,NetApp,partnership
+Adobe,Oracle,partnership
+Adobe,Pfizer,partnership
+Adobe,INC Research,partnership
+Adobe,AstraZeneca,customer
+Adobe,INC Research,customer
+Google,Aon,investment
+Google,Viacom,investment
+Microsoft,HealthCare Partners,customer
+Walmart,Emerson,partnership
+General Mills,Walmart,competitor
+Elbit Systems,Airbus,customer
+Elbit Systems,Delta Air Lines,customer
+Elbit Systems,Kimberly-Clark,customer
+Elbit Systems,Delta Air Lines,investment
+Elbit Systems,Union Pacific,investment
+Oracle,Pfizer,customer
+Facebook,Walmart,competitor
+Facebook,Tyson Foods,investment
+Microsoft,Delphi Automotive,competitor
+Delphi Automotive,Microsoft,customer
+Delphi Automotive,IBM,customer
+Delphi Automotive,Microsoft,investment
+Delphi Automotive,Facebook,competitor
+Intel,Autodesk,customer
+Williams-Sonoma,Chipotle,competitor
+Williams-Sonoma,Facebook,investment
+Williams-Sonoma,Cisco,investment
+Starbucks,Nike,customer
+Starbucks,Snapchat,competitor
+Starbucks,Google,partnership
+Starbucks,Nike,partnership
+Starbucks,Snapchat,investment
+Synopsys,Emerson,investment
+Synopsys,Google,customer
+Synopsys,Dell,customer
+Intel,Cisco,customer
+IBM,Accenture,customer
+IBM,Tesco,customer
+Microsoft,SEB,investment
+Google,Emergent,investment
+Google,ArcelorMittal,investment
+Google,Cisco,partnership
+Intel,Oracle,customer
+Intel,Accenture,partnership
+Intel,Uber,partnership
+Intel,SEB,investment
+Intel,ArcelorMittal,investment
+Intel,Fortis,investment
+Intel,Dr Pepper Snapple Group,investment
+Cisco,IBM,competitor
+Facebook,Amgen,customer
+Zimmer Holdings,Illumina,customer
+Altria Group,IBM,customer
+Pinterest,Motorola,customer
+Pinterest,Oracle,investment
+Pinterest,Nike,partnership
+Pinterest,Facebook,partnership
+Pinterest,Microsoft,partnership
+Pinterest,Microsoft,customer
+Pinterest,Qualcomm,customer
+Pinterest,Pfizer,customer
+Microsoft,GoDaddy,investment
+Boston Scientific,Johnson & Johnson,competitor
+IBM,Accenture,competitor
+IBM,AMD,partnership
+IBM,Accenture,investment
+IBM,Booz Allen Hamilton,competitor
+Google,Insurance Australia Group,customer
+Google,Kimberly-Clark,customer
+Google,Akamai,investment
+Google,AstraZeneca,customer
+Oracle,Nike,competitor
+IBM,Dell,customer
+Pinterest,CBRE,partnership
+Pinterest,Cisco,partnership
+IBM,AmerisourceBergen,competitor
+Dell,Merck,partnership
+Dell,CBRE,partnership
+Waters Corporation,Trimble,competitor
+Oracle,Waters Corporation,customer
+Accenture,Emerson,customer
+Accenture,Devon Energy,investment
+Microsoft,Emerson,partnership
+Microsoft,ConocoPhillips,partnership
+IBM,Schlumberger,customer
+Nike,Google,partnership
+Motorola,Nike,customer
+Facebook,Pinterest,competitor
+Microsoft,Extreme Networks,customer
+Google,Nike,competitor
+IBM,Weyerhaeuser,customer
+Microsoft,Pfizer,customer
+Microsoft,Johnson & Johnson,customer
+Intel,Johnson & Johnson,customer
+Qualcomm,IBM,customer
+Google,Johnson & Johnson,investment
+Google,Merck,investment
+Google,Johnson & Johnson,partnership
+Google,Merck,partnership
+Intel,Cisco,competitor
+Akamai,Microsoft,customer
+Akamai,Microsoft,investment
+Akamai,Symantec,investment
+Accenture,General Mills,partnership
+Accenture,Nike,partnership
+Accenture,Best Buy,partnership
+Accenture,Intel,partnership
+Accenture,Hershey,partnership
+Accenture,Tesco,partnership
+Accenture,Google,investment
+Accenture,Interpublic Group,investment
+Accenture,Starbucks,investment
+Accenture,Symantec,investment
+Accenture,Viacom,investment
+Facebook,Nike,competitor
+Workday,Vodafone,partnership
+Workday,eBay,investment
+Workday,EnerSys,partnership
+Workday,Etsy,partnership
+Workday,Nike,partnership
+Workday,Symantec,partnership
+Workday,Telstra,partnership
+Workday,AMD,competitor
+Workday,Snapchat,competitor
+Workday,Twilio,competitor
+Workday,Snapchat,investment
+Workday,Adobe,investment
+Workday,Motorola,investment
+Workday,Vodafone,investment
+Facebook,Danaher,investment
+Facebook,Lowe's,investment
+Dell,Facebook,investment
+Google,NetApp,partnership
+Google,Arista Networks,partnership
+Google,Juniper Networks,investment
+Google,Netflix,investment
+Oracle,AstraZeneca,customer
+Oracle,Best Buy,partnership
+Synopsys,Cisco,customer
+Facebook,eBay,customer
+Facebook,Telstra,partnership
+IBM,IAG,customer
+IBM,ConocoPhillips,customer
+Cisco,IBM,customer
+Western Digital,Microsoft,customer
+Western Digital,Dell,competitor
+Western Digital,NetApp,partnership
+Western Digital,Microsoft,partnership
+Western Digital,Dell,investment
+Western Digital,IBM,investment
+Emerson,Intel,customer
+Emerson,IBM,customer
+Facebook,Best Buy,competitor
+Swift Transportation,Facebook,investment
+Swift Transportation,Carrefour,investment
+Extreme Networks,Cisco,competitor
+Microsoft,Synopsys,customer
+AMD,IBM,customer
+IBM,Netflix,competitor
+IBM,Google,investment
+Google,Williams-Sonoma,customer
+Walgreens,Google,customer
+Oracle,Starbucks,partnership
+Nike,Walmart,investment
+Nike,Lowe's,investment
+Nike,Facebook,investment
+Nike,Williams-Sonoma,investment
+AMD,Adobe,investment
+Symantec,IBM,customer
+Symantec,Fortis,investment
+Symantec,IBM,investment
+Symantec,Google,investment
+Symantec,DLT,customer
+Microsoft,Symantec,customer
+Microsoft,Equifax,customer
+Oracle,Microsoft,investment
+Intel,Ecolab,customer
+IBM,Starbucks,investment
+IBM,Ameren,customer
+IBM,Walgreens,partnership
+Google,Molson Coors,customer
+Google,Corning,customer
+Microsoft,TJX,investment
+Dell,AMD,competitor
+Teradyne,Microsoft,customer
+Vertex Pharmaceuticals,Merck,competitor
+Vertex Pharmaceuticals,Johnson & Johnson,partnership
+Pinterest,Microsoft,investment
+Pinterest,Vail Resorts,investment
+Adobe,Zoetis,customer
+Adobe,Workday,customer
+Adobe,Trimble,customer
+Adobe,F5 Networks,customer
+Adobe,Equinix,customer
+Facebook,ConocoPhillips,customer
+Microsoft,Thermo Fisher Scientific,customer
+Cisco,RBC,customer
+Cisco,Airbus,customer
+Cisco,Delta Air Lines,investment
+Emerson,ConocoPhillips,partnership
+Emerson,Tesco,partnership
+Emerson,ArcelorMittal,investment
+Delta Air Lines,ConocoPhillips,investment
+Cisco,Motorola,partnership
+Texas Instruments,Cisco,customer
+Intel,Akamai,customer
+Qualcomm,Starbucks,customer
+Qualcomm,ArcelorMittal,investment
+IBM,Carrefour,investment
+IBM,Corning,customer
+Autodesk,Microsoft,customer
+Pinterest,IBM,customer
+Sonos,Walmart,customer
+Microsoft,Infor,customer
+Microsoft,3M,partnership
+UPS,Cisco,investment
+Akamai,Facebook,partnership
+Akamai,Facebook,investment
+Dell,AMD,customer
+Western Digital,JBL,competitor
+Western Digital,IBM,competitor
+Western Digital,Dell,partnership
+Western Digital,Motorola,partnership
+Western Digital,Adobe,partnership
+Western Digital,Walmart,investment
+Western Digital,AMD,partnership
+Western Digital,ADB,partnership
+Western Digital,Netflix,partnership
+Western Digital,Tesco,investment
+Western Digital,Palo Alto Networks,investment
+Western Digital,Facebook,investment
+Microsoft,Interpublic Group,customer
+Rockwell Automation,Cisco,partnership
+Starbucks,Sonoco,partnership
+Facebook,Autodesk,customer
+Dell,Lowe's,investment
+Dell,Workday,investment
+Google,Gilead Sciences,partnership
+Adobe,AstraZeneca,partnership
+Kimberly-Clark,Western Digital,customer
+Oracle,Walgreens,investment
+Oracle,Boston Scientific,partnership
+Airbus,Delta Air Lines,partnership
+Extreme Networks,Cisco,customer
+Extreme Networks,Google,competitor
+Extreme Networks,Cisco,investment
+Extreme Networks,Arista Networks,partnership
+Nike,Facebook,customer
+Nike,Starbucks,competitor
+Nike,Bath & Body Works,partnership
+IBM,Vodafone,customer
+IBM,Vodafone,investment
+Qualcomm,Best Buy,investment
+Qualcomm,Pinterest,partnership
+Walmart,Facebook,partnership
+Walmart,eBay,competitor
+Walmart,eBay,partnership
+Walmart,Microsoft,partnership
+Oracle,Woolworths,investment
+Oracle,Bridger,partnership
+Oracle,Exelon,investment
+Oracle,Kinder Morgan,investment
+ServiceNow,Microsoft,customer
+ServiceNow,Starbucks,customer
+ServiceNow,eBay,investment
+ServiceNow,Starbucks,partnership
+ServiceNow,Facebook,investment
+Google,ADB,customer
+Facebook,Lululemon,partnership
+Facebook,Walgreens,partnership
+General Mills,Intel,customer
+IBM,Walmart,investment
+IBM,Tesco,investment
+Google,Accenture,partnership
+Google,Accenture,investment
+IBM,Live Nation,investment
+Cisco,Best Buy,partnership
+Google,Motorola,competitor
+Oracle,Sonos,competitor
+Oracle,Corning,competitor
+Oracle,Dell,competitor
+Dell,Corning,customer
+eBay,Dell,customer
+Pinterest,IBM,partnership
+CarMax,Google,customer
+CarMax,Microsoft,partnership
+Cars.com,Scholastic,customer
+CBRE,Cisco,customer
+ServiceNow,CBRE,customer
+ServiceNow,Republic Services,customer
+Google,ServiceNow,customer
+Cisco,Intel,investment
+MGM,Netflix,competitor
+MGM,Wynn Resorts,competitor
+MGM,Google,partnership
+Facebook,Netflix,partnership
+Facebook,Cisco,partnership
+Facebook,Netflix,investment
+UPS,Cisco,partnership
+IBM,JBL,customer
+Juniper Networks,Telstra,customer
+Facebook,Netflix,competitor
+Netflix,UPS,customer
+AMD,ConocoPhillips,investment
+UPS,Google,investment
+Cisco,Netflix,partnership
+Accenture,Tesco,investment
+Airbus,Google,customer
+Intel,Microchip Technology,customer
+Oracle,Fortune Brands,investment
+IBM,Technology,investment
+Intel,Motorola,investment
+IBM,Motorola,customer
+LendingTree,Google,competitor
+Google,LendingTree,customer
+Oracle,Telstra,partnership
+Oracle,Telstra,investment
+Google,Adobe,partnership
+Google,Altria Group,investment
+Facebook,Pinterest,investment
+Facebook,Adobe,investment
+Intel,GoDaddy,investment
+Motorola,Oracle,partnership
+Johnson & Johnson,IBM,partnership
+Johnson & Johnson,Intel,partnership
+IBM,MICROS,investment
+Dell,Adobe,customer
+Workday,NetApp,customer
+Workday,Qualcomm,partnership
+Workday,ASM,customer
+Fortune Brands,Woolworths,customer
+NetApp,Rentokil Initial,investment
+NetApp,Fortinet,investment
+NetApp,Autodesk,investment
+NetApp,Delphi Automotive,investment
+NetApp,Synopsys,investment
+NetApp,Hologic,investment
+NetApp,ConocoPhillips,investment
+NetApp,Schlumberger,investment
+NetApp,Emerson,investment
+Oracle,ServiceNow,customer
+Oracle,Leggett & Platt,customer
+Oracle,Tesco,partnership
+Oracle,Fortis,investment
+Starbucks,Facebook,customer
+Nike,Symantec,customer
+Nike,Adobe,investment
+Nike,eBay,customer
+Nike,Microsoft,investment
+Infor,Synopsys,partnership
+Motorola,Delta Air Lines,customer
+Nike,Etsy,investment
+eBay,Cisco,customer
+Microsoft,Symantec,investment
+Trimble,Autodesk,customer
+Google,Sysco,customer
+Google,Nike,customer
+Google,Union Pacific,partnership
+Schlumberger,ConocoPhillips,partnership
+Microsoft,Schlumberger,customer
+Oracle,Autodesk,investment
+Vertex,Merck,competitor
+Vertex,Merck,partnership
+Vertex,IBM,partnership
+Republic Services,Nike,customer
+Oracle,Aon,investment
+Qualcomm,Google,competitor
+Adobe,Motorola,partnership
+Adobe,Netflix,partnership
+Adobe,Facebook,investment
+Adobe,Walmart,investment
+Airbus,IBM,investment
+Airbus,Delta Air Lines,investment
+Airbus,Oracle,investment
+Airbus,Microsoft,investment
+Airbus,Insurance Australia Group,investment
+Netflix,Facebook,customer
+Merck,Pfizer,competitor
+AstraZeneca,Merck,customer
+UPS,Amgen,competitor
+IBM,Biomet,partnership
+Google,Rentokil Initial,customer
+Workday,Google,customer
+Facebook,Airbnb,investment
+Autodesk,IBM,customer
+eBay,Microsoft,investment
+Best Buy,Xylem,partnership
+Best Buy,Walmart,partnership
+Best Buy,Starbucks,partnership
+Best Buy,Intel,partnership
+Autodesk,Best Buy,partnership
+Cisco,CCH,investment
+Intel,Pfizer,investment
+Microsoft,Motorola,investment
+Microsoft,AMD,investment
+Juniper Networks,Palo Alto Networks,customer
+F5 Networks,IBM,customer
+IBM,Facebook,customer
+Motorola,Vodafone,partnership
+Microsoft,Netflix,competitor
+Cisco,Motorola,competitor
+Oracle,Best Buy,competitor
+Adobe,Kimberly-Clark,partnership
+General Mills,Interpublic Group,customer
+IBM,Hill & Knowlton,customer
+Interpublic Group,Facebook,customer
+Facebook,Sonos,partnership
+Facebook,Intel,investment
+NetApp,Walmart,customer
+Microsoft,AMD,partnership
+Google,West Marine,partnership
+Oracle,Sonos,investment
+Dell,NetApp,partnership
+Dell,Cisco,partnership
+Dell,Juniper Networks,partnership
+Dell,Intel,investment
+Dell,Cisco,investment
+Dell,Intel,partnership
+IBM,Palo Alto Networks,partnership
+IBM,Wellpoint,investment
+IBM,Emerson,partnership
+Microsoft,Emerson,investment
+Airbnb,Motorola,customer
+Google,Walmart,customer
+Uber,Google,customer
+IBM,RBC,customer
+Oracle,Emerson,competitor
+AstraZeneca,Merck,investment
+ConocoPhillips,Infor,customer
+MICROS,Oracle,investment
+Google,MICROS,customer
+Motorola,Cisco,partnership
+Microsoft,Juniper Networks,customer
+NetApp,IBM,customer
+Microsoft,Akamai,customer
+NetApp,SWIFT,partnership
+IBM,American Electric Power,partnership
+IBM,Facebook,investment
+IBM,American Electric Power,investment
+IBM,Exelon,investment
+General Mills,Dell,investment
+Emerson,IBM,partnership
+Emerson,Motorola,investment
+Lam Research,IBM,partnership
+Lam Research,Intel,investment
+ServiceNow,IBM,partnership
+ServiceNow,IBM,customer
+ServiceNow,Cisco,partnership
+ServiceNow,Oracle,competitor
+ServiceNow,Microsoft,partnership
+DLT,Delphi Automotive,customer
+DLT,Adobe,investment
+DLT,Oracle,partnership
+Palo Alto Networks,Juniper Networks,competitor
+Palo Alto Networks,Fortinet,competitor
+Palo Alto Networks,Cisco,competitor
+Oracle,Emerson,investment
+Oracle,Best Buy,investment
+Facebook,Symantec,partnership
+Autodesk,Oracle,investment
+EMCOR,Walmart,investment
+Pan American Silver,Silver Wheaton,competitor
+Pan American Silver,Microsoft,investment
+Pan American Silver,Silver Wheaton,investment
+Intel,eBay,investment
+Microsoft,Oracle,investment
+Google,Adobe,customer
+Google,Starbucks,competitor
+Google,Uber,partnership
+Google,Nike,partnership
+Best Buy,Intel,customer
+JBL,Intel,investment
+JBL,Oracle,partnership
+JBL,Netflix,partnership
+JBL,Adobe,partnership
+JBL,Cisco,partnership
+JBL,AMD,partnership
+JBL,Airbus,partnership
+JBL,Cisco,investment
+JBL,Netflix,investment
+Nike,Facebook,competitor
+Oracle,Emerson,partnership
+Oracle,Qualcomm,partnership
+Pfizer,Merck,partnership
+Pfizer,AstraZeneca,investment
+Autodesk,Airbus,customer
+ANSYS,Autodesk,customer
+ANSYS,Altair Engineering,customer
+ANSYS,Airbus,partnership
+ANSYS,HealthCare Partners,partnership
+IBM,Qualcomm,customer
+IBM,Qualcomm,investment
+Dell,Walmart,customer
+Microsoft,ArcelorMittal,investment
+Pinterest,Amgen,partnership
+Pinterest,Starbucks,partnership
+Pinterest,Pfizer,partnership
+Pinterest,Merck,partnership
+Pinterest,ADB,partnership
+Cisco,Symantec,investment
+Microsoft,Infor,partnership
+Microsoft,Ameren,customer
+Microsoft,Telstra,customer
+Telstra,Microsoft,customer
+Facebook,Dell,competitor
+Facebook,Cisco,competitor
+Facebook,Biogen Idec,customer
+Wellpoint,Dell,partnership
+Walmart,Wellpoint,customer
+Ki,Facebook,partnership
+Duke Energy,Pinterest,customer
+IBM,Duke Energy,customer
+IBM,Duke Energy,partnership
+IBM,Republic Services,partnership
+Oracle,Adobe,partnership
+Oracle,Lowe's,investment
+Facebook,Juniper Networks,customer
+Qualcomm,Pfizer,partnership
+Qualcomm,Molson Coors,partnership
+Qualcomm,Republic Services,partnership
+Qualcomm,Nike,partnership
+Qualcomm,Uber,customer
+Qualcomm,Aon,customer
+Qualcomm,Walmart,customer
+Qualcomm,Nike,customer
+Qualcomm,Adobe,investment
+Qualcomm,Gilead Sciences,investment
+Qualcomm,Airbus,investment
+Qualcomm,Dell,investment
+NetApp,Cisco,investment
+NetApp,Western Digital,investment
+NetApp,Texas Instruments,investment
+NetApp,Google,investment
+NetApp,Western Digital,customer
+NetApp,Google,customer
+Hologic,Boston Scientific,investment
+Hologic,UPS,investment
+Motorola,Equifax,customer
+Motorola,Pfizer,investment
+Motorola,AstraZeneca,investment
+Motorola,ConocoPhillips,partnership
+Motorola,Qualcomm,customer
+Intel,Symantec,partnership
+Tesco,Carrefour,competitor
+IBM,Starbucks,customer
+Google,Netflix,competitor
+Fortinet,Schlumberger,investment
+Fortinet,Walmart,investment
+Fortinet,Dell,partnership
+Fortinet,Fortis,partnership
+Fortinet,Google,partnership
+Fortinet,Pfizer,partnership
+Fortinet,Vertex,partnership
+Fortinet,Dell,investment
+Fortinet,Woolworths,investment
+Fortinet,Schlumberger,competitor
+Fortinet,Vodafone,competitor
+Fortinet,Fortis,investment
+Fortinet,Starbucks,investment
+Facebook,Merck,partnership
+IBM,Limited Brands,competitor
+IBM,Tesco,competitor
+Google,First Solar,competitor
+First Solar,Walgreens,partnership
+First Solar,Best Buy,partnership
+First Solar,IBM,investment
+Delphi Automotive,Airbus,investment
+Symantec,Walgreens,investment
+Pinterest,Waters Corporation,investment
+Oracle,Woolworths,customer
+Oracle,Synopsys,investment
+Oracle,Adobe,investment
+Oracle,Cisco,investment
+Rockwell Automation,Qualcomm,investment
+Rockwell Automation,Tesco,investment
+TJX,Google,investment
+TJX,Illumina,investment
+Infor,IBM,investment
+Symantec,Pinterest,customer
+Walmart,Oracle,customer
+Microsoft,JBL,customer
+Microsoft,Hershey,partnership
+Cisco,UPS,investment
+Google,Fortinet,competitor
+Cisco,Symantec,customer
+Microsoft,Fortune Brands,partnership
+Microsoft,American Electric Power,investment
+Microsoft,Amgen,investment
+Microsoft,Merck,investment
+Cisco,Devon Energy,partnership
+Cisco,Nike,partnership
+Cisco,Accenture,investment
+Cisco,AstraZeneca,investment
+Facebook,Walgreens,customer
+Netflix,Google,competitor
+Netflix,AMD,partnership
+NetApp,Accenture,partnership
+NetApp,Woolworths,customer
+NetApp,Carrefour,customer
+NetApp,Dell,customer
+NetApp,Microsoft,investment
+NetApp,Starbucks,customer
+NetApp,Dell,partnership
+NetApp,Tesco,partnership
+NetApp,Woolworths,partnership
+NetApp,Vodafone,partnership
+NetApp,Wellpoint,customer
+NetApp,IBM,competitor
+NetApp,Telstra,customer
+IBM,Microsoft,investment
+IBM,Cisco,investment
+ServiceNow,Microsoft,investment
+ServiceNow,Dell,investment
+Walgreens,Amgen,partnership
+Symantec,Dell,customer
+Symantec,Vodafone,partnership
+Oracle,Walmart,partnership
+Starbucks,Pinterest,customer
+Oracle,Delta Air Lines,partnership
+Oracle,Delta Air Lines,competitor
+Oracle,Nike,investment
+Oracle,Lam Research,investment
+Oracle,Microsoft,competitor
+Akamai,Best Buy,partnership
+Oracle,Walmart,competitor
+Facebook,Parsons,customer
+Adobe,Schlumberger,customer
+NetApp,Facebook,partnership
+NetApp,RBC,partnership
+NetApp,Walmart,partnership
+NetApp,Google,partnership
+Western Digital,Facebook,customer
+Pinterest,Walmart,customer
+Post Holdings,ConAgra Foods,customer
+Post Holdings,General Mills,investment
+Post Holdings,Vail Resorts,investment
+Equinix,Juniper Networks,customer
+Qualcomm,Symantec,customer
+Qualcomm,Microsoft,partnership
+Qualcomm,Motorola,customer
+Molson Coors,IBM,investment
+IAG,Facebook,partnership
+IAG,Delta Air Lines,investment
+IAG,MGM,investment
+IAG,Telstra,investment
+IBM,Symantec,investment
+Emerson,Corning,customer
+Adobe,Juniper Networks,partnership
+Cisco,Equinix,investment
+Airbus,Intel,partnership
+Airbus,eBay,investment
+Airbus,Best Buy,investment
+Oracle,Cisco,partnership
+Symantec,Oracle,customer
+ADB,Corning,partnership
+ADB,Google,partnership
+Facebook,MGM,investment
+Facebook,Northrop Grumman,investment
+Facebook,Dell,customer
+Facebook,Adobe,customer
+Facebook,ADB,customer
+Facebook,ADB,partnership
+Facebook,ADB,investment
+Snapchat,Facebook,investment
+Snapchat,Facebook,competitor
+Snapchat,Facebook,customer
+Facebook,Lear,investment
+Facebook,Union Pacific,investment
+Facebook,Union Pacific,partnership
+Facebook,Lear,partnership
+Nike,American Water,partnership
+Nike,Delta Air Lines,partnership
+JM Smucker,ConAgra Foods,investment
+JM Smucker,Keurig,investment
+Google,Intel,investment
+Intel,Oracle,competitor
+Google,EBA,partnership
+Google,Adobe,investment
+Telstra,Vodafone,competitor
+Telstra,Microsoft,partnership
+Cisco,Telstra,customer
+Pfizer,Biomet,investment
+AMD,NetApp,partnership
+Corning,Adobe,partnership
+Motorola,Oracle,customer
+Motorola,Corning,competitor
+Motorola,Corning,investment
+Nike,Lowe's,partnership
+Adobe,Northrop Grumman,customer
+Adobe,Teradyne,customer
+Merck,Pfizer,partnership
+Merck,Microsoft,customer
+Merck,Walmart,customer
+Merck,Lowe's,investment
+Facebook,F5 Networks,partnership
+Facebook,Starbucks,partnership
+Facebook,Extreme Networks,customer
+Lowe's,AMD,customer
+Lowe's,Google,customer
+Lowe's,Facebook,partnership
+Lowe's,Microsoft,investment
+Lowe's,Facebook,investment
+Intel,Oracle,partnership
+AMD,Intel,investment
+AMD,Dell,competitor
+AMD,Western Digital,investment
+Cadence,AMD,investment
+Cadence,Microsoft,investment
+Cadence,Motorola,customer
+Cadence,eBay,investment
+Cadence,NetApp,investment
+Cadence,Microchip Technology,investment
+Cadence,Ameren,customer
+Cadence,Vodafone,partnership
+Cadence,Dell,partnership
+Cadence,Qualcomm,partnership
+IBM,GoDaddy,customer
+Oracle,Ameren,customer
+Oracle,Swift Transportation,customer
+Oracle,Corning,partnership
+Microsoft,Fortis,investment
+Symantec,Google,customer
+AMD,eBay,investment
+AMD,eBay,partnership
+AMD,Cisco,partnership
+Texas Instruments,Google,competitor
+Texas Instruments,Google,investment
+Texas Instruments,Danaher,investment
+Texas Instruments,Google,customer
+ConocoPhillips,IBM,customer
+Motorola,ConocoPhillips,customer
+Schlumberger,Tesco,investment
+Devon Energy,Google,customer
+GoDaddy,Oracle,investment
+GoDaddy,Google,investment
+GoDaddy,IBM,investment
+Walmart,Microsoft,customer
+Delta Air Lines,Telstra,customer
+Delta Air Lines,Microsoft,partnership
+Delta Air Lines,Pfizer,customer
+Microsoft,Etsy,partnership
+Microsoft,Pinterest,investment
+Cisco,Dell,customer
+Cisco,Duke Energy,investment
+ServiceNow,Delphi Automotive,partnership
+Google,Pinterest,customer
+Microsoft,Chipotle,competitor
+Microsoft,Starbucks,competitor
+TJX,Google,customer
+General Mills,TJX,customer
+JBL,Microsoft,investment
+Juniper Networks,Texas Instruments,customer
+Juniper Networks,Cisco,partnership
+Juniper Networks,Cisco,investment
+IBM,Biomet,investment
+eBay,Facebook,investment
+eBay,Google,partnership
+Google,Lululemon,investment
+Facebook,Best Buy,customer
+TJX,Oracle,customer
+TJX,eBay,investment
+TJX,Pinterest,customer
+TJX,Dell,customer
+eBay,Starbucks,partnership
+eBay,Starbucks,investment
+eBay,ConocoPhillips,investment
+eBay,ConAgra Foods,investment
+Airbus,Delta Air Lines,competitor
+Motorola,CAE,investment
+Facebook,Netflix,customer
+AMD,Qualcomm,competitor
+First Solar,Microsoft,customer
+First Solar,Walmart,partnership
+First Solar,Delta Air Lines,investment
+Dell,Autodesk,customer
+Microsoft,CBRE,partnership
+Google,Oracle,partnership
+Autodesk,Dell,customer
+Oracle,Merck,partnership
+IBM,Boston Scientific,competitor
+IBM,Keurig,partnership
+Vodafone,Starbucks,partnership
+Vodafone,ADB,partnership
+Vodafone,General Mills,partnership
+Vodafone,Dell,investment
+Vodafone,TJX,investment
+Vodafone,Booz Allen Hamilton,investment
+Vodafone,Kimberly-Clark,partnership
+Vodafone,Accenture,partnership
+Vodafone,Pfizer,partnership
+Vodafone,ConocoPhillips,partnership
+Dell,Biomet,partnership
+Pinterest,TJX,customer
+Google,Lowe's,investment
+Google,Delphi Automotive,investment
+Adobe,Equifax,investment
+DTE Energy,Facebook,competitor
+Ameren,DTE Energy,customer
+Cisco,Danaher,investment
+Google,Technology,partnership
+Pinterest,Etsy,competitor
+MICROS,Tesco,partnership
+Facebook,Vodafone,investment
+Airbus,Motorola,customer
+Airbus,eBay,partnership
+Airbus,Walmart,partnership
+Airbus,Microsoft,customer
+Qualcomm,Facebook,customer
+Cisco,Schlumberger,customer
+Motorola,Autodesk,investment
+Motorola,Facebook,partnership
+Silver Wheaton,Pan American Silver,competitor
+Silver Wheaton,IAG,investment
+Silver Wheaton,Pan American Silver,investment
+Motorola,Intel,customer
+Motorola,Netflix,competitor
+Microsoft,Sempra Energy,investment
+Dell,Cisco,customer
+Dell,Rockwell Automation,partnership
+Symantec,Cisco,customer
+Interpublic Group,Cisco,partnership
+Interpublic Group,Viacom,partnership
+Interpublic Group,Vodafone,partnership
+Interpublic Group,Accenture,partnership
+Interpublic Group,Facebook,partnership
+Fortinet,Interpublic Group,customer
+Fortinet,Tyson Foods,investment
+Workday,Symantec,customer
+Autodesk,Intel,customer
+Autodesk,Woolworths,partnership
+Autodesk,MGM,partnership
+ConocoPhillips,Delta Air Lines,partnership
+ConocoPhillips,IBM,investment
+ConocoPhillips,Delta Air Lines,investment
+Cisco,Technology,investment
+Cisco,Northrop Grumman,partnership
+Cisco,Pinterest,partnership
+Lowe's,Intel,partnership
+Lowe's,Walmart,investment
+Lowe's,Oracle,partnership
+Lowe's,Wellpoint,partnership
+AMD,Cisco,investment
+Infor,Motorola,partnership
+Walgreens,Cisco,partnership
+Walgreens,Merck,customer
+Walgreens,Microsoft,competitor
+Pfizer,Walgreens,customer
+Pfizer,Wellpoint,competitor
+Dell,Oracle,investment
+Dell,Pfizer,investment
+Dell,Accenture,partnership
+Dell,Harris & Harris,partnership
+Accenture,Facebook,partnership
+Vodafone,IBM,customer
+Vodafone,Keurig,customer
+IBM,Carrefour,customer
+IBM,Walmart,partnership
+IBM,Campbell Soup,competitor
+IBM,Hormel Foods,investment
+Microsoft,General Mills,investment
+Microsoft,Keurig,partnership
+Microsoft,Interpublic Group,partnership
+DTE Energy,Infor,customer
+Pinterest,International Flavors & Fragrances Inc,customer
+Pfizer,Pinterest,customer
+Delta Air Lines,UPS,customer
+Delta Air Lines,Facebook,partnership
+Delta Air Lines,Adobe,partnership
+Delta Air Lines,Google,customer
+Delta Air Lines,ArcelorMittal,customer
+IBM,Johnson & Johnson,customer
+Juniper Networks,Facebook,investment
+Adobe,eBay,partnership
+Interpublic Group,UPS,partnership
+Interpublic Group,Intel,investment
+IBM,AstraZeneca,customer
+CBRE,Google,customer
+CBRE,Ball Corporation,investment
+CBRE,Oracle,investment
+CBRE,Aon,investment
+Oracle,Intel,investment
+Facebook,Nike,customer
+Facebook,IAG,investment
+IBM,Etsy,partnership
+IBM,Boston Scientific,customer
+IBM,Etsy,customer
+AMD,Autodesk,customer
+Google,Booz Allen Hamilton,investment
+Vodafone,Walmart,partnership
+Vodafone,Motorola,customer
+Vodafone,Nike,customer
+Vodafone,Aon,partnership
+Vodafone,Cisco,partnership
+Vodafone,Delta Air Lines,partnership
+Vodafone,Duke Energy,partnership
+Vodafone,Entergy,partnership
+Vodafone,Nike,partnership
+Vodafone,CCH,investment
+Vodafone,Accenture,investment
+Vodafone,AstraZeneca,investment
+Vodafone,eBay,investment
+Vodafone,Workday,investment
+Vodafone,IBM,investment
+Vodafone,Microsoft,partnership
+Vodafone,Merck,customer
+Intel,Infor,customer
+Microsoft,Walgreens,customer
+Microchip Technology,Biogen Idec,partnership
+Microchip Technology,Intel,customer
+Microchip Technology,Elbit Systems,customer
+Microchip Technology,Emerson,investment
+Google,Qualcomm,partnership
+Google,Telstra,partnership
+Juniper Networks,Motorola,investment
+EBA,Juniper Networks,customer
+EBA,Intel,investment
+Facebook,Akamai,partnership
+Dell,Sonoco,customer
+IBM,Union Pacific,customer
+Oracle,Tesco,competitor
+Infor,Northrop Grumman,investment
+Facebook,Intel,partnership
+Facebook,NetApp,customer
+Telstra,Twilio,customer
+Microsoft,Viacom,customer
+Microsoft,Discovery Communications,competitor
+Synopsys,Walmart,investment
+Etsy,Lowe's,partnership
+Etsy,Western Digital,partnership
+Facebook,Carrefour,competitor
+Pinterest,Google,investment
+Microsoft,Vodafone,competitor
+Microsoft,AMD,competitor
+Microsoft,Symantec,partnership
+Vodafone,Google,customer
+Lowe's,Duke Energy,partnership
+Lowe's,Microsoft,partnership
+Lowe's,Pfizer,investment
+Lowe's,Google,investment
+Trimble,Google,customer
+Nike,Cisco,customer
+Walmart,ConAgra Foods,partnership
+Airbus,Woolworths,competitor
+Cisco,Airbus,investment
+Google,Exelon,partnership
+Google,Vail Resorts,partnership
+Google,General Mills,partnership
+Interpublic Group,Walgreens,customer
+TJX,Facebook,customer
+Microsoft,Mosaic Company,customer
+Dell,Trimble,customer
+ConAgra Foods,Facebook,customer
+Microsoft,Molson Coors,customer
+IBM,ADB,customer
+IBM,TJX,investment
+IBM,Viacom,partnership
+IBM,RBC,partnership
+IBM,ArcelorMittal,investment
+IBM,ArcelorMittal,customer
+IBM,Nike,customer
+IBM,ConocoPhillips,investment
+IBM,ADB,investment
+Duke Energy,Exelon,investment
+Nike,UPS,investment
+Nike,IBM,investment
+Facebook,Interpublic Group,investment
+Juniper Networks,Trimble,customer
+Oracle,Juniper Networks,customer
+AMD,Cisco,customer
+Facebook,ANSYS,partnership
+Cisco,Microsoft,competitor
+Workday,Oracle,partnership
+Workday,Airbus,investment
+Workday,First Solar,investment
+IBM,Palo Alto Networks,investment
+IBM,Extreme Networks,customer
+IBM,ANSYS,customer
+Facebook,Molson Coors,partnership
+Dell,Merck,investment
+Dell,Lowe's,partnership
+Dell,Aon,partnership
+Dell,Thermo Fisher Scientific,partnership
+Dell,TJX,customer
+Dell,Entergy,customer
+Dell,American Electric Power,investment
+Dell,Nike,investment
+Dell,Duke Energy,investment
+Dell,Walmart,investment
+Dell,Delta Air Lines,investment
+Dell,Thermo Fisher Scientific,investment
+Microsoft,Texas Instruments,partnership
+Nike,Walmart,competitor
+AMD,Microsoft,investment
+Duke Energy,ConocoPhillips,partnership
+Duke Energy,Kinder Morgan,investment
+Hill & Knowlton,Google,investment
+Hill & Knowlton,Pfizer,partnership
+Hill & Knowlton,Microsoft,partnership
+Hill & Knowlton,Cisco,partnership
+Facebook,Church & Dwight,investment
+Texas Instruments,Microsoft,customer
+Oracle,Texas Instruments,customer
+Infor,Corning,partnership
+Microsoft,Aon,partnership
+Keurig,Starbucks,competitor
+Facebook,Campbell Soup,partnership
+Facebook,Campbell Soup,investment
+Starbucks,Pfizer,customer
+Starbucks,Kimberly-Clark,customer
+Starbucks,Oracle,customer
+Google,Delphi Automotive,partnership
+Google,Sempra Energy,partnership
+Google,Pfizer,partnership
+Dell,IBM,partnership
+Microsoft,Dollar Tree,partnership
+Microsoft,Starbucks,partnership
+Facebook,Accenture,partnership
+Pinterest,Facebook,competitor
+Exelixis,Microsoft,customer
+Exelixis,Merck,partnership
+Dell,Walgreens,partnership
+Dell,Walgreens,customer
+Oracle,AstraZeneca,partnership
+Oracle,Accenture,investment
+Cisco,Entergy,partnership
+Cisco,Weyerhaeuser,investment
+Cisco,Tyson Foods,investment
+Cisco,ArcelorMittal,investment
+IBM,Adobe,customer
+Delta Air Lines,Facebook,investment
+Delta Air Lines,Emergent,investment
+Delta Air Lines,Google,partnership
+Delta Air Lines,General Mills,partnership
+Delta Air Lines,Oracle,partnership
+Snapchat,Google,partnership
+Snapchat,Uber,investment
+Google,Airbus,customer
+Walgreens,Google,partnership
+Walmart,Walgreens,customer
+Molson Coors,eBay,investment
+Adobe,Palo Alto Networks,customer
+Akamai,Fortinet,competitor
+Akamai,Cisco,customer
+Intel,Symantec,investment
+Intel,Juniper Networks,customer
+Intel,NetApp,partnership
+Intel,Pinterest,partnership
+Intel,Fortinet,partnership
+Intel,Fortinet,investment
+IBM,Texas Instruments,investment
+Adobe,Delphi Automotive,partnership
+Accenture,Qualcomm,partnership
+Facebook,Weyerhaeuser,customer
+Juniper Networks,Oracle,customer
+Viacom,Facebook,customer
+Akamai,Netflix,competitor
+Akamai,Facebook,competitor
+Zscaler,Facebook,customer
+Facebook,Starbucks,competitor
+CBRE,Viacom,partnership
+Cisco,Walgreens,customer
+Facebook,Uber,customer
+Airbnb,Dell,customer
+Airbnb,Netflix,competitor
+Google,Illumina,partnership
+Dell,Amgen,investment
+Dell,Zimmer Holdings,investment
+Tyson Foods,Walmart,customer
+Microsoft,Exelon,investment
+Microsoft,American Water,partnership
+Microsoft,Pinterest,customer
+Microsoft,Best Buy,competitor
+Equinix,Google,customer
+NetApp,AMD,customer
+Telstra,TE Connectivity,investment
+Telstra,Autoliv,investment
+Telstra,Boston Scientific,investment
+Telstra,General Mills,investment
+Telstra,Motorola,investment
+Oracle,Compass Group,investment
+Palo Alto Networks,Oracle,customer
+TJX,Google,competitor
+Google,TJX,customer
+Facebook,Equinix,partnership
+Facebook,TJX,competitor
+Facebook,Qualcomm,competitor
+Intel,Equinix,customer
+Motorola,AMD,customer
+Microsoft,Pinterest,competitor
+Twilio,Facebook,competitor
+Twilio,Airbnb,customer
+Oracle,Twilio,customer
+Microsoft,American Electric Power,customer
+Google,Accenture,competitor
+IBM,ConocoPhillips,partnership
+IBM,ConAgra Foods,partnership
+IBM,Starbucks,partnership
+Microsoft,Lennox International,competitor
+Illumina,Qualcomm,partnership
+Motorola,Viacom,customer
+Google,Qualcomm,investment
+Delta Air Lines,Oracle,investment
+Atlassian,Facebook,partnership
+Atlassian,Google,partnership
+Atlassian,Airbnb,investment
+Atlassian,Facebook,customer
+JAB,Starbucks,investment
+JAB,Keurig,partnership
+Google,JAB,customer
+Google,Uber,customer
+Cisco,Akamai,customer
+Netflix,Cisco,customer
+ConocoPhillips,Entergy,competitor
+ConocoPhillips,Devon Energy,competitor
+Dell,ConocoPhillips,customer
+Google,Airbnb,customer
+Schlumberger,Motorola,customer
+Dollar Tree,Walmart,competitor
+Dollar Tree,Swift Transportation,partnership
+Dollar Tree,Walmart,customer
+Northrop Grumman,Booz Allen Hamilton,partnership
+Northrop Grumman,Pinterest,partnership
+Northrop Grumman,Microsoft,partnership
+eBay,Oracle,customer
+eBay,Swift Transportation,partnership
+Dell,Best Buy,customer
+Facebook,Vail Resorts,partnership
+Facebook,Qiagen,competitor
+IBM,Sonoco,investment
+Johnson & Johnson,Pfizer,competitor
+Johnson & Johnson,Boston Scientific,customer
+Facebook,IBM,partnership
+Facebook,Adobe,partnership
+Motorola,Airbus,customer
+Cisco,Equinix,customer
+Cisco,Emerson,customer
+Cisco,GoDaddy,investment
+Intel,Netflix,partnership
+Motorola,Texas Instruments,customer
+Motorola,Intel,partnership
+Microsoft,Fortis,partnership
+Microsoft,Corning,customer
+Uber,Delta Air Lines,customer
+Uber,eBay,investment
+JBL,Symantec,customer
+Intel,JBL,customer
+Viacom,Intel,customer
+IBM,Dell,investment
+IBM,Equinix,investment
+Microsoft,Delta Air Lines,customer
+Intel,Autodesk,partnership
+Microsoft,Thermo Fisher Scientific,partnership
+Nike,Walmart,partnership
+Nike,Chipotle,customer
+Nike,Oracle,partnership
+Nike,eBay,partnership
+Nike,Tesco,customer
+ANSYS,IBM,investment
+Intel,RBC,investment
+F5 Networks,Microsoft,partnership
+AmerisourceBergen,Walgreens,customer
+Cisco,Pfizer,partnership
+Motorola,Adobe,customer
+Google,Oracle,investment
+Google,Equinix,partnership
+Facebook,Airbus,investment
+Airbus,IBM,customer
+Airbus,Facebook,customer
+Airbus,Vodafone,partnership
+ConAgra Foods,Walmart,customer
+ConAgra Foods,General Mills,competitor
+Microsoft,Post Holdings,investment
+Microsoft,SWIFT,investment
+Microsoft,Union Pacific,investment
+Microsoft,Tyson Foods,investment
+Intel,Emerson,partnership
+Google,Union Pacific,investment
+IBM,Walgreens,investment
+Chipotle,Airbus,investment
+Chipotle,Delta Air Lines,competitor
+Chipotle,Delta Air Lines,investment
+Microsoft,Chipotle,customer
+Google,Northrop Grumman,customer
+DnB,First Solar,customer
+Intel,Northrop Grumman,customer
+F5 Networks,Microsoft,investment
+Google,F5 Networks,customer
+Lowe's,Ecolab,investment
+Synopsys,Intel,partnership
+Google,Molson Coors,partnership
+Microsoft,Western Digital,partnership
+Oracle,JBL,partnership
+IBM,NetApp,partnership
+IBM,Symantec,partnership
+Oracle,Nike,customer
+Facebook,Hershey,investment
+Microsoft,Symantec,competitor
+Microsoft,IBM,competitor
+NetApp,IBM,investment
+Wellpoint,IBM,customer
+Telstra,Wellpoint,customer
+Telstra,eBay,investment
+Telstra,Facebook,investment
+Telstra,Johnson & Johnson,investment
+Telstra,Vodafone,investment
+TrueCar,Facebook,customer
+TrueCar,Facebook,investment
+Northrop Grumman,Motorola,investment
+Qualcomm,Interpublic Group,customer
+Symantec,Etsy,customer
+Symantec,Netflix,customer
+Symantec,Uber,investment
+Symantec,Etsy,competitor
+Symantec,Google,competitor
+Symantec,EBS,partnership
+Symantec,Motorola,investment
+SWIFT,Airbnb,customer
+AMD,Adobe,customer
+Google,Uber,competitor
+Google,Tesco,investment
+Microsoft,Compass Group,customer
+Google,NetApp,competitor
+Facebook,Western Digital,investment
+Google,IBM,competitor
+AMD,Oracle,customer
+Airbus,Northrop Grumman,investment
+Atlassian,Google,customer
+Lowe's,Pinterest,customer
+Workday,Google,partnership
+Compass Group,Dell,partnership
+Microsoft,Palo Alto Networks,partnership
+Facebook,Vodafone,customer
+Workday,Facebook,customer
+Workday,Facebook,investment
+Uber,Workday,customer
+Facebook,Lowe's,competitor
+Equifax,Dell,customer
+Emerson,Equifax,customer
+Symantec,Microsoft,competitor
+BorgWarner,Motorola,partnership
+BorgWarner,Oracle,partnership
+BorgWarner,Delphi Automotive,partnership
+Discovery Communications,Johnson & Johnson,partnership
+Discovery Communications,Facebook,investment
+Discovery Communications,Microsoft,investment
+Accenture,Facebook,customer
+Accenture,Pinterest,customer
+Accenture,Walmart,investment
+Pinterest,Accenture,customer
+Facebook,Viacom,competitor
+Facebook,Wellpoint,customer
+Facebook,Viacom,investment
+Facebook,Pfizer,partnership
+ANSYS,First Solar,investment
+ANSYS,First Solar,customer
+ANSYS,First Solar,partnership
+ANSYS,Oracle,customer
+ANSYS,American Electric Power,customer
+ANSYS,Walmart,customer
+ANSYS,Lowe's,partnership
+ANSYS,Walmart,investment
+ANSYS,Kinder Morgan,investment
+ANSYS,Lowe's,investment
+Cisco,Johnson & Johnson,customer
+Best Buy,Dell,competitor
+Best Buy,Microsoft,customer
+Workday,Microsoft,customer
+Rockwell Automation,IBM,customer
+IBM,MGM,partnership
+Trimble,Google,investment
+Trimble,Google,partnership
+JBL,Dell,partnership
+JBL,Motorola,partnership
+Hormel Foods,Tyson Foods,customer
+Hormel Foods,Tyson Foods,competitor
+Hormel Foods,Google,partnership
+Oracle,ConAgra Foods,investment
+Parsons,GoDaddy,competitor
+Oracle,Parsons,customer
+Nike,Viacom,customer
+Autodesk,Nike,customer
+Google,HealthCare Partners,partnership
+Microsoft,Union Pacific,customer
+Facebook,Ameren,customer
+Facebook,American Electric Power,partnership
+Facebook,Ameren,investment
+Facebook,American Electric Power,investment
+Compass Group,Google,customer
+Dell,Compass Group,customer
+ANSYS,Pfizer,partnership
+IBM,STX,investment
+IBM,Intel,investment
+IBM,STX,partnership
+ANSYS,Microsoft,customer
+IBM,Akamai,customer
+Adobe,Tesco,investment
+Adobe,Interpublic Group,investment
+Qualcomm,Oracle,customer
+eBay,Infor,investment
+Walmart,Woolworths,investment
+TRENT,Airbus,customer
+Oracle,Tesco,customer
+Kimberly-Clark,Autodesk,customer
+Pinterest,Dell,investment
+Microsoft,BorgWarner,customer
+NetApp,Fortinet,partnership
+NetApp,GoDaddy,investment
+Dell,Keurig,investment
+Adobe,Juniper Networks,customer
+Autodesk,Texas Instruments,customer
+Best Buy,Autodesk,customer
+Motorola,Viacom,investment
+Microsoft,Equinix,customer
+Trimble,IBM,customer
+Trimble,Corning,investment
+Google,Airbus,partnership
+Google,Juniper Networks,customer
+Fortinet,Kimberly-Clark,customer
+Walmart,Accenture,partnership
+Walmart,STX,customer
+Facebook,Scholastic,customer
+IBM,Dick's Sporting Goods,partnership
+IBM,Nike,investment
+Accenture,Google,customer
+Kinder Morgan,Lowe's,investment
+Kinder Morgan,RBC,investment
+Oracle,ConocoPhillips,customer
+Oracle,SWIFT,partnership
+Oracle,First Solar,partnership
+Oracle,ConAgra Foods,partnership
+Nike,Intel,competitor
+Nike,Intel,partnership
+Nike,Booz Allen Hamilton,partnership
+Nike,Duke Energy,partnership
+Adobe,TE Connectivity,investment
+Google,Autodesk,partnership
+Dell,Equinix,partnership
+Motorola,Fortune Brands,customer
+Microsoft,Tractor Supply,competitor
+Motorola,Autodesk,customer
+Lululemon,Cisco,partnership
+IBM,Workday,partnership
+Google,LendingTree,competitor
+Intel,Walgreens,customer
+Intel,EBS,customer
+Merck,Microsoft,competitor
+Cisco,Merck,customer
+Cisco,Biomet,partnership
+Cisco,Pfizer,investment
+Cisco,Johnson & Johnson,investment
+Cisco,Global Communications,investment
+Delta Air Lines,Airbus,customer
+Delta Air Lines,Union Pacific,investment
+Delta Air Lines,Google,investment
+Dick's Sporting Goods,Walmart,competitor
+Dick's Sporting Goods,Nike,partnership
+Adobe,Dick's Sporting Goods,customer
+Motorola,Qualcomm,competitor
+Pinterest,Motorola,investment
+Pinterest,MGM,investment
+Pinterest,Walmart,investment
+Oracle,Qiagen,competitor
+Oracle,Thermo Fisher Scientific,competitor
+IBM,Williams-Sonoma,competitor
+Microsoft,Woolworths,investment
+Microsoft,Woolworths,partnership
+Google,Thermo Fisher Scientific,investment
+Northrop Grumman,Xylem,customer
+Oracle,Northrop Grumman,partnership
+Oracle,Synopsys,partnership
+Oracle,Keurig,partnership
+Facebook,Delta Air Lines,partnership
+Juniper Networks,Telstra,investment
+Juniper Networks,Autodesk,partnership
+Viacom,Walgreens,partnership
+Viacom,Best Buy,investment
+Viacom,Adobe,partnership
+Viacom,MGM,partnership
+Viacom,Starbucks,investment
+Viacom,Facebook,investment
+Viacom,eBay,investment
+Viacom,Google,investment
+Tractor Supply,Starbucks,customer
+Tractor Supply,Walmart,customer
+Tractor Supply,Walmart,investment
+AMD,Motorola,investment
+AMD,Motorola,partnership
+Walgreens,Dell,customer
+Symantec,Pfizer,customer
+Adobe,Best Buy,investment
+Adobe,Walmart,partnership
+Pinterest,IBM,investment
+Walmart,Motorola,customer
+Facebook,Woolworths,investment
+Facebook,Tesco,investment
+Exelon,Entergy,partnership
+Microsoft,Danaher,investment
+Hill & Knowlton,Johnson & Johnson,partnership
+Hill & Knowlton,Pfizer,customer
+Hill & Knowlton,Motorola,customer
+Exelon,Oracle,customer
+Google,eBay,competitor
+Google,Wellpoint,investment
+Google,Northrop Grumman,investment
+Walmart,Walgreens,partnership
+Motorola,AMD,investment
+Google,Trimble,customer
+Google,Dr Pepper Snapple Group,customer
+Merck,Illumina,customer
+Microsoft,AstraZeneca,customer
+Intel,Best Buy,partnership
+Microsoft,Booz Allen Hamilton,partnership
+Adobe,Best Buy,customer
+Western Digital,Microsoft,competitor
+IBM,Western Digital,customer
+Oracle,Symantec,customer
+Accenture,Fortis,customer
+Nike,Aon,partnership
+BorgWarner,Duke Energy,partnership
+BorgWarner,Google,partnership
+BorgWarner,Tesco,partnership
+Fortinet,Juniper Networks,competitor
+Fortinet,Cisco,competitor
+Fortinet,IBM,investment
+Accenture,Oracle,customer
+Vodafone,Adobe,customer
+Microsoft,Vodafone,customer
+Cisco,CCH,customer
+Intel,Wellpoint,investment
+IBM,Dr Pepper Snapple Group,competitor
+Intel,Accenture,investment
+Facebook,TJX,partnership
+Intel,NetApp,customer
+CBRE,Equinix,customer
+CBRE,Adobe,investment
+Oracle,Trimble,customer
+Google,Cisco,investment
+Google,ANSYS,investment
+Delta Air Lines,IBM,customer
+Delta Air Lines,Intel,partnership
+Delta Air Lines,Qualcomm,partnership
+Google,AstraZeneca,investment
+Google,Danaher,investment
+Google,Zimmer Holdings,investment
+Google,Biomet,investment
+Dell,Akamai,partnership
+ANSYS,Delphi Automotive,competitor
+Extreme Networks,Cisco,partnership
+Motorola,Best Buy,partnership
+IAG,Oracle,customer
+IAG,Telstra,partnership
+IAG,NetApp,partnership
+Autodesk,ConocoPhillips,investment
+CarMax,Facebook,investment
+Oracle,IAG,investment
+IBM,Insurance Australia Group,investment
+Oracle,Netflix,investment
+Emerson,Accenture,customer
+Oracle,Airbus,partnership
+AMD,Best Buy,partnership
+Symantec,Juniper Networks,competitor
+Symantec,Adobe,partnership
+Symantec,Exelon,customer
+Symantec,Qualcomm,partnership
+Symantec,Walmart,partnership
+Oracle,Juniper Networks,partnership
+Infor,Tesco,partnership
+Infor,Intel,partnership
+Infor,Tesco,customer
+RBC,Facebook,customer
+Qualcomm,Best Buy,partnership
+Discovery Communications,Telstra,customer
+Oracle,Intel,competitor
+AMD,Oracle,partnership
+AMD,Google,partnership
+Adobe,Nike,customer
+Akamai,AMD,investment
+Akamai,Parsons,customer
+Akamai,Qualcomm,customer
+Akamai,Northrop Grumman,customer
+Microsoft,Airbus,partnership
+Microsoft,3M,investment
+Lear,BorgWarner,customer
+Google,Adobe,competitor
+Microsoft,Workday,partnership
+Carrefour,IBM,customer
+Motorola,Facebook,investment
+Motorola,Hershey,investment
+IBM,Oracle,competitor
+General Mills,Oracle,customer
+General Mills,Pinterest,customer
+General Mills,CarMax,customer
+Pinterest,Kimberly-Clark,partnership
+Pinterest,Campbell Soup,partnership
+Pinterest,ConAgra Foods,partnership
+Pinterest,Tesco,competitor
+Pinterest,Chipotle,competitor
+CBRE,Devon Energy,partnership
+General Mills,Duke Energy,customer
+General Mills,Duke Energy,partnership
+General Mills,Walmart,investment
+General Mills,Facebook,investment
+Airbus,ConocoPhillips,investment
+Infor,IBM,customer
+Walmart,Chipotle,partnership
+Walmart,EBA,partnership
+Walmart,ServiceNow,partnership
+Walmart,Oracle,partnership
+Walmart,IAG,investment
+Walmart,Exelon,investment
+Walmart,Juniper Networks,investment
+Walmart,Rockwell Automation,investment
+Walmart,Wellpoint,investment
+Walmart,CarMax,customer
+Walmart,Kinder Morgan,customer
+RBC,Microsoft,partnership
+RBC,Microsoft,customer
+Oracle,NetApp,customer
+Microsoft,Delphi Automotive,customer
+IBM,Rockwell Automation,customer
+EBS,IBM,customer
+Oracle,Etsy,investment
+Intel,eBay,partnership
+Juniper Networks,Symantec,customer
+Juniper Networks,Western Digital,customer
+IBM,Facebook,competitor
+IBM,Pinterest,customer
+Intel,Lowe's,competitor
+Microsoft,Johnson & Johnson,investment
+Zscaler,Walmart,customer
+Intel,Western Digital,competitor
+RBC,Merck,investment
+NetApp,Facebook,investment
+NetApp,Viacom,partnership
+Twilio,Facebook,investment
+Twilio,Intel,investment
+Equinix,Google,partnership
+Fortinet,Vail Resorts,customer
+Fortinet,Nike,investment
+Fortinet,Telstra,investment
+Oracle,Airbus,customer
+Intel,West Corporation,investment
+Intel,Netflix,customer
+Accenture,UPS,customer
+STX,Nike,partnership
+Atlassian,Microsoft,customer
+Vodafone,Facebook,partnership
+Vodafone,Facebook,customer
+Oracle,TJX,customer
+Intel,Vodafone,investment
+Motorola,Danaher,investment
+Best Buy,Vodafone,customer
+Dell,Cisco,competitor
+Dell,IBM,competitor
+Facebook,Fortune Brands,investment
+Microsoft,Nike,customer
+Accenture,Walmart,customer
+Delphi Automotive,Autodesk,customer
+IBM,Zscaler,customer
+IBM,Western Digital,partnership
+IBM,Fortinet,partnership
+IBM,NetApp,investment
+Google,Nike,investment
+Infor,Delphi Automotive,investment
+Microsoft,Adobe,competitor
+Microsoft,Nike,competitor
+Dell,eBay,competitor
+Dell,Google,competitor
+Juniper Networks,Dell,customer
+Johnson & Johnson,Motorola,customer
+Intel,Adobe,partnership
+Microsoft,Viacom,competitor
+Microsoft,Pfizer,partnership
+Pfizer,Intel,customer
+Pfizer,Adobe,investment
+Pfizer,IBM,partnership
+Pfizer,Microsoft,customer
+Pfizer,Intel,partnership
+Pfizer,Baker & Taylor,partnership
+Pfizer,IBM,customer
+Facebook,JM Smucker,investment
+Intel,Adobe,competitor
+Google,Molson Coors,investment
+Facebook,CarMax,investment
+Facebook,Symantec,investment
+Motorola,Starbucks,partnership
+Nike,Motorola,partnership
+Facebook,Workday,investment
+Danaher,Airbus,customer
+Intel,NetApp,competitor
+Facebook,Ball Corporation,partnership
+Facebook,Accenture,competitor
+Facebook,Chipotle,customer
+Facebook,Corning,investment
+Cisco,Pinterest,customer
+Cisco,Starbucks,competitor
+Facebook,Boston Scientific,investment
+Dell,Equinix,customer
+Google,Starbucks,partnership
+Google,MGM,investment
+eBay,Airbus,customer
+AMD,Netflix,competitor
+Best Buy,Western Digital,investment
+Best Buy,Tesco,investment
+Best Buy,Walmart,investment
+Best Buy,Motorola,investment
+Best Buy,Google,investment
+Best Buy,eBay,competitor
+CarMax,Symantec,competitor
+CarMax,Adobe,competitor
+CarMax,Microsoft,competitor
+CarMax,eBay,investment
+STR,Facebook,customer
+STR,Google,investment
+Oracle,Kimberly-Clark,partnership
+Oracle,Kimberly-Clark,customer
+Interpublic Group,Microsoft,customer
+Interpublic Group,Microsoft,partnership
+Interpublic Group,Weyerhaeuser,partnership
+Interpublic Group,Nike,partnership
+Interpublic Group,Nike,investment
+Interpublic Group,Weyerhaeuser,investment
+Interpublic Group,Dell,investment
+Emerson,Adobe,customer
+Facebook,Emerson,customer
+Microsoft,Swift Transportation,customer
+IBM,Trimble,partnership
+Oracle,GoDaddy,partnership
+Oracle,Akamai,investment
+Oracle,TE Connectivity,investment
+eBay,Walmart,competitor
+Pinterest,eBay,customer
+Motorola,Delta Air Lines,competitor
+Motorola,Republic Services,investment
+Motorola,Nike,partnership
+Cisco,Accenture,competitor
+Microsoft,Campbell Soup,customer
+Pinterest,Nike,investment
+Facebook,Equinix,customer
+Accenture,Elbit Systems,customer
+Oracle,Autodesk,partnership
+eBay,Best Buy,investment
+eBay,Intel,investment
+eBay,Dell,investment
+Delphi Automotive,Adobe,partnership
+Delphi Automotive,Google,competitor
+Delphi Automotive,IBM,partnership
+Delphi Automotive,Google,customer
+Delphi Automotive,Facebook,investment
+Intel,Cadence,customer
+Facebook,Aon,customer
+Airbus,Altair Engineering,customer
+Airbus,Netflix,customer
+Teradyne,Intel,customer
+Facebook,International Flavors & Fragrances Inc,investment
+Nike,Qualcomm,customer
+IBM,Starbucks,competitor
+Cisco,Juniper Networks,competitor
+Intel,Vodafone,customer
+Intel,Juniper Networks,competitor
+Aon,AMD,customer
+IBM,ServiceNow,customer
+IBM,ServiceNow,partnership
+Airbus,Northrop Grumman,customer
+Motorola,Dell,customer
+Elbit Systems,Northrop Grumman,partnership
+NetApp,Oracle,competitor
+Cisco,Dell,competitor
+AMD,Oracle,investment
+Cisco,Tesco,partnership
+Williams-Sonoma,Google,partnership
+Intel,Williams-Sonoma,customer
+Microsoft,Telstra,investment
+Google,Emerson,investment
+Google,Intel,competitor
+Oracle,Elbit Systems,investment
+Oracle,Motorola,investment
+Pinterest,Chipotle,partnership
+Starbucks,Keurig,customer
+Starbucks,Keurig,competitor
+Starbucks,Walmart,investment
+Starbucks,eBay,investment
+Oracle,DLT,partnership
+Oracle,NetApp,investment
+Cisco,Pfizer,customer
+Qualcomm,Etsy,partnership
+Texas Instruments,Qualcomm,competitor
+Accenture,TE Connectivity,partnership
+Qualcomm,Western Digital,investment
+Cisco,Post Holdings,investment
+Google,Equinix,customer
+Cisco,F5 Networks,customer
+Adobe,Baker & Taylor,partnership
+Adobe,Oracle,investment
+Qualcomm,Emerson,partnership
+Qualcomm,Oracle,partnership
+Qualcomm,Palo Alto Networks,customer
+Qualcomm,F5 Networks,customer
+Qualcomm,Oracle,investment
+Rentokil Initial,Autodesk,customer
+Juniper Networks,Fortune Brands,investment
+Juniper Networks,TJX,investment
+IBM,Best Buy,competitor
+Microsoft,Best Buy,partnership
+Google,GEO,customer
+Facebook,Discovery Communications,competitor
+Microsoft,Hershey,investment
+Microsoft,ConAgra Foods,competitor
+Microsoft,Discovery Communications,investment
+Microsoft,Hormel Foods,investment
+Intel,Walmart,partnership
+Microsoft,Lowe's,customer
+IBM,McGraw-Hill,investment
+IBM,Aon,customer
+IBM,Amgen,competitor
+IBM,Schlumberger,investment
+IBM,Delta Air Lines,investment
+IBM,F5 Networks,investment
+Vodafone,Motorola,investment
+Qualcomm,Symantec,partnership
+Workday,Cisco,customer
+Workday,Intel,partnership
+Cisco,Airbus,partnership
+Pinterest,RBC,partnership
+Pinterest,Starbucks,customer
+Pinterest,Delta Air Lines,customer
+Pinterest,eBay,partnership
+Pinterest,ConocoPhillips,partnership
+Pinterest,Intel,investment
+Pinterest,ConocoPhillips,investment
+Juniper Networks,Cisco,competitor
+Google,F5 Networks,competitor
+Google,Extreme Networks,competitor
+Google,Etsy,competitor
+Google,Arista Networks,competitor
+Google,F5 Networks,investment
+Google,Primoris Services,investment
+Google,STX,customer
+Google,Extreme Networks,investment
+West Corporation,American Electric Power,investment
+West Corporation,Microsoft,investment
+Cadence,Microsoft,partnership
+Google,Entegris,customer
+Northrop Grumman,Accenture,customer
+Snapchat,Nike,partnership
+Microsoft,Atlassian,partnership
+Google,Baker & Taylor,investment
+EBS,Oracle,partnership
+ADB,Intel,partnership
+Intel,Emerson,competitor
+Intel,Delta Air Lines,competitor
+Delta Air Lines,Dell,customer
+Delta Air Lines,IBM,investment
+Delta Air Lines,Exelon,investment
+Delta Air Lines,Walmart,investment
+Entergy,Facebook,customer
+Entergy,Delta Air Lines,customer
+Entergy,TJX,customer
+Entergy,Google,customer
+Entergy,Northrop Grumman,partnership
+Entergy,Gilead Sciences,partnership
+Entergy,IBM,partnership
+Entergy,Facebook,partnership
+Airbus,CAE,customer
+Airbus,IAG,competitor
+CAE,Woolworths,investment
+Cisco,Tesco,customer
+IBM,HealthCare Partners,investment
+Symantec,AMD,partnership
+Google,LendingTree,investment
+Cisco,Qualcomm,customer
+Cisco,Booz Allen Hamilton,investment
+Cisco,Booz Allen Hamilton,partnership
+Oracle,Infor,customer
+Oracle,First Solar,customer
+Infor,Adobe,customer
+Infor,CBRE,customer
+Infor,CORT,customer
+Facebook,Molson Coors,investment
+AMD,Facebook,investment
+Infor,AMD,customer
+Atlassian,Netflix,customer
+Cisco,Western Digital,partnership
+Cisco,Juniper Networks,partnership
+Cisco,Emerson,investment
+Walmart,Dell,customer
+Oracle,DTE Energy,customer
+Starbucks,Symantec,customer
+Motorola,Pinterest,customer
+Cisco,Keurig,customer
+Cisco,Merck,partnership
+IBM,Sysco,partnership
+IBM,General Mills,partnership
+Facebook,Campbell Soup,customer
+Equinix,Dell,customer
+Equinix,Dell,partnership
+Equinix,Intel,investment
+F5 Networks,Equinix,customer
+F5 Networks,Google,investment
+F5 Networks,Google,competitor
+F5 Networks,Facebook,partnership
+F5 Networks,Facebook,customer
+Pinterest,Cisco,customer
+IBM,Discovery Communications,investment
+Facebook,Campbell Soup,competitor
+Juniper Networks,IBM,customer
+Pfizer,Merck,competitor
+Pfizer,AstraZeneca,competitor
+IBM,Zoetis,investment
+IBM,Emergent,partnership
+IBM,Illumina,partnership
+IBM,CBRE,partnership
+IBM,AbbVie,investment
+IBM,Biogen Idec,partnership
+IBM,Boston Scientific,investment
+IBM,Qiagen,investment
+IBM,Akamai,investment
+IBM,Gilead Sciences,investment
+IBM,Biogen Idec,investment
+IBM,AMD,investment
+IBM,Interpublic Group,investment
+IBM,Lowe's,partnership
+NetApp,Fortinet,customer
+Microsoft,DTE Energy,partnership
+Lowe's,Nike,customer
+Adobe,ADB,customer
+Walmart,Facebook,customer
+Walmart,MGM,investment
+Walmart,Netflix,investment
+Walmart,Google,investment
+Walmart,IBM,investment
+Walmart,Facebook,investment
+IBM,ConAgra Foods,competitor
+Best Buy,Delta Air Lines,investment
+Pinterest,Pfizer,investment
+Pinterest,eBay,investment
+Pinterest,Best Buy,investment
+Netflix,MICROS,customer
+Facebook,MGM,customer
+Facebook,Chipotle,investment
+CBRE,Facebook,customer
+CBRE,Fortis,investment
+CBRE,SWIFT,partnership
+CBRE,Airbus,investment
+CBRE,Cisco,partnership
+Microsoft,Entergy,investment
+ConocoPhillips,MGM,partnership
+ConocoPhillips,Facebook,investment
+Pinterest,Tesco,customer
+Oracle,Symantec,competitor
+Adobe,Merck,customer
+MGM,Microsoft,partnership
+MGM,Facebook,partnership
+MGM,Motorola,partnership
+MGM,Starbucks,partnership
+MGM,eBay,partnership
+Akamai,Lululemon,partnership
+Microsoft,Campbell Soup,partnership
+IBM,Hershey,competitor
+Facebook,General Mills,customer
+Walmart,IBM,customer
+TJX,AMD,customer
+UPS,Facebook,customer
+Airbus,CBRE,customer
+Microsoft,Pfizer,investment
+NetApp,Starbucks,partnership
+Celestica,Cisco,partnership
+Google,Pinterest,competitor
+RBC,Baker & McKenzie,partnership
+RBC,Telstra,partnership
+RBC,Woolworths,investment
+RBC,Telstra,investment
+RBC,Boston Scientific,investment
+RBC,Pfizer,investment
+RBC,GoDaddy,investment
+RBC,Google,investment
+Dell,eBay,customer
+Dell,AstraZeneca,customer
+Motorola,Qualcomm,investment
+Sysco,IBM,partnership
+Sysco,Google,customer
+Qualcomm,Akamai,investment
+Facebook,Qualcomm,customer
+Chipotle,eBay,investment
+Chipotle,Google,investment
+ASM,Google,partnership
+ASM,Microsoft,investment
+ASM,Google,investment
+ASM,eBay,investment
+Walgreens,Starbucks,customer
+HealthCare Partners,Oracle,customer
+Google,HealthCare Partners,customer
+Facebook,TJX,investment
+IBM,Dell,competitor
+Google,AstraZeneca,partnership
+Google,Boston Scientific,partnership
+Adobe,Discovery Communications,investment
+Symantec,Microsoft,investment
+Teradyne,Synopsys,customer
+Cisco,GoDaddy,customer
+Cisco,Nike,customer
+Cisco,Booz Allen Hamilton,customer
+Cisco,SEB,investment
+Cisco,Trimble,investment
+Cisco,Best Buy,investment
+Facebook,Zoetis,partnership
+Facebook,ConocoPhillips,partnership
+Google,Hormel Foods,customer
+Google,American Water,customer
+Cisco,Scholastic,partnership
+Cisco,Autodesk,partnership
+Cisco,EBA,partnership
+Cisco,Aon,investment
+Atlassian,Adobe,customer
+Adobe,Oracle,competitor
+Adobe,Motorola,competitor
+Facebook,Adobe,competitor
+Facebook,Symantec,competitor
+Oracle,Airbus,investment
+Oracle,Insurance Australia Group,investment
+Facebook,Service Nation,customer
+Walgreens,IBM,investment
+Walgreens,Dell,investment
+Walgreens,eBay,investment
+Facebook,Williams-Sonoma,partnership
+IAG,Insurance Australia Group,partnership
+IAG,Airbus,partnership
+Microsoft,Aon,customer
+Adobe,ConAgra Foods,customer
+Adobe,AMD,customer
+Adobe,Molson Coors,customer
+Microsoft,Xylem,investment
+Google,Sonos,partnership
+ANSYS,Vodafone,customer
+Airbus,Airbnb,partnership
+IBM,Cars.com,customer
+Campbell Soup,Keurig,partnership
+IBM,Campbell Soup,customer
+Pinterest,Hormel Foods,competitor
+Kimberly-Clark,Accenture,customer
+Best Buy,Walmart,customer
+Cisco,Amgen,investment
+Akamai,Oracle,customer
+Carrefour,Tesco,competitor
+Carrefour,Dell,customer
+Atlassian,Dell,partnership
+Facebook,AMD,customer
+Facebook,Telstra,investment
+CarMax,Google,partnership
+Cars.com,IBM,customer
+Keurig,Facebook,investment
+Dell,Symantec,customer
+UPS,Snapchat,customer
+Walmart,Delta Air Lines,investment
+BorgWarner,IBM,customer
+Facebook,Viacom,customer
+Microsoft,Zscaler,customer
+Emerson,Telstra,customer
+eBay,IBM,customer
+Facebook,Nike,investment
+Facebook,Uber,partnership
+Facebook,UPS,investment
+Facebook,Dick's Sporting Goods,investment
+ConAgra Foods,Accenture,customer
+Pfizer,Sysco,customer
+Pfizer,Carrefour,investment
+Pfizer,Walmart,investment
+Pfizer,Thermo Fisher Scientific,investment
+Pfizer,ConAgra Foods,competitor
+F5 Networks,CarMax,customer
+F5 Networks,Oracle,partnership
+F5 Networks,Cisco,partnership
+NetApp,Zimmer Holdings,partnership
+Microsoft,EBS,competitor
+Microsoft,Best Buy,investment
+Microsoft,Kinder Morgan,customer
+Microsoft,Keurig,customer
+Compass Group,Cisco,customer
+Compass Group,Intel,partnership
+Google,ConocoPhillips,investment
+Google,GoDaddy,investment
+Google,ConocoPhillips,customer
+Accenture,Amgen,partnership
+Accenture,Danaher,partnership
+ANSYS,AMD,customer
+ANSYS,Microsoft,investment
+ANSYS,Altair Engineering,partnership
+ANSYS,Dell,partnership
+ANSYS,Elbit Systems,partnership
+ANSYS,TJX,partnership
+ANSYS,Airbus,investment
+Google,Airbus,investment
+Dell,Symantec,competitor
+RBC,Oracle,customer
+Adobe,Symantec,customer
+Adobe,Starbucks,partnership
+Cisco,Qualcomm,competitor
+Texas Instruments,Cisco,partnership
+Facebook,Johnson & Johnson,customer
+Facebook,Kimberly-Clark,partnership
+Facebook,General Mills,partnership
+IBM,Telstra,investment
+Google,Tesco,competitor
+Google,Carrefour,partnership
+Intel,Starbucks,investment
+Microsoft,Best Buy,customer
+Juniper Networks,Facebook,customer
+Google,Cisco,competitor
+Microsoft,EnerSys,investment
+Oracle,Netflix,partnership
+Emerson,Keurig,customer
+Emerson,Amgen,partnership
+Emerson,Entegris,partnership
+Emerson,Dell,partnership
+Cadence,Synopsys,competitor
+Atlassian,Akamai,partnership
+Atlassian,Motorola,investment
+Hill & Knowlton,Facebook,competitor
+Intel,Tyson Foods,partnership
+Intel,General Mills,partnership
+IBM,Akamai,competitor
+IBM,Adobe,competitor
+IBM,Synopsys,competitor
+NetApp,Akamai,partnership
+NetApp,Adobe,partnership
+NetApp,Synopsys,customer
+NetApp,Facebook,customer
+NetApp,Adobe,investment
+NetApp,Akamai,investment
+NetApp,Oracle,investment
+IBM,TJX,customer
+Microsoft,Walgreens,partnership
+First Solar,IBM,partnership
+Google,Vodafone,competitor
+Starbucks,Qualcomm,customer
+Intel,NetApp,investment
+Equifax,Cisco,customer
+Juniper Networks,Microsoft,customer
+Accenture,Fortis,partnership
+Accenture,Intel,customer
+Oracle,Select Medical,investment
+Rockwell Automation,Oracle,investment
+Adobe,JBL,investment
+Adobe,Fortis,investment
+IBM,EBA,partnership
+Netflix,Adobe,customer
+Autodesk,Viacom,partnership
+Autodesk,Cisco,partnership
+Autodesk,RBC,investment
+Autodesk,Biogen Idec,customer
+Autodesk,AMD,customer
+Autodesk,EBS,investment
+Autodesk,Woolworths,investment
+Autodesk,UPS,investment
+Autodesk,Compass Group,investment
+Autodesk,IBM,investment
+Accenture,ANSYS,customer
+HealthCare Partners,Cisco,partnership
+Intel,Johnson & Johnson,investment
+Accenture,ConocoPhillips,investment
+Nike,BorgWarner,customer
+IBM,Texas Instruments,competitor
+Symantec,Equifax,customer
+Cisco,AstraZeneca,customer
+Cisco,Oracle,competitor
+NetApp,Tesco,customer
+JBL,Oracle,investment
+JBL,Symantec,partnership
+Accenture,JBL,customer
+Facebook,Lowe's,customer
+Facebook,Oracle,competitor
+Intel,Facebook,competitor
+Google,Ameren,customer
+Insurance Australia Group,IAG,customer
+Oracle,Nike,partnership
+Lowe's,Facebook,customer
+Lowe's,IBM,competitor
+Cisco,Compass Group,investment
+Facebook,Dr Pepper Snapple Group,partnership
+Facebook,Sysco,investment
+Motorola,Symantec,customer
+Microsoft,NetApp,investment
+Microsoft,Western Digital,investment
+IBM,eBay,competitor
+Infor,Microsoft,customer
+IBM,Infor,customer
+Autodesk,American Water,partnership
+Autodesk,Cadence,partnership
+Autodesk,Motorola,customer
+Autodesk,Walmart,customer
+Autodesk,Facebook,customer
+Autodesk,Microsoft,investment
+Autodesk,Facebook,investment
+Autodesk,Viacom,investment
+Sonos,Google,partnership
+Telstra,Google,competitor
+Facebook,UPS,customer
+UPS,Baker & Taylor,customer
+Microsoft,Carrefour,customer
+Microsoft,Carrefour,partnership
+Best Buy,JBL,customer
+CBRE,Aon,customer
+Cisco,Technology,partnership
+Oracle,UPS,partnership
+eBay,Fortune Brands,investment
+eBay,Lowe's,investment
+eBay,Republic Services,investment
+eBay,Zoetis,investment
+Adobe,Limited Brands,investment
+Elbit Systems,Vodafone,customer
+Oracle,Emerson,customer
+IBM,BorgWarner,customer
+Intel,Akamai,investment
+Motorola,Equinix,customer
+Vodafone,Microsoft,customer
+Vodafone,Telstra,competitor
+Vodafone,Akamai,partnership
+CarMax,Facebook,customer
+CarMax,GoDaddy,partnership
+CarMax,Lowe's,investment
+Google,Delta Air Lines,customer
+Google,Amgen,partnership
+Qualcomm,Adobe,partnership
+Google,Oracle,competitor
+Cisco,Oracle,investment
+Pfizer,Facebook,customer
+IBM,Scholastic,partnership
+IBM,eBay,partnership
+IBM,Williams-Sonoma,investment
+Google,Amgen,customer
+Microsoft,CBRE,investment
+Symantec,Cisco,partnership
+Google,Akamai,partnership
+Facebook,CBRE,competitor
+Microsoft,CORT,customer
+Microsoft,DTE Energy,investment
+Juniper Networks,NetApp,partnership
+Juniper Networks,AMD,investment
+Juniper Networks,Adobe,partnership
+IAG,Infor,customer
+Cadence,Intel,supplier
+AstraZeneca,ServiceNow,supplier
+Cars.com,ServiceNow,supplier
+Equinix,ServiceNow,supplier
+Lennox International,ServiceNow,supplier
+NetApp,ServiceNow,supplier
+OSRAM,Palo Alto Networks,supplier
+Nordson Corporation,Palo Alto Networks,supplier
+Qualcomm,Palo Alto Networks,supplier
+DTE Energy,Palo Alto Networks,supplier
+Google,Delphi Automotive,supplier
+Aon,Facebook,supplier
+Bristol-Myers Squibb,Pega,supplier
+Cisco,Pega,supplier
+Paypal,Pega,supplier
+Telstra,Pega,supplier
+Vodafone,Pega,supplier
+JABIL,Zscaler,supplier
+"Johnson Controls, Inc.",Zscaler,supplier
+Autodesk,Zscaler,supplier
+Dr Pepper Snapple Group,Zscaler,supplier
+Hormel,Zscaler,supplier
+McCormick,Zscaler,supplier
+Sage,Zscaler,supplier
+Sealed Air,Zscaler,supplier
+Microsoft,Dell,supplier
+Dell,Adobe,supplier
+Dell,Google,supplier
+Google,Qualcomm,supplier
+Telstra,Accenture,supplier
+AstraZeneca,Accenture,supplier
+Exelon,Accenture,supplier
+Dell,Accenture,supplier
+Best Buy,Accenture,supplier
+Cisco,Microsoft,supplier
+Pfizer,Illumina,supplier
+Illumina,Pfizer,supplier
+Equifax,Pinterest,supplier
+Dell,Pinterest,supplier
+Oracle,Facebook,supplier
+Kimberly-Clark,Microsoft,supplier
+Discovery Communications,Microsoft,supplier
+Microsoft,Motorola,supplier
+Motorola,Intel,supplier
+Intel,Oracle,supplier
+Microsoft,Google,supplier
+AMD,Google,supplier
+eBay,Google,supplier
+Google,IBM,supplier
+IBM,Starbucks,supplier
+Starbucks,Oracle,supplier
+Microsoft,Cisco,supplier
+Intel,AMD,supplier
+Microsoft,AMD,supplier
+Google,Adobe,supplier
+Motorola,Adobe,supplier
+Cisco,Adobe,supplier
+Walmart,Microsoft,supplier
+Microsoft,Facebook,supplier
+IBM,Microsoft,supplier
+Qiagen,AstraZeneca,supplier
+Telstra,Woolworths,supplier
+Woolworths,eBay,supplier
+Netflix,Microsoft,supplier
+IBM,Accenture,supplier
+Microsoft,IBM,supplier
+Intel,Google,supplier
+eBay,AMD,supplier
+Qualcomm,AMD,supplier
+AMD,Microsoft,supplier
+eBay,Microsoft,supplier
+Western Digital,Corning,supplier
+Intel,Microsoft,supplier
+AstraZeneca,Amgen,supplier
+Oracle,NetApp,supplier
+Oracle,MGM,supplier
+Carrefour,Workday,supplier
+Oracle,Google,supplier
+Oracle,JBL,supplier
+Intel,JBL,supplier
+Google,JBL,supplier
+Equifax,Juniper Networks,supplier
+Adobe,Oracle,supplier
+Facebook,Google,supplier
+Google,Akamai,supplier
+Google,Facebook,supplier
+Advanta,IBM,supplier
+IBM,Facebook,supplier
+Trimble,Autodesk,supplier
+CAE,aee,supplier
+First Solar,Emerson,supplier
+NetApp,UPS,supplier
+UPS,Qiagen,supplier
+IBM,Intel,supplier
+Microsoft,F5 Networks,supplier
+F5 Networks,First Solar,supplier
+Google,Microsoft,supplier
+Google,Cisco,supplier
+CBRE,Microsoft,supplier
+Microsoft,Accenture,supplier
+Airbus,Booz Allen Hamilton,supplier
+ADB,Lear,supplier
+Lear,Oracle,supplier
+Oracle,CAE,supplier
+Airbnb,Akamai,supplier
+Google,Twilio,supplier
+Delta Air Lines,Adobe,supplier
+Autodesk,Adobe,supplier
+DLT,Pinterest,supplier
+Accenture,Vodafone,supplier
+Vodafone,Cisco,supplier
+Cisco,Motorola,supplier
+Dell,AMD,supplier
+Cisco,Oracle,supplier
+Motorola,Oracle,supplier
+Juniper Networks,Cisco,supplier
+Cisco,Juniper Networks,supplier
+Fortis,Microsoft,supplier
+Intel,Synopsys,supplier
+Dell,Intel,supplier
+Adobe,Intel,supplier
+Viacom,Google,supplier
+Netflix,Google,supplier
+Adobe,JBL,supplier
+Facebook,Cisco,supplier
+MGM,Cisco,supplier
+Cisco,BorgWarner,supplier
+Emerson,Hologic,supplier
+Hologic,Intel,supplier
+Cisco,IBM,supplier
+Pfizer,IBM,supplier
+Dr Pepper Snapple Group,IBM,supplier
+Netflix,IBM,supplier
+Walmart,IBM,supplier
+Oracle,Microsoft,supplier
+Facebook,Walgreens,supplier
+Walmart,Adobe,supplier
+Pinterest,Facebook,supplier
+Walgreens,Google,supplier
+Walgreens,Starbucks,supplier
+Microsoft,Qualcomm,supplier
+Trimble,Facebook,supplier
+American Water,Cisco,supplier
+Oracle,Cisco,supplier
+American Water,Motorola,supplier
+Motorola,Synopsys,supplier
+IBM,Oracle,supplier
+Kimberly-Clark,Equinix,supplier
+Accenture,Equinix,supplier
+IBM,Equinix,supplier
+Oracle,Equinix,supplier
+Netflix,Adobe,supplier
+Adobe,Microsoft,supplier
+Accenture,Google,supplier
+Microsoft,NetApp,supplier
+Airbus,Microsoft,supplier
+Microsoft,Intel,supplier
+Google,Intel,supplier
+Intel,Qualcomm,supplier
+Intel,Cisco,supplier
+NetApp,Vodafone,supplier
+Entergy,eBay,supplier
+STX,ArcelorMittal,supplier
+AMD,IBM,supplier
+IBM,Dell,supplier
+Texas Instruments,Facebook,supplier
+Texas Instruments,Intel,supplier
+Delta Air Lines,Intel,supplier
+Autodesk,JBL,supplier
+Google,Emerson,supplier
+Vodafone,Woolworths,supplier
+Google,Woolworths,supplier
+Woolworths,Facebook,supplier
+Google,Nike,supplier
+ASM,Oracle,supplier
+Walgreens,Oracle,supplier
+Google,Pinterest,supplier
+AST,Intel,supplier
+Symantec,IBM,supplier
+Biogen Idec,AstraZeneca,supplier
+Pfizer,AstraZeneca,supplier
+Thermo Fisher Scientific,Facebook,supplier
+Starbucks,Juniper Networks,supplier
+AstraZeneca,Juniper Networks,supplier
+Microsoft,Schlumberger,supplier
+Corning,Schlumberger,supplier
+Baker & McKenzie,Schlumberger,supplier
+Microsoft,Symantec,supplier
+eBay,Symantec,supplier
+Facebook,Symantec,supplier
+Adobe,Autodesk,supplier
+Facebook,Equinix,supplier
+Pfizer,Zoetis,supplier
+Zoetis,Illumina,supplier
+Intel,Adobe,supplier
+Symantec,Equinix,supplier
+NetApp,Equinix,supplier
+Symantec,Intel,supplier
+Northrop Grumman,Microsoft,supplier
+eBay,Cisco,supplier
+Cisco,Google,supplier
+IBM,Adobe,supplier
+Intel,Dell,supplier
+Northrop Grumman,Facebook,supplier
+Juniper Networks,IBM,supplier
+IBM,Google,supplier
+AMD,Akamai,supplier
+Facebook,Akamai,supplier
+Akamai,Adobe,supplier
+AMD,Intel,supplier
+Live Nation,Telstra,supplier
+Telstra,Dell,supplier
+Facebook,Oracle,supplier
+Nike,Intel,supplier
+Vodafone,Airbus,supplier
+Juniper Networks,Dell,supplier
+Microsoft,Oracle,supplier
+Google,Oracle,supplier
+eBay,Oracle,supplier
+Walmart,Oracle,supplier
+Best Buy,Oracle,supplier
+Netflix,Oracle,supplier
+Dell,Oracle,supplier
+NetApp,Microsoft,supplier
+Delta Air Lines,Fisher & Phillips,supplier
+Facebook,Fisher & Phillips,supplier
+Amgen,Fisher & Phillips,supplier
+Snapchat,Google,supplier
+Cars.com,Google,supplier
+Sonos,Microsoft,supplier
+Telstra,IBM,supplier
+Hershey,IBM,supplier
+Netflix,Akamai,supplier
+Telstra,Pinterest,supplier
+Autoliv,Texas Instruments,supplier
+Wellpoint,Google,supplier
+IBM,Motorola,supplier
+AMD,Oracle,supplier
+Motorola,Facebook,supplier
+Accenture,Motorola,supplier
+Cisco,Qualcomm,supplier
+Baker & McKenzie,Sandvik,supplier
+Adobe,Sandvik,supplier
+RBC,Microsoft,supplier
+Oracle,IBM,supplier
+Accenture,Cisco,supplier
+Nike,Lululemon,supplier
+Lululemon,Pinterest,supplier
+Pinterest,Oracle,supplier
+Walmart,Intel,supplier
+Oracle,Nike,supplier
+Facebook,Intel,supplier
+Motorola,ANSYS,supplier
+TJX,Northrop Grumman,supplier
+Starbucks,Google,supplier
+Motorola,Google,supplier
+Facebook,Adobe,supplier
+eBay,Intel,supplier
+MGM,Qualcomm,supplier
+Vodafone,Akamai,supplier
+Tesco,Microsoft,supplier
+Facebook,eBay,supplier
+Adobe,eBay,supplier
+Telstra,Google,supplier
+Cisco,Autodesk,supplier
+Thermo Fisher Scientific,Emerson,supplier
+Emerson,Microsoft,supplier
+Facebook,Pinterest,supplier
+Adobe,Accenture,supplier
+Intel,Facebook,supplier
+Accenture,Facebook,supplier
+eBay,Qualcomm,supplier
+Qualcomm,Oracle,supplier
+GoDaddy,Microsoft,supplier
+Equifax,Duke Energy,supplier
+Facebook,Merck,supplier
+Google,Merck,supplier
+eBay,Merck,supplier
+Accenture,Dell,supplier
+Thor Industries,Microsoft,supplier
+Lear,Google,supplier
+Motorola,Cisco,supplier
+Qualcomm,Intel,supplier
+Facebook,Microsoft,supplier
+Cisco,Facebook,supplier
+Bath & Body Works,Limited Brands,supplier
+Chipotle,IBM,supplier
+Cisco,Vodafone,supplier
+Qualcomm,Adobe,supplier
+eBay,Adobe,supplier
+Vodafone,Google,supplier
+Nike,Walmart,supplier
+Viacom,Walmart,supplier
+Google,Walmart,supplier
+Cisco,Equinix,supplier
+Accenture,Oracle,supplier
+Qualcomm,Infor,supplier
+Adobe,Pinterest,supplier
+Best Buy,Intel,supplier
+Aon,Google,supplier
+Merck,Microsoft,supplier
+Biogen Idec,Microsoft,supplier
+Intel,IBM,supplier
+Akamai,Etsy,supplier
+Accenture,Akamai,supplier
+Starbucks,Facebook,supplier
+Oracle,ConocoPhillips,supplier
+Pinterest,Etsy,supplier
+Etsy,Pinterest,supplier
+Walmart,Facebook,supplier
+Qualcomm,Microsoft,supplier
+Qualcomm,Corning,supplier
+Best Buy,Walmart,supplier
+Etsy,Dell,supplier
+Google,Dell,supplier
+DTE Energy,Molson Coors,supplier
+Facebook,Molson Coors,supplier
+eBay,Molson Coors,supplier
+Dell,Molson Coors,supplier
+Union Pacific,Molson Coors,supplier
+Microsoft,Nike,supplier
+Accenture,Rockwell Automation,supplier
+Dell,Microsoft,supplier
+Salem Group,Cisco,supplier
+Vodafone,Oracle,supplier
+eBay,IBM,supplier
+WideOpenWest,Motorola,supplier
+Autodesk,Google,supplier
+Autodesk,Microsoft,supplier
+ANSYS,Akamai,supplier
+Equinix,Oracle,supplier
+Google,ANSYS,supplier
+Google,Netflix,supplier
+Google,Juniper Networks,supplier
+Starbucks,Microsoft,supplier
+Microsoft,Adobe,supplier
+Walgreens,IBM,supplier
+AstraZeneca,Walgreens,supplier
+Cisco,Walgreens,supplier
+Pfizer,Walgreens,supplier
+Facebook,Dell,supplier
+Cisco,NetApp,supplier
+Intel,Steel Dynamics,supplier
+Pinterest,Adobe,supplier
+Oracle,Dell,supplier
+Google,Autodesk,supplier
+Autodesk,Symantec,supplier
+Google,West Marine,supplier
+Google,eBay,supplier
+Emerson,Exelixis,supplier
+Duke Energy,Netflix,supplier
+Accenture,Microsoft,supplier
+Microsoft,Johnson & Johnson,supplier
+Autodesk,Oracle,supplier
+Oracle,Bath & Body Works,supplier
+Microsoft,Bath & Body Works,supplier
+Facebook,Bath & Body Works,supplier
+Bath & Body Works,Google,supplier
+Pfizer,Merck,supplier
+Akamai,Google,supplier
+Chipotle,Oracle,supplier
+Google,Motorola,supplier
+Netflix,Motorola,supplier
+Motorola,Microsoft,supplier
+Delta Air Lines,Cisco,supplier
+Facebook,General Mills,supplier
+Dr Pepper Snapple Group,Zimmer Holdings,supplier
+Wellpoint,IBM,supplier
+Qualcomm,Google,supplier
+Oracle,Adobe,supplier
+Oracle,Autodesk,supplier
+Google,Starbucks,supplier
+Google,Interpublic Group,supplier
+Adobe,Cisco,supplier
+AstraZeneca,Adobe,supplier
+INC Research,Adobe,supplier
+HealthCare Partners,Microsoft,supplier
+Airbus,Elbit Systems,supplier
+Delta Air Lines,Elbit Systems,supplier
+Kimberly-Clark,Elbit Systems,supplier
+Pfizer,Oracle,supplier
+Microsoft,Delphi Automotive,supplier
+IBM,Delphi Automotive,supplier
+Autodesk,Intel,supplier
+Nike,Starbucks,supplier
+Google,Synopsys,supplier
+Dell,Synopsys,supplier
+Cisco,Intel,supplier
+Accenture,IBM,supplier
+Tesco,IBM,supplier
+Oracle,Intel,supplier
+Amgen,Facebook,supplier
+Illumina,Zimmer Holdings,supplier
+IBM,Altria Group,supplier
+Motorola,Pinterest,supplier
+Microsoft,Pinterest,supplier
+Qualcomm,Pinterest,supplier
+Pfizer,Pinterest,supplier
+Insurance Australia Group,Google,supplier
+Kimberly-Clark,Google,supplier
+AstraZeneca,Google,supplier
+Dell,IBM,supplier
+Waters Corporation,Oracle,supplier
+Emerson,Accenture,supplier
+Schlumberger,IBM,supplier
+Nike,Motorola,supplier
+Extreme Networks,Microsoft,supplier
+Weyerhaeuser,IBM,supplier
+Pfizer,Microsoft,supplier
+Johnson & Johnson,Microsoft,supplier
+Johnson & Johnson,Intel,supplier
+IBM,Qualcomm,supplier
+Microsoft,Akamai,supplier
+AstraZeneca,Oracle,supplier
+Cisco,Synopsys,supplier
+eBay,Facebook,supplier
+IAG,IBM,supplier
+ConocoPhillips,IBM,supplier
+IBM,Cisco,supplier
+Microsoft,Western Digital,supplier
+Intel,Emerson,supplier
+IBM,Emerson,supplier
+Synopsys,Microsoft,supplier
+IBM,AMD,supplier
+Williams-Sonoma,Google,supplier
+Google,Walgreens,supplier
+IBM,Symantec,supplier
+DLT,Symantec,supplier
+Symantec,Microsoft,supplier
+Equifax,Microsoft,supplier
+Ecolab,Intel,supplier
+Ameren,IBM,supplier
+Molson Coors,Google,supplier
+Corning,Google,supplier
+Microsoft,Teradyne,supplier
+Zoetis,Adobe,supplier
+Workday,Adobe,supplier
+Trimble,Adobe,supplier
+F5 Networks,Adobe,supplier
+Equinix,Adobe,supplier
+ConocoPhillips,Facebook,supplier
+Thermo Fisher Scientific,Microsoft,supplier
+RBC,Cisco,supplier
+Airbus,Cisco,supplier
+Cisco,Texas Instruments,supplier
+Akamai,Intel,supplier
+Starbucks,Qualcomm,supplier
+Corning,IBM,supplier
+Microsoft,Autodesk,supplier
+IBM,Pinterest,supplier
+Walmart,Sonos,supplier
+Infor,Microsoft,supplier
+AMD,Dell,supplier
+Interpublic Group,Microsoft,supplier
+Autodesk,Facebook,supplier
+Western Digital,Kimberly-Clark,supplier
+Cisco,Extreme Networks,supplier
+Facebook,Nike,supplier
+Vodafone,IBM,supplier
+Microsoft,ServiceNow,supplier
+Starbucks,ServiceNow,supplier
+ADB,Google,supplier
+Intel,General Mills,supplier
+Corning,Dell,supplier
+Dell,eBay,supplier
+Google,CarMax,supplier
+Scholastic,Cars.com,supplier
+Cisco,CBRE,supplier
+CBRE,ServiceNow,supplier
+Republic Services,ServiceNow,supplier
+ServiceNow,Google,supplier
+JBL,IBM,supplier
+Telstra,Juniper Networks,supplier
+UPS,Netflix,supplier
+Google,Airbus,supplier
+Microchip Technology,Intel,supplier
+Motorola,IBM,supplier
+LendingTree,Google,supplier
+Adobe,Dell,supplier
+NetApp,Workday,supplier
+ASM,Workday,supplier
+Woolworths,Fortune Brands,supplier
+ServiceNow,Oracle,supplier
+Leggett & Platt,Oracle,supplier
+Facebook,Starbucks,supplier
+Symantec,Nike,supplier
+eBay,Nike,supplier
+Delta Air Lines,Motorola,supplier
+Cisco,eBay,supplier
+Autodesk,Trimble,supplier
+Sysco,Google,supplier
+Nike,Google,supplier
+Schlumberger,Microsoft,supplier
+Nike,Republic Services,supplier
+Facebook,Netflix,supplier
+Merck,AstraZeneca,supplier
+Rentokil Initial,Google,supplier
+Google,Workday,supplier
+IBM,Autodesk,supplier
+Palo Alto Networks,Juniper Networks,supplier
+IBM,F5 Networks,supplier
+Facebook,IBM,supplier
+Interpublic Group,General Mills,supplier
+Hill & Knowlton,IBM,supplier
+Facebook,Interpublic Group,supplier
+Walmart,NetApp,supplier
+Motorola,Airbnb,supplier
+Walmart,Google,supplier
+Google,Uber,supplier
+RBC,IBM,supplier
+Infor,ConocoPhillips,supplier
+MICROS,Google,supplier
+Juniper Networks,Microsoft,supplier
+IBM,NetApp,supplier
+Akamai,Microsoft,supplier
+IBM,ServiceNow,supplier
+Delphi Automotive,DLT,supplier
+Adobe,Google,supplier
+Intel,Best Buy,supplier
+Airbus,Autodesk,supplier
+Autodesk,ANSYS,supplier
+Altair Engineering,ANSYS,supplier
+Qualcomm,IBM,supplier
+Walmart,Dell,supplier
+Ameren,Microsoft,supplier
+Telstra,Microsoft,supplier
+Microsoft,Telstra,supplier
+Biogen Idec,Facebook,supplier
+Wellpoint,Walmart,supplier
+Pinterest,Duke Energy,supplier
+Duke Energy,IBM,supplier
+Juniper Networks,Facebook,supplier
+Uber,Qualcomm,supplier
+Aon,Qualcomm,supplier
+Walmart,Qualcomm,supplier
+Nike,Qualcomm,supplier
+Western Digital,NetApp,supplier
+Google,NetApp,supplier
+Equifax,Motorola,supplier
+Qualcomm,Motorola,supplier
+Starbucks,IBM,supplier
+Woolworths,Oracle,supplier
+Pinterest,Symantec,supplier
+Oracle,Walmart,supplier
+JBL,Microsoft,supplier
+Symantec,Cisco,supplier
+Walgreens,Facebook,supplier
+Woolworths,NetApp,supplier
+Carrefour,NetApp,supplier
+Dell,NetApp,supplier
+Starbucks,NetApp,supplier
+Wellpoint,NetApp,supplier
+Telstra,NetApp,supplier
+Dell,Symantec,supplier
+Pinterest,Starbucks,supplier
+Parsons,Facebook,supplier
+Schlumberger,Adobe,supplier
+Facebook,Western Digital,supplier
+Walmart,Pinterest,supplier
+ConAgra Foods,Post Holdings,supplier
+Juniper Networks,Equinix,supplier
+Symantec,Qualcomm,supplier
+Motorola,Qualcomm,supplier
+Corning,Emerson,supplier
+Oracle,Symantec,supplier
+Dell,Facebook,supplier
+Adobe,Facebook,supplier
+ADB,Facebook,supplier
+Facebook,Snapchat,supplier
+Telstra,Cisco,supplier
+Oracle,Motorola,supplier
+Northrop Grumman,Adobe,supplier
+Teradyne,Adobe,supplier
+Microsoft,Merck,supplier
+Walmart,Merck,supplier
+Extreme Networks,Facebook,supplier
+AMD,Lowe's,supplier
+Google,Lowe's,supplier
+Motorola,Cadence,supplier
+Ameren,Cadence,supplier
+GoDaddy,IBM,supplier
+Ameren,Oracle,supplier
+Swift Transportation,Oracle,supplier
+Google,Symantec,supplier
+Google,Texas Instruments,supplier
+IBM,ConocoPhillips,supplier
+ConocoPhillips,Motorola,supplier
+Google,Devon Energy,supplier
+Microsoft,Walmart,supplier
+Telstra,Delta Air Lines,supplier
+Pfizer,Delta Air Lines,supplier
+Dell,Cisco,supplier
+Pinterest,Google,supplier
+Google,TJX,supplier
+TJX,General Mills,supplier
+Texas Instruments,Juniper Networks,supplier
+Best Buy,Facebook,supplier
+Oracle,TJX,supplier
+Pinterest,TJX,supplier
+Dell,TJX,supplier
+Netflix,Facebook,supplier
+Microsoft,First Solar,supplier
+Autodesk,Dell,supplier
+Dell,Autodesk,supplier
+TJX,Pinterest,supplier
+DTE Energy,Ameren,supplier
+Motorola,Airbus,supplier
+Microsoft,Airbus,supplier
+Facebook,Qualcomm,supplier
+Schlumberger,Cisco,supplier
+Intel,Motorola,supplier
+Cisco,Dell,supplier
+Cisco,Symantec,supplier
+Interpublic Group,Fortinet,supplier
+Symantec,Workday,supplier
+Intel,Autodesk,supplier
+Merck,Walgreens,supplier
+Walgreens,Pfizer,supplier
+IBM,Vodafone,supplier
+Keurig,Vodafone,supplier
+Carrefour,IBM,supplier
+Infor,DTE Energy,supplier
+International Flavors & Fragrances Inc,Pinterest,supplier
+Pinterest,Pfizer,supplier
+UPS,Delta Air Lines,supplier
+Google,Delta Air Lines,supplier
+ArcelorMittal,Delta Air Lines,supplier
+Johnson & Johnson,IBM,supplier
+AstraZeneca,IBM,supplier
+Google,CBRE,supplier
+Nike,Facebook,supplier
+Boston Scientific,IBM,supplier
+Etsy,IBM,supplier
+Autodesk,AMD,supplier
+Motorola,Vodafone,supplier
+Nike,Vodafone,supplier
+Merck,Vodafone,supplier
+Infor,Intel,supplier
+Walgreens,Microsoft,supplier
+Intel,Microchip Technology,supplier
+Elbit Systems,Microchip Technology,supplier
+Juniper Networks,EBA,supplier
+Sonoco,Dell,supplier
+Union Pacific,IBM,supplier
+NetApp,Facebook,supplier
+Twilio,Telstra,supplier
+Viacom,Microsoft,supplier
+Google,Vodafone,supplier
+Google,Trimble,supplier
+Cisco,Nike,supplier
+Walgreens,Interpublic Group,supplier
+Facebook,TJX,supplier
+Mosaic Company,Microsoft,supplier
+Trimble,Dell,supplier
+Facebook,ConAgra Foods,supplier
+Molson Coors,Microsoft,supplier
+ADB,IBM,supplier
+ArcelorMittal,IBM,supplier
+Nike,IBM,supplier
+Trimble,Juniper Networks,supplier
+Juniper Networks,Oracle,supplier
+Cisco,AMD,supplier
+Extreme Networks,IBM,supplier
+ANSYS,IBM,supplier
+TJX,Dell,supplier
+Entergy,Dell,supplier
+Microsoft,Texas Instruments,supplier
+Texas Instruments,Oracle,supplier
+Pfizer,Starbucks,supplier
+Kimberly-Clark,Starbucks,supplier
+Oracle,Starbucks,supplier
+Microsoft,Exelixis,supplier
+Walgreens,Dell,supplier
+Adobe,IBM,supplier
+Airbus,Google,supplier
+Walgreens,Walmart,supplier
+Palo Alto Networks,Adobe,supplier
+Cisco,Akamai,supplier
+Juniper Networks,Intel,supplier
+Weyerhaeuser,Facebook,supplier
+Oracle,Juniper Networks,supplier
+Facebook,Viacom,supplier
+Facebook,Zscaler,supplier
+Walgreens,Cisco,supplier
+Uber,Facebook,supplier
+Dell,Airbnb,supplier
+Walmart,Tyson Foods,supplier
+Pinterest,Microsoft,supplier
+Google,Equinix,supplier
+AMD,NetApp,supplier
+Oracle,Palo Alto Networks,supplier
+TJX,Google,supplier
+Equinix,Intel,supplier
+AMD,Motorola,supplier
+Airbnb,Twilio,supplier
+Twilio,Oracle,supplier
+American Electric Power,Microsoft,supplier
+Viacom,Motorola,supplier
+Facebook,Atlassian,supplier
+JAB,Google,supplier
+Uber,Google,supplier
+Akamai,Cisco,supplier
+Cisco,Netflix,supplier
+ConocoPhillips,Dell,supplier
+Airbnb,Google,supplier
+Motorola,Schlumberger,supplier
+Walmart,Dollar Tree,supplier
+Oracle,eBay,supplier
+Best Buy,Dell,supplier
+Boston Scientific,Johnson & Johnson,supplier
+Airbus,Motorola,supplier
+Equinix,Cisco,supplier
+Emerson,Cisco,supplier
+Texas Instruments,Motorola,supplier
+Corning,Microsoft,supplier
+Delta Air Lines,Uber,supplier
+Symantec,JBL,supplier
+JBL,Intel,supplier
+Intel,Viacom,supplier
+Delta Air Lines,Microsoft,supplier
+Chipotle,Nike,supplier
+Tesco,Nike,supplier
+Walgreens,AmerisourceBergen,supplier
+Adobe,Motorola,supplier
+IBM,Airbus,supplier
+Facebook,Airbus,supplier
+Walmart,ConAgra Foods,supplier
+Chipotle,Microsoft,supplier
+Northrop Grumman,Google,supplier
+First Solar,DnB,supplier
+Northrop Grumman,Intel,supplier
+F5 Networks,Google,supplier
+Nike,Oracle,supplier
+IBM,Wellpoint,supplier
+Wellpoint,Telstra,supplier
+Facebook,TrueCar,supplier
+Interpublic Group,Qualcomm,supplier
+Etsy,Symantec,supplier
+Netflix,Symantec,supplier
+Airbnb,SWIFT,supplier
+Adobe,AMD,supplier
+Compass Group,Microsoft,supplier
+Oracle,AMD,supplier
+Google,Atlassian,supplier
+Pinterest,Lowe's,supplier
+Vodafone,Facebook,supplier
+Facebook,Workday,supplier
+Workday,Uber,supplier
+Dell,Equifax,supplier
+Equifax,Emerson,supplier
+Facebook,Accenture,supplier
+Pinterest,Accenture,supplier
+Accenture,Pinterest,supplier
+Wellpoint,Facebook,supplier
+First Solar,ANSYS,supplier
+Oracle,ANSYS,supplier
+American Electric Power,ANSYS,supplier
+Walmart,ANSYS,supplier
+Johnson & Johnson,Cisco,supplier
+Microsoft,Best Buy,supplier
+Microsoft,Workday,supplier
+IBM,Rockwell Automation,supplier
+Tyson Foods,Hormel Foods,supplier
+Parsons,Oracle,supplier
+Viacom,Nike,supplier
+Nike,Autodesk,supplier
+Union Pacific,Microsoft,supplier
+Ameren,Facebook,supplier
+Google,Compass Group,supplier
+Compass Group,Dell,supplier
+Microsoft,ANSYS,supplier
+Akamai,IBM,supplier
+Oracle,Qualcomm,supplier
+Airbus,TRENT,supplier
+Tesco,Oracle,supplier
+Autodesk,Kimberly-Clark,supplier
+BorgWarner,Microsoft,supplier
+Juniper Networks,Adobe,supplier
+Texas Instruments,Autodesk,supplier
+Autodesk,Best Buy,supplier
+Equinix,Microsoft,supplier
+IBM,Trimble,supplier
+Juniper Networks,Google,supplier
+Kimberly-Clark,Fortinet,supplier
+STX,Walmart,supplier
+Scholastic,Facebook,supplier
+Google,Accenture,supplier
+ConocoPhillips,Oracle,supplier
+Fortune Brands,Motorola,supplier
+Autodesk,Motorola,supplier
+Walgreens,Intel,supplier
+EBS,Intel,supplier
+Merck,Cisco,supplier
+Airbus,Delta Air Lines,supplier
+Dick's Sporting Goods,Adobe,supplier
+Xylem,Northrop Grumman,supplier
+Starbucks,Tractor Supply,supplier
+Walmart,Tractor Supply,supplier
+Dell,Walgreens,supplier
+Pfizer,Symantec,supplier
+Motorola,Walmart,supplier
+Pfizer,Hill & Knowlton,supplier
+Motorola,Hill & Knowlton,supplier
+Oracle,Exelon,supplier
+Trimble,Google,supplier
+Dr Pepper Snapple Group,Google,supplier
+Illumina,Merck,supplier
+AstraZeneca,Microsoft,supplier
+Best Buy,Adobe,supplier
+Western Digital,IBM,supplier
+Symantec,Oracle,supplier
+Fortis,Accenture,supplier
+Oracle,Accenture,supplier
+Adobe,Vodafone,supplier
+Vodafone,Microsoft,supplier
+CCH,Cisco,supplier
+NetApp,Intel,supplier
+Equinix,CBRE,supplier
+Trimble,Oracle,supplier
+IBM,Delta Air Lines,supplier
+Oracle,IAG,supplier
+Accenture,Emerson,supplier
+Exelon,Symantec,supplier
+Tesco,Infor,supplier
+Facebook,RBC,supplier
+Telstra,Discovery Communications,supplier
+Nike,Adobe,supplier
+Parsons,Akamai,supplier
+Qualcomm,Akamai,supplier
+Northrop Grumman,Akamai,supplier
+BorgWarner,Lear,supplier
+IBM,Carrefour,supplier
+Oracle,General Mills,supplier
+Pinterest,General Mills,supplier
+CarMax,General Mills,supplier
+Duke Energy,General Mills,supplier
+IBM,Infor,supplier
+CarMax,Walmart,supplier
+Kinder Morgan,Walmart,supplier
+Microsoft,RBC,supplier
+NetApp,Oracle,supplier
+Delphi Automotive,Microsoft,supplier
+Rockwell Automation,IBM,supplier
+IBM,EBS,supplier
+Symantec,Juniper Networks,supplier
+Western Digital,Juniper Networks,supplier
+Pinterest,IBM,supplier
+Walmart,Zscaler,supplier
+Vail Resorts,Fortinet,supplier
+Airbus,Oracle,supplier
+Netflix,Intel,supplier
+UPS,Accenture,supplier
+Microsoft,Atlassian,supplier
+Facebook,Vodafone,supplier
+TJX,Oracle,supplier
+Vodafone,Best Buy,supplier
+Nike,Microsoft,supplier
+Walmart,Accenture,supplier
+Autodesk,Delphi Automotive,supplier
+Zscaler,IBM,supplier
+Dell,Juniper Networks,supplier
+Motorola,Johnson & Johnson,supplier
+Intel,Pfizer,supplier
+Microsoft,Pfizer,supplier
+IBM,Pfizer,supplier
+Airbus,Danaher,supplier
+Chipotle,Facebook,supplier
+Pinterest,Cisco,supplier
+Equinix,Dell,supplier
+Airbus,eBay,supplier
+Facebook,STR,supplier
+Kimberly-Clark,Oracle,supplier
+Microsoft,Interpublic Group,supplier
+Adobe,Emerson,supplier
+Emerson,Facebook,supplier
+Swift Transportation,Microsoft,supplier
+eBay,Pinterest,supplier
+Campbell Soup,Microsoft,supplier
+Equinix,Facebook,supplier
+Elbit Systems,Accenture,supplier
+Altair Engineering,Airbus,supplier
+Netflix,Airbus,supplier
+Intel,Teradyne,supplier
+Qualcomm,Nike,supplier
+Vodafone,Intel,supplier
+AMD,Aon,supplier
+ServiceNow,IBM,supplier
+Northrop Grumman,Airbus,supplier
+Dell,Motorola,supplier
+Williams-Sonoma,Intel,supplier
+Keurig,Starbucks,supplier
+Pfizer,Cisco,supplier
+Equinix,Google,supplier
+F5 Networks,Cisco,supplier
+Palo Alto Networks,Qualcomm,supplier
+F5 Networks,Qualcomm,supplier
+Autodesk,Rentokil Initial,supplier
+GEO,Google,supplier
+Lowe's,Microsoft,supplier
+Aon,IBM,supplier
+Cisco,Workday,supplier
+Starbucks,Pinterest,supplier
+Delta Air Lines,Pinterest,supplier
+STX,Google,supplier
+Entegris,Google,supplier
+Accenture,Northrop Grumman,supplier
+Dell,Delta Air Lines,supplier
+Facebook,Entergy,supplier
+Delta Air Lines,Entergy,supplier
+TJX,Entergy,supplier
+Google,Entergy,supplier
+CAE,Airbus,supplier
+Tesco,Cisco,supplier
+Qualcomm,Cisco,supplier
+Infor,Oracle,supplier
+First Solar,Oracle,supplier
+Adobe,Infor,supplier
+CBRE,Infor,supplier
+CORT,Infor,supplier
+AMD,Infor,supplier
+Netflix,Atlassian,supplier
+Dell,Walmart,supplier
+DTE Energy,Oracle,supplier
+Symantec,Starbucks,supplier
+Pinterest,Motorola,supplier
+Keurig,Cisco,supplier
+Campbell Soup,Facebook,supplier
+Dell,Equinix,supplier
+Equinix,F5 Networks,supplier
+Facebook,F5 Networks,supplier
+Cisco,Pinterest,supplier
+IBM,Juniper Networks,supplier
+Fortinet,NetApp,supplier
+Nike,Lowe's,supplier
+ADB,Adobe,supplier
+Facebook,Walmart,supplier
+MICROS,Netflix,supplier
+MGM,Facebook,supplier
+Facebook,CBRE,supplier
+Tesco,Pinterest,supplier
+Merck,Adobe,supplier
+General Mills,Facebook,supplier
+IBM,Walmart,supplier
+AMD,TJX,supplier
+Facebook,UPS,supplier
+CBRE,Airbus,supplier
+eBay,Dell,supplier
+AstraZeneca,Dell,supplier
+Google,Sysco,supplier
+Qualcomm,Facebook,supplier
+Starbucks,Walgreens,supplier
+Oracle,HealthCare Partners,supplier
+HealthCare Partners,Google,supplier
+Synopsys,Teradyne,supplier
+GoDaddy,Cisco,supplier
+Nike,Cisco,supplier
+Booz Allen Hamilton,Cisco,supplier
+Hormel Foods,Google,supplier
+American Water,Google,supplier
+Adobe,Atlassian,supplier
+Service Nation,Facebook,supplier
+Aon,Microsoft,supplier
+ConAgra Foods,Adobe,supplier
+AMD,Adobe,supplier
+Molson Coors,Adobe,supplier
+Vodafone,ANSYS,supplier
+Cars.com,IBM,supplier
+Campbell Soup,IBM,supplier
+Accenture,Kimberly-Clark,supplier
+Walmart,Best Buy,supplier
+Oracle,Akamai,supplier
+Dell,Carrefour,supplier
+AMD,Facebook,supplier
+IBM,Cars.com,supplier
+Symantec,Dell,supplier
+Snapchat,UPS,supplier
+IBM,BorgWarner,supplier
+Viacom,Facebook,supplier
+Zscaler,Microsoft,supplier
+Telstra,Emerson,supplier
+IBM,eBay,supplier
+Accenture,ConAgra Foods,supplier
+Sysco,Pfizer,supplier
+CarMax,F5 Networks,supplier
+Kinder Morgan,Microsoft,supplier
+Keurig,Microsoft,supplier
+Cisco,Compass Group,supplier
+ConocoPhillips,Google,supplier
+AMD,ANSYS,supplier
+Oracle,RBC,supplier
+Symantec,Adobe,supplier
+Johnson & Johnson,Facebook,supplier
+Best Buy,Microsoft,supplier
+Facebook,Juniper Networks,supplier
+Keurig,Emerson,supplier
+Synopsys,NetApp,supplier
+Facebook,NetApp,supplier
+TJX,IBM,supplier
+Qualcomm,Starbucks,supplier
+Cisco,Equifax,supplier
+Microsoft,Juniper Networks,supplier
+Intel,Accenture,supplier
+Adobe,Netflix,supplier
+Biogen Idec,Autodesk,supplier
+AMD,Autodesk,supplier
+ANSYS,Accenture,supplier
+BorgWarner,Nike,supplier
+Equifax,Symantec,supplier
+AstraZeneca,Cisco,supplier
+Tesco,NetApp,supplier
+JBL,Accenture,supplier
+Lowe's,Facebook,supplier
+Ameren,Google,supplier
+IAG,Insurance Australia Group,supplier
+Facebook,Lowe's,supplier
+Symantec,Motorola,supplier
+Microsoft,Infor,supplier
+Infor,IBM,supplier
+Motorola,Autodesk,supplier
+Walmart,Autodesk,supplier
+Facebook,Autodesk,supplier
+UPS,Facebook,supplier
+Baker & Taylor,UPS,supplier
+Carrefour,Microsoft,supplier
+JBL,Best Buy,supplier
+Aon,CBRE,supplier
+Vodafone,Elbit Systems,supplier
+Emerson,Oracle,supplier
+BorgWarner,IBM,supplier
+Equinix,Motorola,supplier
+Microsoft,Vodafone,supplier
+Facebook,CarMax,supplier
+Delta Air Lines,Google,supplier
+Facebook,Pfizer,supplier
+Amgen,Google,supplier
+CORT,Microsoft,supplier
+Infor,IAG,supplier
+Dell,Microsoft,competitor
+Juniper Networks,Equinix,competitor
+Cisco,Hewlett Packard Enterprise,competitor
+Cisco,CD,competitor
+Fortinet,Palo Alto Networks,competitor
+Workday,PAYCHEX,competitor
+CD,Cisco,competitor
+Equinix,Juniper Networks,competitor
+eBay,Walmart,competitor
+Cars.com,CarMax,competitor
+Cars.com,TrueCar,competitor
+Hewlett Packard Enterprise,Cisco,competitor
+Cort,CORT,competitor
+TrueCar,CarMax,competitor
+TrueCar,Cars.com,competitor
+CORT,Cort,competitor
+Qiagen,Thermo Fisher Scientific,competitor
+Bio-Rad,Thermo Fisher Scientific,competitor
+Bio-Rad,Qiagen,competitor
+CarMax,Cars.com,competitor
+CarMax,TrueCar,competitor
+Thermo Fisher Scientific,Qiagen,competitor
+Thermo Fisher Scientific,Bio-Rad,competitor

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ESGnet">
+    <meta name="author" content="tonylm">
+    <title>ESGnet</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="../static/css/tooplate-clean-work.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-12 d-flex flex-wrap">
+                    <p class="d-flex me-4 mb-0">
+                        <img src="../static/asset/header/unisa.png" height="24" style="margin-right: 3px">
+                        Università degli Studi di Salerno
+                    </p>
+
+                    <p class="d-flex me-4 mb-0">
+                        <img src="../static/asset/header/jads.png" height="24" style="margin-right: 3px">
+                        Jheronimous Academy of Data Science
+                    </p>
+
+                    <p class="site-header-icon-wrap text-white d-flex mb-0 ms-auto">
+                        <img src="../static/asset/header/github.png" height="24" style="margin-right: 3px">
+                        <a href="https://github.com/tonylm00" class="text-white">
+                            github.com/tonylm00
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <img src="../static/asset/esg.png" class="featured-image img-fluid" style="width:90%">
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="featured-block">
+                                <h2 class="mb-4">Your ESG score has been calculated</h2>
+
+                                <p>ESG score: {{ esg }}</p>
+
+                                <a class="custom-btn btn button button--atlas mt-3" href="{{url_for('index')}}">
+                                    <span>Homepage</span>
+
+                                    <div class="marquee" aria-hidden="true">
+                                        <div class="marquee__inner">
+                                            <span>Homepage</span>
+                                            <span>Homepage</span>
+                                            <span>Homepage</span>
+                                            <span>Homepage</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12 d-flex align-items-center mb-4 pb-2">
+                        <div>
+                            <img src="../static/asset/header/jads.png" class="logo img-fluid" alt="" href="#">
+                        </div>
+
+                        <ul class="footer-menu d-flex flex-wrap ms-5">
+                            <li class="footer-menu-item"><a href="https://github.com/tonylm00/ESGnet" class="footer-menu-link">Repository Github</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Paper</a></li>
+                            <li class="footer-menu-item"><a href="https://www.linkedin.com/in/tonylm00/" class="footer-menu-link">Author</a></li>
+                        </ul>
+                    </div>
+            </div>
+            </div>
+        </footer>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="../static/js/jquery.min.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+        <script src="../static/js/jquery.backstretch.min.js"></script>
+        <script src="../static/js/counter.js"></script>
+        <script src="../static/js/countdown.js"></script>
+        <script src="../static/js/init.js"></script>
+        <script src="../static/js/modernizr.js"></script>
+        <script src="../static/js/animated-headline.js"></script>
+        <script src="../static/js/custom.js"></script>
+</body>
+</html>

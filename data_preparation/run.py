@@ -114,7 +114,10 @@ def clean():
 
 def clean_with_metrics():
     flattened_data = [flatten_dict(data) for data in companies]
-    df = (pd.DataFrame(flattened_data).drop(columns=['_id', 'domain', 'name', 'sector', 'industry'])
+    df = (pd.DataFrame(flattened_data).drop(columns=['_id', 'domain',
+                                                     #'name',
+                                                     'sector',
+                                                     'industry'])
           .replace('null', np.nan))
 
     df = df.dropna(subset=['esg'])

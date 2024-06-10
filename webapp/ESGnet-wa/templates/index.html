@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ESGnet">
+    <meta name="author" content="tonylm">
+    <title>ESGnet</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="../static/css/tooplate-clean-work.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-12 d-flex flex-wrap">
+                    <p class="d-flex me-4 mb-0">
+                        <img src="../static/asset/header/unisa.png" height="24" style="margin-right: 3px">
+                        Università degli Studi di Salerno
+                    </p>
+
+                    <p class="d-flex me-4 mb-0">
+                        <img src="../static/asset/header/jads.png" height="24" style="margin-right: 3px">
+                        Jheronimous Academy of Data Science
+                    </p>
+
+                    <p class="site-header-icon-wrap text-white d-flex mb-0 ms-auto">
+                        <img src="../static/asset/header/github.png" height="24" style="margin-right: 3px">
+                        <a href="https://github.com/tonylm00" class="text-white">
+                            github.com/tonylm00
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section hero-section-full-height d-flex justify-content-center align-items-center">
+                <div class="section-overlay"></div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-7 col-12 text-center mx-auto">
+                            <h1 class="cd-headline rotate-1 text-white mb-4 pb-2">
+                                <span>Calculate ESG score using</span>
+                                <span class="cd-words-wrapper">
+                                    <b style="text-align: center" class="is-visible">Service Value Network</b>
+                                    <b style="text-align: center">Company Data</b>
+                                </span>
+                            </h1>
+
+                            <a class="custom-btn btn button button--atlas smoothscroll me-3" href="{{ url_for('from_svn') }}">
+                                <span>Service Value Network</span>
+
+                                <div class="marquee" aria-hidden="true">
+                                    <div class="marquee__inner">
+                                        <span>Service Value Network</span>
+                                        <span>Service Value Network</span>
+                                        <span>Service Value Network</span>
+                                        <span>Service Value Network</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a class="custom-btn custom-border-btn custom-btn-bg-white btn button button--pan smoothscroll" href="{{ url_for('from_data') }}">
+                                <span>Company Data</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L40,229.3C80,235,160,245,240,250.7C320,256,400,256,480,240C560,224,640,192,720,176C800,160,880,160,960,138.7C1040,117,1120,75,1200,80C1280,85,1360,139,1400,165.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+            </section>
+
+        <section class="intro-section" id="intro-section">
+                <div class="container">
+                    <div class="row justify-content-lg-center align-items-center">
+                        <div class="col-lg-6 col-12">
+                            <h2 class="mb-4">What is a <br> Service Value Network?</h2>
+                            <p>
+                                A Service Value Network (SVN) is a dynamic, interconnected system of organizations,
+                                individuals, and resources that collaborate to create, deliver, and enhance the value of services.
+                                In a company's SVN, various stakeholders such as <strong>partners</strong>, <strong>suppliers</strong>, <strong>customers</strong>,
+                                and <strong>competitors</strong> interact through multiple relationships like partnerships, investments, and customer connections.
+                                This network approach helps companies optimize their operations, innovate services,
+                                and respond effectively to market changes by leveraging the collective capabilities
+                                and expertise within the network.
+                                The goal is to maximize the overall value delivered to all participants,
+                                ultimately driving sustainable business growth and customer satisfaction.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-12 custom-block-wrap">
+                            <img src="../static/asset/network.png" class="img-fluid" style="margin-left: 15%; padding-bottom: 5%" alt="">
+                            </div>
+                        </div>
+
+                </div>
+            </section>
+
+
+        <section class="testimonial-section section-padding section-bg">
+                <div class="section-overlay"></div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center">
+                            <h2 class="text-white mb-4">What is ESG score?</h2>
+                        </div>
+                        <p style="color: white; padding-left: 7%; padding-right: 7%; padding-bottom: 5%; text-align: center; font-size: 18px">
+                            An ESG score is a measure of a company's performance in three key areas:
+                            Environmental, Social, and Governance.
+                            These scores help investors, stakeholders, and consumers evaluate
+                            how well a company manages risks and opportunities related to sustainability and ethical practices.
+                            ESG scores are increasingly important as they reflect a company's commitment to responsible business practices,
+                            which can impact its long-term success and reputation.
+                        </p>
+                        <div class="col-lg-4 col-12">
+                            <div class="featured-block">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="../static/asset/env.png" class="avatar-image img-fluid">
+
+                                    <div class="ms-3">
+                                        <h4 class="mb-0">Environmental</h4>
+                                    </div>
+                                </div>
+
+                                <p class="mb-0">
+                                The Environmental aspect of ESG evaluates how a company manages its impact on the planet.
+                                    This includes practices related to energy use, waste management, pollution control,
+                                    natural resource conservation, and efforts to reduce carbon emissions.
+                                    A high environmental score indicates that a company is effectively minimizing its ecological
+                                    footprint and contributing positively to environmental sustainability.<br><br><br>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="featured-block">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="../static/asset/social.png" class="avatar-image img-fluid">
+
+                                    <div class="ms-3">
+                                        <h4 class="mb-0">Social</h4>
+                                    </div>
+                                </div>
+
+                                <p class="mb-0">
+                                    The Social component of ESG focuses on a company's relationships with its employees,
+                                    customers, suppliers, and the communities where it operates.
+                                    This includes labor practices, diversity and inclusion, human rights, community engagement,
+                                    and customer satisfaction. A high social score suggests that a company prioritizes
+                                    the well-being and fair treatment of its stakeholders, fostering a positive social impact.<br><br>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="featured-block">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="../static/asset/gov.png" class="avatar-image img-fluid">
+
+                                    <div class="ms-3">
+                                        <h4 class="mb-0">Governance</h4>
+                                    </div>
+                                </div>
+
+                                <p class="mb-0">
+                                    Governance in ESG assesses the quality and transparency of a company's leadership,
+                                    organizational structure, and business ethics. This includes factors such as board diversity,
+                                    executive compensation, shareholder rights, and compliance with laws and regulations.
+                                    A strong governance score reflects a company's commitment to ethical practices, accountability,
+                                    and robust oversight mechanisms, ensuring long-term organizational integrity and stakeholder trust.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12 d-flex align-items-center mb-4 pb-2">
+                        <div>
+                            <img src="../static/asset/header/jads.png" class="logo img-fluid" alt="" href="#">
+                        </div>
+
+                        <ul class="footer-menu d-flex flex-wrap ms-5">
+                            <li class="footer-menu-item"><a href="https://github.com/tonylm00/ESGnet" class="footer-menu-link">Repository Github</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Paper</a></li>
+                            <li class="footer-menu-item"><a href="https://www.linkedin.com/in/tonylm00/" class="footer-menu-link">Author</a></li>
+                        </ul>
+                    </div>
+            </div>
+            </div>
+        </footer>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="../static/js/jquery.min.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+        <script src="../static/js/jquery.backstretch.min.js"></script>
+        <script src="../static/js/counter.js"></script>
+        <script src="../static/js/countdown.js"></script>
+        <script src="../static/js/init.js"></script>
+        <script src="../static/js/modernizr.js"></script>
+        <script src="../static/js/animated-headline.js"></script>
+        <script src="../static/js/custom.js"></script>
+
+
+</body>
+</html>
