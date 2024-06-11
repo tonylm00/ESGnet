@@ -3,10 +3,10 @@ Module to scrape ESG scores from Sustainalytics and update a MongoDB database.
 
 Functions:
     scrape_sustainalytics(ticker: str) -> float
-        Scrapes the Sustainalytics page for the ESG model of a given ticker.
+        Scrapes the Sustainalytics page for the ESG information of a given ticker.
 
     add_to_mongodb(company_name: str, esg: float) -> None
-        Adds the ESG model to the MongoDB entry for the specified company.
+        Adds the ESG information to the MongoDB entry for the specified company.
 
     update_all_companies() -> None
         Updates all companies in the MongoDB database with their ESG scores from Sustainalytics.
@@ -29,13 +29,13 @@ from utils import connector
 
 def scrape_sustainalytics(ticker):
     """
-    Scrapes the Sustainalytics page for the ESG model of a given ticker.
+    Scrapes the Sustainalytics page for the ESG information of a given ticker.
 
     Args:
         ticker (str): The stock ticker of the company.
 
     Returns:
-        float: The ESG model of the company, or 'null' if not found.
+        float: The ESG information of the company, or 'null' if not found.
     """
     score = 'null'
 
@@ -83,11 +83,11 @@ def scrape_sustainalytics(ticker):
 
 def add_to_mongodb(company_name, esg):
     """
-    Adds the ESG model to the MongoDB entry for the specified company.
+    Adds the ESG information to the MongoDB entry for the specified company.
 
     Args:
         company_name (str): The name of the company.
-        esg (float): The ESG model of the company.
+        esg (float): The ESG information of the company.
     """
     query = {"name": company_name}
     existing_entry = connector.companies.find_one(query)

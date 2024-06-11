@@ -3,7 +3,7 @@ import pandas as pd
 import smogn
 
 
-def balancing_kmeans(df):
+def balancing_kmeans(df, n_cluster):
     """
     Balances the DataFrame `df` using the K-means clustering technique.
 
@@ -19,7 +19,7 @@ def balancing_kmeans(df):
     X = df.drop(columns=['esg'])
     y = df['esg']
 
-    kmeans = KMeans(n_clusters=10, random_state=42)
+    kmeans = KMeans(n_clusters=n_cluster, random_state=42)
     clusters = kmeans.fit_predict(y.values.reshape(-1, 1))
 
     X['cluster'] = clusters

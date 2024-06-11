@@ -83,9 +83,9 @@ def add_one_score_to_mongodb(company_name, alt, pio):
 
 def update_all_companies_score():
     """
-     Updates the Altman Z-Score and Piotroski F-Score for all companies in the database that do not have model information.
+     Updates the Altman Z-Score and Piotroski F-Score for all companies in the database that do not have information information.
 
-     This function fetches the necessary model data from StockAnalysis.com and updates the company's
+     This function fetches the necessary information data from StockAnalysis.com and updates the company's
      information in the MongoDB database.
      """
 

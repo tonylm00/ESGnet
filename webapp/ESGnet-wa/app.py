@@ -3,14 +3,14 @@ import networkx as nx
 import pandas as pd
 from flask import Flask, request, jsonify, render_template
 
-from Network.train_save_model import extract_features
+from service_value_network.model.model_svn_score import extract_features
 
 app = Flask(__name__)
 
 
 def load_model():
     try:
-        return joblib.load('../../Network/svn_model.pkl')
+        return joblib.load('../../service_value_network/model/saved/svn_model.pkl')
     except FileNotFoundError:
         return None
 
