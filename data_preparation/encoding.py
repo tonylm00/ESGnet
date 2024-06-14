@@ -1,4 +1,13 @@
 def involvement_encoding(df):
+    """
+    Encodes involvement columns in the DataFrame by replacing 'Yes' with 1.0 and 'No' with 0.01.
+
+    Parameters:
+    df (pd.DataFrame): The input DataFrame containing involvement columns.
+
+    Returns:
+    pd.DataFrame: The DataFrame with encoded involvement columns.
+    """
     cols = [
         'Weapons involvement',
         'Gambling involvement',
@@ -6,7 +15,7 @@ def involvement_encoding(df):
         'Alcoholic involvement',
         'Environment involvement'
     ]
-    # change Yes in 1.0 and No in 0.0 for each rows
+
     for col in cols:
         df[col] = df[col].replace('Yes', 1.0).replace('No', 0.01)
 
@@ -14,6 +23,15 @@ def involvement_encoding(df):
 
 
 def encoding_colors(df):
+    """
+    Encodes color-based controversy columns in the DataFrame with numerical values.
+
+    Parameters:
+    df (pd.DataFrame): The input DataFrame containing controversy columns.
+
+    Returns:
+    pd.DataFrame: The DataFrame with encoded controversy columns.
+    """
     cols = [
         'Controversies_Environment',
         'Controversies_Social',
@@ -22,17 +40,28 @@ def encoding_colors(df):
         'Controversies_Labor Rights & Supply Chain',
         'Controversies_Governance'
     ]
-
-    # green yellow orange red -> 0.01/0.34/0.67/1.0
     for col in cols:
-        df[col] = (df[col].replace('Green', 0.01)
-                   .replace('Yellow', 0.34)
-                   .replace('Orange', 0.67)
-                   .replace('Red', 1.0))
+        try:
+            df[col] = (df[col].replace('Green', 0.01)
+                       .replace('Yellow', 0.34)
+                       .replace('Orange', 0.67)
+                       .replace('Red', 1.0))
+        except KeyError:
+            pass
     return df
 
 
 def encoding_aligned_no(df):
+    """
+    Encodes SDG alignment columns in the DataFrame by replacing 'No', 'Aligned', and 'Strongly Aligned'
+    with numerical values 1.0, 0.5, and 0.01, respectively.
+
+    Parameters:
+    df (pd.DataFrame): The input DataFrame containing SDG alignment columns.
+
+    Returns:
+    pd.DataFrame: The DataFrame with encoded SDG alignment columns.
+    """
     cols = [
         'sdg_No Poverty',
         'sdg_No Hunger',
@@ -52,11 +81,7 @@ def encoding_aligned_no(df):
         'sdg_Peace, Justice and Strong Institutions',
         'sdg_Partnerships for the Goals'
     ]
-    # categories = [['No', 'Aligned', 'Strongly Aligned']] * len(cols)
-    # df[cols] = OrdinalEncoder(categories=categories).fit_transform(df[cols])
-    # return df
 
-    # No Aligned Strongly Aligned -> 0.01/0.50/1.0
     for col in cols:
         df[col] = (df[col].replace('No', 1.0)
                    .replace('Aligned', 0.5)
@@ -66,6 +91,18 @@ def encoding_aligned_no(df):
 
 
 def create_weighted_controversy_metric(df):
+    """
+    Creates a weighted controversy metric for the DataFrame and drops the original controversy columns.
+
+    Parameters:
+    df (pd.DataFrame): The input DataFrame containing controversy columns.
+
+    Returns:
+    pd.DataFrame: The DataFrame with the weighted controversy metric and without the original controversy columns.
+
+    Raises:
+    ValueError: If any controversy column is not found in the DataFrame.
+    """
     weights = {
         'Controversies_Environment': 1.0,
         'Controversies_Social': 1.0,
@@ -77,7 +114,7 @@ def create_weighted_controversy_metric(df):
 
     for col in weights.keys():
         if col not in df.columns:
-            raise ValueError(f"Colonna {col} non trovata nel DataFrame")
+            raise ValueError(f"{col} not found in DataFrame")
 
     df['controversies_metric'] = sum(df[col] * weight for col, weight in weights.items())
 
@@ -85,6 +122,18 @@ def create_weighted_controversy_metric(df):
 
 
 def create_weighted_sdg_metric(df):
+    """
+    Creates a weighted SDG metric for the DataFrame and drops the original SDG columns.
+
+    Parameters:
+    df (pd.DataFrame): The input DataFrame containing SDG columns.
+
+    Returns:
+    pd.DataFrame: The DataFrame with the weighted SDG metric and without the original SDG columns.
+
+    Raises:
+    ValueError: If any SDG column is not found in the DataFrame.
+    """
     sdg_weights = {
         'sdg_No Poverty': 1.0,
         'sdg_No Hunger': 1.0,
@@ -107,7 +156,7 @@ def create_weighted_sdg_metric(df):
 
     for col in sdg_weights.keys():
         if col not in df.columns:
-            raise ValueError(f"Colonna {col} non trovata nel DataFrame")
+            raise ValueError(f"{col} not found in DataFrame")
 
     df['sdg_metric'] = sum(df[col] * weight for col, weight in sdg_weights.items())
 

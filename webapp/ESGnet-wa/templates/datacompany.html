@@ -24,17 +24,17 @@
 
                 <div class="col-lg-12 col-12 d-flex flex-wrap">
                     <p class="d-flex me-4 mb-0">
-                        <img src="../static/asset/header/unisa.png" height="24" style="margin-right: 3px">
+                        <img src="../static/asset/header/unisa.png" height="24" style="margin-right: 3px" alt="">
                         Università degli Studi di Salerno
                     </p>
 
                     <p class="d-flex me-4 mb-0">
-                        <img src="../static/asset/header/jads.png" height="24" style="margin-right: 3px">
+                        <img src="../static/asset/header/jads.png" height="24" style="margin-right: 3px" alt="">
                         Jheronimous Academy of Data Science
                     </p>
 
                     <p class="site-header-icon-wrap text-white d-flex mb-0 ms-auto">
-                        <img src="../static/asset/header/github.png" height="24" style="margin-right: 3px">
+                        <img src="../static/asset/header/github.png" height="24" style="margin-right: 3px" alt="">
                         <a href="https://github.com/tonylm00" class="text-white">
                             github.com/tonylm00
                         </a>
@@ -76,21 +76,424 @@
 
                         <div class="col-lg-5 col-12 me-auto mb-lg-0 mb-5">
                             <h2 class="my-3">We're happy to help</h2>
-                                <p>The ESG score is a comprehensive measure that evaluates a company's performance based on
-
+                                <p>Before proceeding, familiarize yourself with the concepts of financial health scores that are part of our evaluation:</p>
+                                <p>
+                                    <strong>Piotroski Score:</strong> Developed by Joseph Piotroski, this score assesses a company's financial strength based on specific criteria. It evaluates factors such as profitability, leverage, operating efficiency, and cash flow to determine the overall health of the business. A higher Piotroski score typically indicates better financial health and potential for future growth.
+                                </p>
+                                <p>
+                                    <strong>Altman Z-Score:</strong> Created by Edward Altman, the Z-Score is a formula that predicts the likelihood of a company going bankrupt within two years. It combines multiple financial ratios to produce a single score, categorizing companies into distinct groups ranging from safe (high Z-Score) to distressed (low Z-Score). This score is crucial for assessing financial risk and stability.
+                                </p>
+                                <p>
+                                    Understanding these scores will help you interpret the financial health and stability of the companies you select or are evaluating.
+                                </p>
+                            <p>
+                                <strong>Involvement:</strong> Select <strong>Yes</strong> or <strong>No</strong> for each category to indicate if you are involved in or support activities related to Alcoholic Beverages, Adult Entertainment, Gambling, Tobacco Products, Animal Testing, Fur and Specialty Leather, Controversial Weapons, Small Arms, Catholic Values, GMO, Military Contracting, Pesticides, Thermal Coal, and Palm Oil.
+                            </p>
+                                <p>
+                                    <strong>Controversies:</strong> This section evaluates a company's involvement in controversial activities such as alcoholic beverages, adult entertainment, gambling, and others. It helps assess the ethical and social implications of investing in or supporting these activities.
+                                </p>
+                                <p>
+                                    <strong>Decarbonization Targets:</strong> Assessing a company's commitment to reducing carbon emissions is crucial for understanding its stance on environmental sustainability. Companies set decarbonization targets to mitigate their carbon footprint and align with global climate goals.
+                                </p>
+                            <p>
+                                <strong>Sustainable Development Goals (SDGs):</strong> Choose the level of alignment for each goal: <strong>No</strong>, <strong>Aligned</strong>, or <strong>Strongly Aligned</strong>. This helps us understand your commitment to each specific SDG. The goals include:
+                                <ul>
+                                    <li><strong>No Poverty</strong>: Efforts to eradicate poverty in all its forms.</li>
+                                    <li><strong>No Hunger</strong>: Initiatives to end hunger, achieve food security, and promote sustainable agriculture.</li>
+                                    <li><strong>Good Health and Well-Being</strong>: Ensuring healthy lives and promoting well-being for all ages.</li>
+                                    <li><strong>Quality Education</strong>: Ensuring inclusive and equitable quality education and promoting lifelong learning opportunities for all.</li>
+                                    <li><strong>Gender Equality</strong>: Achieving gender equality and empowering all women and girls.</li>
+                                    <li><strong>Clean Water and Sanitation</strong>: Ensuring availability and sustainable management of water and sanitation for all.</li>
+                                    <li><strong>Affordable and Clean Energy</strong>: Ensuring access to affordable, reliable, sustainable, and modern energy for all.</li>
+                                    <li><strong>Decent Work and Economic Growth</strong>: Promoting sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all.</li>
+                                    <li><strong>Industry, Innovation and Infrastructure</strong>: Building resilient infrastructure, promoting inclusive and sustainable industrialization, and fostering innovation.</li>
+                                    <li><strong>Reduced Inequalities</strong>: Reducing inequality within and among countries.</li>
+                                    <li><strong>Sustainable Cities and Communities</strong>: Making cities and human settlements inclusive, safe, resilient, and sustainable.</li>
+                                    <li><strong>Responsible Consumption and Production</strong>: Ensuring sustainable consumption and production patterns.</li>
+                                    <li><strong>Climate Action</strong>: Taking urgent action to combat climate change and its impacts.</li>
+                                    <li><strong>Life under Water</strong>: Conserving and sustainably using the oceans, seas, and marine resources.</li>
+                                    <li><strong>Life on Land</strong>: Protecting, restoring, and promoting sustainable use of terrestrial ecosystems, managing forests, combating desertification, and halting and reversing land degradation and biodiversity loss.</li>
+                                    <li><strong>Peace, Justice and Strong Institutions</strong>: Promoting peaceful and inclusive societies for sustainable development, providing access to justice for all, and building effective, accountable, and inclusive institutions at all levels.</li>
+                                    <li><strong>Partnerships for the Goals</strong>: Strengthening the means of implementation and revitalizing the global partnership for sustainable development.</li>
+                                </ul>
+                            <p>
+                                Your responses will be used to tailor recommendations and ensure your preferences are accurately reflected.
+                            </p>
                         </div>
 
                         <div class="col-lg-6 col-12">
 
-                            <form class="custom-form consulting-form bg-white shadow-lg mb-5 mb-lg-0" action="#" method="post" role="form">
+                            <form class="custom-form consulting-form bg-white shadow-lg mb-5 mb-lg-0" action="/predict/data" method="post" role="form">
                                 <div class="consulting-form-header d-flex align-items-center">
-                                    <h3 class="mb-4">Get your ESG score</h3>
+                                    <!--
+                                    <h3 class="mb-4">Get your ESG score</h3> -->
                                 </div>
 
                                 <div class="consulting-form-body">
-                                    <input type="number" name="employees" id="employees" class="form-control" placeholder="Number of employees" required>
-                                    <input type="number" name="altman" id="altman" class="form-control" placeholder="Altman Z-score" required>
-                                    <input type="number" name="piotroski" id="piotroski" class="form-control" placeholder="Piotroski Score" required>
+                                    <label for="employees"><b>Number of employees:</b></label>
+                                    <input type="number" name="employees" id="employees" class="form-control" placeholder="1.500" required step="100">
+
+                                    <label for="altman"><b>Altman Z-Score:</b></label>
+                                    <input type="number" name="altman" id="altman" class="form-control" placeholder="8.11" step=".01" required>
+
+                                    <label for="piotroski"><b>Piotroski F-Score:</b></label>
+                                    <input type="number" name="piotroski" id="piotroski" class="form-control" placeholder="6" step="1" required>
+
+                                    <!-- Radio buttons for involvement -->
+                                    <details>
+                                        <summary><b>Involvement:</b></summary><br>
+                                    <div>
+                                        <label>Alcoholic Beverages:</label><br>
+                                        <input type="radio" id="alcoholic_beverages_yes" name="Alcoholic Beverages" value="Yes">
+                                        <label for="alcoholic_beverages_yes">Yes</label>
+                                        <input type="radio" id="alcoholic_beverages_no" name="Alcoholic Beverages" value="No" checked>
+                                        <label for="alcoholic_beverages_no">No</label>
+                                    </div>
+                                    <div>
+                                        <label>Adult Entertainment:</label><br>
+                                        <input type="radio" id="adult_entertainment_yes" name="Adult Entertainment" value="Yes">
+                                        <label for="adult_entertainment_yes">Yes</label>
+                                        <input type="radio" id="adult_entertainment_no" name="Adult Entertainment" value="No" checked>
+                                        <label for="adult_entertainment_no">No</label>
+                                    </div>
+                                    <div>
+                                        <label>Gambling:</label><br>
+                                        <input type="radio" id="gambling_yes" name="Gambling" value="Yes">
+                                        <label for="gambling_yes">Yes</label>
+                                        <input type="radio" id="gambling_no" name="Gambling" value="No" checked>
+                                        <label for="gambling_no">No</label>
+                                    </div>
+                                    <div>
+                                        <label>Tobacco Products:</label><br>
+                                        <input type="radio" id="tobacco_products_yes" name="Tobacco Products" value="Yes">
+                                        <label for="tobacco_products_yes">Yes</label>
+                                        <input type="radio" id="tobacco_products_no" name="Tobacco Products" value="No" checked>
+                                        <label for="tobacco_products_no">No</label>
+                                    </div>
+                                    <div>
+                                        <label>Animal Testing:</label><br>
+                                        <input type="radio" id="animal_testing_yes" name="Animal Testing" value="Yes">
+                                        <label for="animal_testing_yes">Yes</label>
+                                        <input type="radio" id="animal_testing_no" name="Animal Testing" value="No" checked>
+                                        <label for="animal_testing_no">No</label>
+                                    </div>
+                                    <div>
+                                        <label>Fur and Specialty Leather:</label><br>
+                                        <input type="radio" id="fur_specialty_leather_yes" name="Fur and Specialty Leather" value="Yes">
+                                        <label for="fur_specialty_leather_yes">Yes</label>
+                                        <input type="radio" id="fur_specialty_leather_no" name="Fur and Specialty Leather" value="No" checked>
+                                        <label for="fur_specialty_leather_no">No</label>
+                                    </div>
+                                    <div>
+                                        <label>Controversial Weapons:</label><br>
+                                        <input type="radio" id="controversial_weapons_yes" name="Controversial Weapons" value="Yes">
+                                        <label for="controversial_weapons_yes">Yes</label>
+                                        <input type="radio" id="controversial_weapons_no" name="Controversial Weapons" value="No" checked>
+                                        <label for="controversial_weapons_no">No</label>
+                                    </div>
+                                    <div>
+                                        <label>Small Arms:</label><br>
+                                        <input type="radio" id="small_arms_yes" name="Small Arms" value="Yes">
+                                        <label for="small_arms_yes">Yes</label>
+                                        <input type="radio" id="small_arms_no" name="Small Arms" value="No" checked>
+                                        <label for="small_arms_no">No</label>
+                                    </div>
+                                    <div>
+                                        <label>Catholic Values:</label><br>
+                                        <input type="radio" id="catholic_values_yes" name="Catholic Values" value="Yes">
+                                        <label for="catholic_values_yes">Yes</label>
+                                        <input type="radio" id="catholic_values_no" name="Catholic Values" value="No" checked>
+                                        <label for="catholic_values_no">No</label>
+                                    </div>
+                                    <div>
+                                        <label>GMO:</label><br>
+                                        <input type="radio" id="gmo_yes" name="GMO" value="Yes">
+                                        <label for="gmo_yes">Yes</label>
+                                        <input type="radio" id="gmo_no" name="GMO" value="No" checked>
+                                        <label for="gmo_no">No</label>
+                                    </div>
+                                    <div>
+                                        <label>Military Contracting:</label><br>
+                                        <input type="radio" id="military_contracting_yes" name="Military Contracting" value="Yes">
+                                        <label for="military_contracting_yes">Yes</label>
+                                        <input type="radio" id="military_contracting_no" name="Military Contracting" value="No" checked>
+                                        <label for="military_contracting_no">No</label>
+                                    </div>
+                                    <div>
+                                        <label>Pesticides:</label><br>
+                                        <input type="radio" id="pesticides_yes" name="Pesticides" value="Yes">
+                                        <label for="pesticides_yes">Yes</label>
+                                        <input type="radio" id="pesticides_no" name="Pesticides" value="No" checked>
+                                        <label for="pesticides_no">No</label>
+                                    </div>
+                                    <div>
+                                        <label>Thermal Coal:</label><br>
+                                        <input type="radio" id="thermal_coal_yes" name="Thermal Coal" value="Yes">
+                                        <label for="thermal_coal_yes">Yes</label>
+                                        <input type="radio" id="thermal_coal_no" name="Thermal Coal" value="No" checked>
+                                        <label for="thermal_coal_no">No</label>
+                                    </div>
+                                    <div>
+                                        <label>Palm Oil:</label><br>
+                                        <input type="radio" id="palm_oil_yes" name="Palm Oil" value="Yes">
+                                        <label for="palm_oil_yes">Yes</label>
+                                        <input type="radio" id="palm_oil_no" name="Palm Oil" value="No" checked>
+                                        <label for="palm_oil_no">No</label>
+                                    </div></details><br>
+
+                                    <!-- CONTROVERSIES:-->
+
+                                    <details>
+                                        <summary><b>Controversies:</b></summary><br>
+                                        <div>
+                                            <label>Environment:</label><br>
+                                            <input type="radio" id="controversies_environment_red" name="Environment" value="Red">
+                                            <label for="controversies_environment_red">Red</label>
+                                            <input type="radio" id="controversies_environment_orange" name="Environment" value="Orange">
+                                            <label for="controversies_environment_orange">Orange</label>
+                                            <input type="radio" id="controversies_environment_yellow" name="Environment" value="Yellow">
+                                            <label for="controversies_environment_yellow">Yellow</label>
+                                            <input type="radio" id="controversies_environment_green" name="Environment" value="Green" checked>
+                                            <label for="controversies_environment_green">Green</label>
+                                        </div>
+                                        <div>
+                                            <label>Social:</label><br>
+                                            <input type="radio" id="controversies_social_red" name="Social" value="Red">
+                                            <label for="controversies_social_red">Red</label>
+                                            <input type="radio" id="controversies_social_orange" name="Social" value="Orange">
+                                            <label for="controversies_social_orange">Orange</label>
+                                            <input type="radio" id="controversies_social_yellow" name="Social" value="Yellow">
+                                            <label for="controversies_social_yellow">Yellow</label>
+                                            <input type="radio" id="controversies_social_green" name="Social" value="Green" checked>
+                                            <label for="controversies_social_green">Green</label>
+                                        </div>
+                                        <div>
+                                            <label>Customers:</label><br>
+                                            <input type="radio" id="controversies_customers_red" name="Customers" value="Red">
+                                            <label for="controversies_customers_red">Red</label>
+                                            <input type="radio" id="controversies_customers_orange" name="Customers" value="Orange">
+                                            <label for="controversies_customers_orange">Orange</label>
+                                            <input type="radio" id="controversies_customers_yellow" name="Customers" value="Yellow">
+                                            <label for="controversies_customers_yellow">Yellow</label>
+                                            <input type="radio" id="controversies_customers_green" name="Customers" value="Green" checked>
+                                            <label for="controversies_customers_green">Green</label>
+                                        </div>
+                                        <div>
+                                            <label>Human Rights & Community:</label><br>
+                                            <input type="radio" id="controversies_human_rights_red" name="Human Rights & Community" value="Red">
+                                            <label for="controversies_human_rights_red">Red</label>
+                                            <input type="radio" id="controversies_human_rights_orange" name="Human Rights & Community" value="Orange">
+                                            <label for="controversies_human_rights_orange">Orange</label>
+                                            <input type="radio" id="controversies_human_rights_yellow" name="Human Rights & Community" value="Yellow">
+                                            <label for="controversies_human_rights_yellow">Yellow</label>
+                                            <input type="radio" id="controversies_human_rights_green" name="Human Rights & Community" value="Green" checked>
+                                            <label for="controversies_human_rights_green">Green</label>
+                                        </div>
+                                        <div>
+                                            <label>Labor Rights & Supply Chain:</label><br>
+                                            <input type="radio" id="controversies_labor_rights_red" name="Labor Rights & Supply Chain" value="Red">
+                                            <label for="controversies_labor_rights_red">Red</label>
+                                            <input type="radio" id="controversies_labor_rights_orange" name="Labor Rights & Supply Chain" value="Orange">
+                                            <label for="controversies_labor_rights_orange">Orange</label>
+                                            <input type="radio" id="controversies_labor_rights_yellow" name="Labor Rights & Supply Chain" value="Yellow">
+                                            <label for="controversies_labor_rights_yellow">Yellow</label>
+                                            <input type="radio" id="controversies_labor_rights_green" name="Labor Rights & Supply Chain" value="Green" checked>
+                                            <label for="controversies_labor_rights_green">Green</label>
+                                        </div>
+                                        <div>
+                                            <label>Governance:</label><br>
+                                            <input type="radio" id="controversies_governance_red" name="Governance" value="Red">
+                                            <label for="controversies_governance_red">Red</label>
+                                            <input type="radio" id="controversies_governance_orange" name="Governance" value="Orange">
+                                            <label for="controversies_governance_orange">Orange</label>
+                                            <input type="radio" id="controversies_governance_yellow" name="Governance" value="Yellow">
+                                            <label for="controversies_governance_yellow">Yellow</label>
+                                            <input type="radio" id="controversies_governance_green" name="Governance" value="Green" checked>
+                                            <label for="controversies_governance_green">Green</label>
+                                        </div>
+                                    </details><br>
+
+
+                                    <!-- DECARBONIZATION TARGET-->
+                                    <details>
+                                        <summary><b>Decarbonization Target</b></summary><br>
+                                        <div>
+                                            <label for="target_year">Target Year:</label><br>
+                                            <input type="number" class="form-control" id="target_year" name="Decarbonization Target_Target Year" min="2020" max="2100" step="5">
+                                        </div>
+                                        <div>
+                                            <label for="comprehensiveness">Comprehensiveness (%):</label><br>
+                                            <input type="number" class="form-control" id="comprehensiveness" name="Decarbonization Target_Comprehensiveness" min="0" max="100">
+                                        </div>
+                                        <div>
+                                            <label for="ambition">Ambition per annum (%):</label><br>
+                                            <input type="number" class="form-control" step=".01" id="ambition" name="Decarbonization Target_Ambition p.a." min="0" max="100">
+                                        </div>
+                                        <div>
+                                            <label for="temperature">Temperature Goal:</label><br>
+                                            <input type="number" class="form-control" id="temperature" step=".01" name="Temperature Goal">
+                                        </div>
+                                    </details><br>
+
+                                    <!-- SUSTAINABLE DEVELOPMENT GOALS-->
+                                    <details>
+                                        <summary><b>Sustainable Development Goals (SDGs)</b></summary>
+                                        <div>
+                                            <label for="no_poverty_no">No Poverty:</label><br>
+                                            <input type="radio" id="no_poverty_no" name="No Poverty" value="No" checked>
+                                            <label for="no_poverty_no">No</label>
+                                            <input type="radio" id="no_poverty_aligned" name="No Poverty" value="Aligned">
+                                            <label for="no_poverty_aligned">Aligned</label>
+                                            <input type="radio" id="no_poverty_strongly_aligned" name="No Poverty" value="Strongly Aligned" >
+                                            <label for="no_poverty_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="no_hunger_no">No Hunger:</label><br>
+                                            <input type="radio" id="no_hunger_no" name="No Hunger" value="No" checked >
+                                            <label for="no_hunger_no">No</label>
+                                            <input type="radio" id="no_hunger_aligned" name="No Hunger" value="Aligned" >
+                                            <label for="no_hunger_aligned">Aligned</label>
+                                            <input type="radio" id="no_hunger_strongly_aligned" name="No Hunger" value="Strongly Aligned" >
+                                            <label for="no_hunger_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="good_health_no">Good Health and Well-Being:</label><br>
+                                            <input type="radio" id="good_health_no" name="Good Health and Well-Being" value="No" checked>
+                                            <label for="good_health_no">No</label>
+                                            <input type="radio" id="good_health_aligned" name="Good Health and Well-Being" value="Aligned" >
+                                            <label for="good_health_aligned">Aligned</label>
+                                            <input type="radio" id="good_health_strongly_aligned" name="Good Health and Well-Being" value="Strongly Aligned" >
+                                            <label for="good_health_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="quality_education_no">Quality Education:</label><br>
+                                            <input type="radio" id="quality_education_no" name="Quality Education" value="No" checked >
+                                            <label for="quality_education_no">No</label>
+                                            <input type="radio" id="quality_education_aligned" name="Quality Education" value="Aligned">
+                                            <label for="quality_education_aligned">Aligned</label>
+                                            <input type="radio" id="quality_education_strongly_aligned" name="Quality Education" value="Strongly Aligned">
+                                            <label for="quality_education_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="gender_equality_aligned">Gender Equality:</label><br>
+                                            <input type="radio" id="gender_equality_no" name="Gender Equality" value="No" checked>
+                                            <label for="gender_equality_no">No</label>
+                                            <input type="radio" id="gender_equality_aligned" name="Gender Equality" value="Aligned">
+                                            <label for="gender_equality_aligned">Aligned</label>
+                                            <input type="radio" id="gender_equality_strongly_aligned" name="Gender Equality" value="Strongly Aligned">
+                                            <label for="gender_equality_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="clean_water_no">Clean Water and Sanitation:</label><br>
+                                            <input type="radio" id="clean_water_no" name="Clean Water and Sanitation" value="No" checked>
+                                            <label for="clean_water_no">No</label>
+                                            <input type="radio" id="clean_water_aligned" name="Clean Water and Sanitation" value="Aligned">
+                                            <label for="clean_water_aligned">Aligned</label>
+                                            <input type="radio" id="clean_water_strongly_aligned" name="Clean Water and Sanitation" value="Strongly Aligned">
+                                            <label for="clean_water_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="affordable_clean_energy_aligned">Affordable and Clean Energy:</label><br>
+                                            <input type="radio" id="affordable_clean_energy_no" name="Affordable and Clean Energy" value="No" checked>
+                                            <label for="affordable_clean_energy_no">No</label>
+                                            <input type="radio" id="affordable_clean_energy_aligned" name="Affordable and Clean Energy" value="Aligned">
+                                            <label for="affordable_clean_energy_aligned">Aligned</label>
+                                            <input type="radio" id="affordable_clean_energy_strongly_aligned" name="Affordable and Clean Energy" value="Strongly Aligned">
+                                            <label for="affordable_clean_energy_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="decent_work_aligned">Decent Work and Economic Growth:</label><br>
+                                            <input type="radio" id="decent_work_no" name="Decent Work and Economic Growth" value="No" checked>
+                                            <label for="decent_work_no">No</label>
+                                            <input type="radio" id="decent_work_aligned" name="Decent Work and Economic Growth" value="Aligned">
+                                            <label for="decent_work_aligned">Aligned</label>
+                                            <input type="radio" id="decent_work_strongly_aligned" name="Decent Work and Economic Growth" value="Strongly Aligned">
+                                            <label for="decent_work_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="industry_innovation_aligned">Industry, Innovation and Infrastructure:</label><br>
+                                            <input type="radio" id="industry_innovation_no" name="Industry, Innovation and Infrastructure" value="No" checked>
+                                            <label for="industry_innovation_no">No</label>
+                                            <input type="radio" id="industry_innovation_aligned" name="Industry, Innovation and Infrastructure" value="Aligned">
+                                            <label for="industry_innovation_aligned">Aligned</label>
+                                            <input type="radio" id="industry_innovation_strongly_aligned" name="Industry, Innovation and Infrastructure" value="Strongly Aligned">
+                                            <label for="industry_innovation_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="reduced_inequalities_aligned">Reduced Inequalities:</label><br>
+                                            <input type="radio" id="reduced_inequalities_no" name="Reduced Inequalities" value="No" checked>
+                                            <label for="reduced_inequalities_no">No</label>
+                                            <input type="radio" id="reduced_inequalities_aligned" name="Reduced Inequalities" value="Aligned">
+                                            <label for="reduced_inequalities_aligned">Aligned</label>
+                                            <input type="radio" id="reduced_inequalities_strongly_aligned" name="Reduced Inequalities" value="Strongly Aligned">
+                                            <label for="reduced_inequalities_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="sustainable_cities_no">Sustainable Cities and Communities:</label><br>
+                                            <input type="radio" id="sustainable_cities_no" name="Sustainable Cities and Communities" value="No" checked >
+                                            <label for="sustainable_cities_no">No</label>
+                                            <input type="radio" id="sustainable_cities_aligned" name="Sustainable Cities and Communities" value="Aligned">
+                                            <label for="sustainable_cities_aligned">Aligned</label>
+                                            <input type="radio" id="sustainable_cities_strongly_aligned" name="Sustainable Cities and Communities" value="Strongly Aligned">
+                                            <label for="sustainable_cities_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="responsible_consumption_aligned">Responsible Consumption and Production:</label><br>
+                                            <input type="radio" id="responsible_consumption_no" name="Responsible Consumption and Production" value="No" checked>
+                                            <label for="responsible_consumption_no">No</label>
+                                            <input type="radio" id="responsible_consumption_aligned" name="Responsible Consumption and Production" value="Aligned">
+                                            <label for="responsible_consumption_aligned">Aligned</label>
+                                            <input type="radio" id="responsible_consumption_strongly_aligned" name="Responsible Consumption and Production" value="Strongly Aligned">
+                                            <label for="responsible_consumption_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="climate_action_aligned">Climate Action:</label><br>
+                                            <input type="radio" id="climate_action_no" name="Climate Action" value="No" checked>
+                                            <label for="climate_action_no">No</label>
+                                            <input type="radio" id="climate_action_aligned" name="Climate Action" value="Aligned">
+                                            <label for="climate_action_aligned">Aligned</label>
+                                            <input type="radio" id="climate_action_strongly_aligned" name="Climate Action" value="Strongly Aligned">
+                                            <label for="climate_action_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="life_under_water_no">Life under Water:</label><br>
+                                            <input type="radio" id="life_under_water_no" name="Life under Water" value="No" checked>
+                                            <label for="life_under_water_no">No</label>
+                                            <input type="radio" id="life_under_water_aligned" name="Life under Water" value="Aligned">
+                                            <label for="life_under_water_aligned">Aligned</label>
+                                            <input type="radio" id="life_under_water_strongly_aligned" name="Life under Water" value="Strongly Aligned">
+                                            <label for="life_under_water_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="life_on_land_no">Life on Land:</label><br>
+                                            <input type="radio" id="life_on_land_no" name="Life on Land" value="No" checked>
+                                            <label for="life_on_land_no">No</label>
+                                            <input type="radio" id="life_on_land_aligned" name="Life on Land" value="Aligned">
+                                            <label for="life_on_land_aligned">Aligned</label>
+                                            <input type="radio" id="life_on_land_strongly_aligned" name="Life on Land" value="Strongly Aligned">
+                                            <label for="life_on_land_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="peace_justice_no">Peace, Justice and Strong Institutions:</label><br>
+                                            <input type="radio" id="peace_justice_no" name="Peace, Justice and Strong Institutions" value="No" checked>
+                                            <label for="peace_justice_no">No</label>
+                                            <input type="radio" id="peace_justice_aligned" name="Peace, Justice and Strong Institutions" value="Aligned">
+                                            <label for="peace_justice_aligned">Aligned</label>
+                                            <input type="radio" id="peace_justice_strongly_aligned" name="Peace, Justice and Strong Institutions" value="Strongly Aligned">
+                                            <label for="peace_justice_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                        <div>
+                                            <label for="partnerships_no">Partnerships for the Goals:</label><br>
+                                            <input type="radio" id="partnerships_no" name="Partnerships for the Goals" value="No" checked>
+                                            <label for="partnerships_no">No</label>
+                                            <input type="radio" id="partnerships_aligned" name="Partnerships for the Goals" value="Aligned">
+                                            <label for="partnerships_aligned">Aligned</label>
+                                            <input type="radio" id="partnerships_strongly_aligned" name="Partnerships for the Goals" value="Strongly Aligned">
+                                            <label for="partnerships_strongly_aligned">Strongly Aligned</label>
+                                        </div>
+                                    </details><br>
+
+
 
                                     <div class="col-lg-6 col-md-10 col-8 mx-auto">
                                         <button type="submit" class="form-control">Submit</button>
@@ -115,7 +518,7 @@
                         </div>
 
                         <ul class="footer-menu d-flex flex-wrap ms-5">
-                            <li class="footer-menu-item"><a href="https://github.com/tonylm00/ESGnet" class="footer-menu-link">Repository Github</a></li>
+                            <li class="footer-menu-item"><a href="https://github.com/tonylm00/ESGnet" class="footer-menu-link">Repository GitHub</a></li>
                             <li class="footer-menu-item"><a href="#" class="footer-menu-link">Paper</a></li>
                             <li class="footer-menu-item"><a href="https://www.linkedin.com/in/tonylm00/" class="footer-menu-link">Author</a></li>
                         </ul>
@@ -135,5 +538,79 @@
         <script src="../static/js/modernizr.js"></script>
         <script src="../static/js/animated-headline.js"></script>
         <script src="../static/js/custom.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('form').on('submit', function(event) {
+        event.preventDefault();
+
+        const formData = {
+            Controversies: {},
+            decarbonization_target: {},
+            sdg: {}
+        };
+
+        // Add data from input fields
+        formData.employees = $('#employees').val();
+        formData.altman_score = $('#altman').val();
+        formData.piotroski_score = $('#piotroski').val();
+
+        // Add involvement data
+        formData.involvement = {};
+        $('input[type="radio"][name^="Alcoholic"], input[type="radio"][name^="Adult"], input[type="radio"][name^="Gambling"], input[type="radio"][name^="Tobacco"], input[type="radio"][name^="Animal"], input[type="radio"][name^="Fur"], input[type="radio"][name^="Controversial"], input[type="radio"][name^="Small"], input[type="radio"][name^="Catholic"], input[type="radio"][name^="GMO"], input[type="radio"][name^="Military"], input[type="radio"][name^="Pesticides"], input[type="radio"][name^="Thermal"], input[type="radio"][name^="Palm"]').each(function() {
+            formData.involvement[$(this).attr('name')] = $(this).filter(':checked').val() || 'No';
+        });
+
+
+        // Add controversies data
+        formData.Controversies = {};
+        // Iterate through each group of radio buttons for controversies
+        $('input[type="radio"][name^="Controversies_"]').each(function() {
+            formData.Controversies[$(this).attr('name')] = $('input[type="radio"][name="' + $(this).attr('name') + '"]:checked').val() || 'Unknown';
+        });
+
+        $('input[type="radio"][name^="Environment"], input[type="radio"][name^="Social"], input[type="radio"][name^="Customers"], input[type="radio"][name^="Human Rights & Community"], input[type="radio"][name^="Labor Rights & Supply Chain"], input[type="radio"][name^="Governance"]').each(function(){
+            formData.Controversies[$(this).attr('name')] = $('input[type="radio"][name="' + $(this).attr('name') + '"]:checked').val() || 'Unknown';
+        });
+
+        $('input[type="radio"][name^="Alcoholic"], input[type="radio"][name^="Adult"], input[type="radio"][name^="Gambling"], input[type="radio"][name^="Tobacco"], input[type="radio"][name^="Animal"], input[type="radio"][name^="Fur"], input[type="radio"][name^="Controversial"], input[type="radio"][name^="Small"], input[type="radio"][name^="Catholic"], input[type="radio"][name^="GMO"], input[type="radio"][name^="Military"], input[type="radio"][name^="Pesticides"], input[type="radio"][name^="Thermal"], input[type="radio"][name^="Palm"]').each(function() {
+            formData.involvement[$(this).attr('name')] = $(this).filter(':checked').val() || 'No';
+        });
+
+        // Add decarbonization target data
+        formData.Decarbonization_Target = {
+            target_year: $('#target_year').val(),
+            comprehensiveness: $('#comprehensiveness').val(),
+            ambition_per_annum: $('#ambition').val(),
+            temperature_goal: $('#temperature').val()
+        };
+
+        // Add SDGs data
+        formData.sdg = {};
+        $('input[type="radio"][name^="No"], input[type="radio"][name^="Good"], input[type="radio"][name^="Quality"], input[type="radio"][name^="Gender"], input[type="radio"][name^="Clean"], input[type="radio"][name^="Affordable"], input[type="radio"][name^="Decent"], input[type="radio"][name^="Industry"], input[type="radio"][name^="Reduced"], input[type="radio"][name^="Sustainable"], input[type="radio"][name^="Responsible"], input[type="radio"][name^="Climate"], input[type="radio"][name^="Life"], input[type="radio"][name^="Peace"], input[type="radio"][name^="Partnerships"]').each(function() {
+            formData.sdg[$(this).attr('name')] = $(this).filter(':checked').val() || 'No';
+        });
+
+
+        // Send data to the server as JSON
+        fetch('predict/data', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(response => response.json())
+        .then(data => {
+            window.location.href = '/result?esg=' + data.esg;
+        })
+        .catch(error => {
+            console.error('An error occurred:', error);
+        });
+    });
+});
+</script>
+
+
 </body>
 </html>

@@ -9,6 +9,7 @@ def balancing_kmeans(df, n_cluster):
 
     Args:
     df (pd.DataFrame): The DataFrame containing the data to be balanced. It is assumed to have a column named 'esg'.
+    n_cluster (int): The number of clusters to be used in the K-means algorithm.
 
     Returns:
     tuple: Two objects (X_balanced, y_balanced) where:

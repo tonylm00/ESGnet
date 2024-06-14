@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from data_preparation.cleaning import drop_controversies_columns
-from data_preparation import all_companies_with_ticker as companies
+from utils.connector import all_companies_with_ticker as companies
 from data_preparation.cleaning import flatten_dict, clean_decarbonization_target, merge_involvement
 from data_preparation.encoding import encoding_colors, involvement_encoding, encoding_aligned_no
 
@@ -112,10 +112,9 @@ def clean():
     print('\nData cleaning completed')
 
 
-def clean_with_metrics():
-    flattened_data = [flatten_dict(data) for data in companies]
+def clean_with_metrics(flattened_data):
     df = (pd.DataFrame(flattened_data).drop(columns=['_id', 'domain',
-                                                     #'name',
+                                                     'name',
                                                      'sector',
                                                      'industry'])
           .replace('null', np.nan))
@@ -153,8 +152,10 @@ def clean_with_metrics():
     df = df.dropna()
     df = merge_by_esg(df)
 
-    df.to_csv('../data/label_with_metrics.csv', index=False)
+    # df.to_csv('../data/label_with_metrics.csv', index=False)
+    return df
 
 
 if __name__ == '__main__':
-    clean_with_metrics()
+    flattened_data = [flatten_dict(data) for data in companies]
+    clean_with_metrics(flattened_data=flattened_data)

@@ -2,15 +2,18 @@ import joblib
 import networkx as nx
 import pandas as pd
 from flask import Flask, request, jsonify, render_template
-
-from service_value_network.model.model_svn_score import extract_features
+from data_preparation.cleaning import flatten_dict, clean_decarbonization_target, merge_involvement, \
+    drop_controversies_columns
+from data_preparation.encoding import involvement_encoding, encoding_colors, encoding_aligned_no
+from data_preparation.run import clean_with_metrics, merge_by_esg
+from esg_service_value_network.model.model_svn_score import extract_features
 
 app = Flask(__name__)
 
 
-def load_model():
+def load_model(path):
     try:
-        return joblib.load('../../service_value_network/model/saved/svn_model.pkl')
+        return joblib.load(path)
     except FileNotFoundError:
         return None
 
@@ -67,7 +70,7 @@ def predict():
     features = extract_features(graph, 'TARGET')
     print(f"Features: {features}")
 
-    model = load_model()
+    model = load_model(path='../../esg_service_value_network/model/saved/svn_score.pkl')
 
     if not model:
         return jsonify({'error': 'Model not found'}), 500
@@ -76,6 +79,7 @@ def predict():
                      'sum_customers', 'sum_investment', 'sum_competitor']
 
     X = [features[feature_name] for feature_name in feature_names]
+    print(f"X: {X}")
     prediction = model.predict([X])[0]
 
     # Round the prediction to two decimal places
@@ -89,6 +93,50 @@ def predict():
 def result():
     esg_value = request.args.get('esg')
     return render_template('result.html', esg=esg_value)
+
+
+@app.route('/predict/data', methods=['POST'])
+def predict_data():
+    data = request.get_json()
+    flattened_data = flatten_dict(data)
+
+    df = pd.DataFrame({key: [value] for key, value in flattened_data.items()})
+
+    column_mappings = {
+        'Decarbonization_Target_target_year': 'Decarbonization_Target_target_year',
+        'Decarbonization_Target_comprehensiveness': 'Decarbonization_Target_Comprehensiveness',
+        'Decarbonization_Target_ambition_per_annum': 'Decarbonization_Target_Ambition p.a.',
+        'Decarbonization_Target_temperature_goal': 'Temperature Goal',
+    }
+    df = df.rename(columns=column_mappings)
+
+    # Perform necessary cleaning and transformations
+    df = clean_decarbonization_target(df)
+    df = merge_involvement(df)
+    df = involvement_encoding(df)
+    df = encoding_colors(df)
+    df = encoding_aligned_no(df)
+    df = merge_by_esg(df)
+
+    model = load_model(path='../../esg_company_data/saved/data_score.pkl')
+
+    if not model:
+        return jsonify({'error': 'Model not found'}), 500
+
+    desired_feature_order = ['employees', 'altman_score', 'piotroski_score',
+                             'Decarbonization Target_Target Year',
+                             'Decarbonization Target_Comprehensiveness',
+                             'Decarbonization Target_Ambition p.a.', 'Temperature Goal',
+                             'environmental_metric', 'social_metric', 'governance_metric',
+                             'involvement_metric']
+
+    df = df.reindex(columns=desired_feature_order)
+    X = df.values
+
+    prediction = model.predict(X)[0]
+    prediction = round(prediction, 2)
+
+    return jsonify({'esg': prediction})
 
 
 if __name__ == '__main__':

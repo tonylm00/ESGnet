@@ -5,6 +5,17 @@ pd.set_option('future.no_silent_downcasting', True)
 
 
 def flatten_dict(d, parent_key='', sep='_'):
+    """
+    Flattens a nested dictionary.
+
+    Parameters:
+    d (dict): The dictionary to flatten.
+    parent_key (str, optional): The base key string to use for the new keys. Defaults to ''.
+    sep (str, optional): The separator to use between parent and child keys. Defaults to '_'.
+
+    Returns:
+    dict: A flattened dictionary.
+    """
     items = []
     for k, v in d.items():
         new_key = f'{parent_key}{sep}{k}' if parent_key else k
@@ -16,26 +27,62 @@ def flatten_dict(d, parent_key='', sep='_'):
 
 
 def clean_decarbonization_target(df):
-    df['Decarbonization Target_Target Year'] = df['Decarbonization Target_Target Year'].astype('Int64')
-    df['Decarbonization Target_Comprehensiveness'] = (df['Decarbonization Target_Comprehensiveness']
-                                                      .replace('t\n', '', regex=True))
-    df['Decarbonization Target_Comprehensiveness'] = (df['Decarbonization Target_Comprehensiveness']
+    """
+    Cleans and processes decarbonization target columns in the DataFrame.
+
+    Parameters:
+    df (pd.DataFrame): The input DataFrame containing decarbonization target columns.
+
+    Returns:
+    pd.DataFrame: The DataFrame with cleaned decarbonization target columns.
+    """
+    try:
+        df['Decarbonization Target_Target Year'] = df['Decarbonization Target_Target Year'].astype('Int64')
+
+        df['Decarbonization Target_Comprehensiveness'] = (df['Decarbonization Target_Comprehensiveness']
+                                                          .replace('t\n', '', regex=True))
+        df['Decarbonization Target_Comprehensiveness'] = (df['Decarbonization Target_Comprehensiveness']
+                                                          .str.replace('%', '').astype(float))
+
+        df['Decarbonization Target_Ambition p.a.'] = (df['Decarbonization Target_Ambition p.a.'].astype(str)
                                                       .str.replace('%', '').astype(float))
-    df['Decarbonization Target_Ambition p.a.'] = (df['Decarbonization Target_Ambition p.a.'].astype(str)
-                                                  .str.replace('%', '').astype(float))
+    except KeyError:
+        pass
+
     return df
 
 
 def merge_columns_function(row, columns):
-    if any(row[col] == 'Yes' for col in columns):
-        return 'Yes'
-    if any(row[col] == 'No' for col in columns):
-        return 'No'
+    """
+    Merges multiple columns into a single column based on specific criteria.
+
+    Parameters:
+    row (pd.Series): A row of the DataFrame.
+    columns (list): A list of column names to merge.
+
+    Returns:
+    str or np.nan: 'Yes' if any column has 'Yes', 'No' if any column has 'No', otherwise NaN.
+    """
+    try:
+        if any(row[col] == 'Yes' for col in columns):
+            return 'Yes'
+        if any(row[col] == 'No' for col in columns):
+            return 'No'
+    except KeyError:
+        pass
     return np.nan
 
 
 def merge_involvement(df):
-    # Define the mapping for new columns
+    """
+    Merges involvement columns into new columns and drops the original columns.
+
+    Parameters:
+    df (pd.DataFrame): The input DataFrame containing involvement columns.
+
+    Returns:
+    pd.DataFrame: The DataFrame with merged involvement columns and original columns dropped.
+    """
     merge_columns = {
         'Weapons involvement': [
             'involvement_msci_Controversial Weapons',
@@ -69,8 +116,7 @@ def merge_involvement(df):
     for new_col, cols_to_merge in merge_columns.items():
         df[new_col] = df.apply(lambda row: merge_columns_function(row, cols_to_merge), axis=1)
 
-    # Drop unwanted columns
-    ob_cols = [
+    cols_to_drop = [
         'involvement_Alcoholic Beverages',
         'involvement_Adult Entertainment',
         'involvement_Gambling',
@@ -91,14 +137,21 @@ def merge_involvement(df):
         'involvement_msci_Alcoholic Beverages',
         'involvement'
     ]
-
-    df.drop(columns=ob_cols, inplace=True)
+    df.drop(columns=cols_to_drop, inplace=True, errors='ignore')
 
     return df
 
 
 def controversies_imputation(dataframe):
-    # List of columns to check for NaN and replace with 'White'
+    """
+    Imputes missing values in controversy columns with 'White'.
+
+    Parameters:
+    dataframe (pd.DataFrame): The input DataFrame containing controversy columns.
+
+    Returns:
+    pd.DataFrame: The DataFrame with imputed controversy columns.
+    """
     controversy_columns = [
         'Controversies_Supply Chain Labor Standards',
         'Controversies_Health & Safety',
@@ -126,7 +179,6 @@ def controversies_imputation(dataframe):
         'Controversies_Controversial Investments'
     ]
 
-    # Replace NaN values with 'White' in the specified columns
     for col in controversy_columns:
         dataframe[col] = dataframe[col].fillna('White')
 
@@ -134,6 +186,15 @@ def controversies_imputation(dataframe):
 
 
 def drop_controversies_columns(df):
+    """
+    Drops controversy columns from the DataFrame.
+
+    Parameters:
+    df (pd.DataFrame): The input DataFrame containing controversy columns.
+
+    Returns:
+    pd.DataFrame: The DataFrame with controversy columns dropped.
+    """
     cols = [
         'Controversies_Supply Chain Labor Standards',
         'Controversies_Collective Bargaining & Union',

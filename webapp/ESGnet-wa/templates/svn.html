@@ -156,7 +156,6 @@
             relationships: []
         };
 
-        // Aggiungi le aziende e i rapporti dall'input del modulo
         $(this).find('select[name^="company-"]').each(function() {
             formData.companies.push($(this).val());
         });
@@ -165,7 +164,7 @@
             formData.relationships.push($(this).val());
         });
 
-        // Invia i dati al server come JSON
+        // send json data to server
         fetch('predict/svn', {
             method: 'POST',
             headers: {
@@ -175,16 +174,13 @@
         })
         .then(response => response.json())
         .then(data => {
-            // Dopo aver ricevuto la risposta JSON dal server, reindirizza l'utente alla pagina dei risultati
             window.location.href = '/result?esg=' + data.esg;
         })
         .catch(error => {
-            console.error('Si è verificato un errore:', error);
+            console.error('error:', error);
         });
     });
 });
-
-
 </script>
 
 </body>

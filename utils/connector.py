@@ -6,6 +6,11 @@ database = client["jala_svn"]
 companies = database["companies"]
 links = database["links"]
 
+all_companies_with_ticker = companies.find({'$and': [
+    {'ticker': {'$exists': True}},
+    {'ticker': {'$ne': 'null'}}
+]})
+
 
 def clean_employees():
     documents = companies.find({"employees": {"$exists": True}})
