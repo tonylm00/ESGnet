@@ -5,9 +5,9 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.model_selection import train_test_split
 import joblib
-from data_preparation.balancing import balancing_kmeans
+from data_preparation.balancing import balancing_kmeans, balancing_smogn
 
-model_path = 'model/saved/svn_score.pkl'
+model_path = 'saved/svn_score.pkl'
 
 
 def extract_features(graph, company_name):
@@ -17,7 +17,6 @@ def extract_features(graph, company_name):
             'num_links': 0,
             'mean_esg_neighbors': 0,
             'var_esg_neighbors': 0,
-            'sum_esg_neighbors': 0,
             'sum_partnership': 0,
             'sum_customers': 0,
             'sum_investment': 0,
@@ -33,7 +32,6 @@ def extract_features(graph, company_name):
             'num_links': num_links,
             'mean_esg_neighbors': 0,
             'var_esg_neighbors': 0,
-            'sum_esg_neighbors': 0,
             'sum_partnership': sum(
                 1 for neighbor in neighbors if graph[company_name][neighbor]['relationship'] == 'partnership'),
             'sum_customers': sum(
@@ -46,7 +44,7 @@ def extract_features(graph, company_name):
 
     mean_esg_neighbors = sum(esg_scores) / len(esg_scores)
     var_esg_neighbors = np.var(esg_scores)
-    sum_esg_neighbors = sum(esg_scores)
+    #sum_esg_neighbors = sum(esg_scores)
 
     sum_partnership = sum(1 for neighbor in neighbors if graph[company_name][neighbor]['relationship'] == 'partnership')
     sum_customers = sum(1 for neighbor in neighbors if graph[company_name][neighbor]['relationship'] == 'customer')
@@ -57,7 +55,6 @@ def extract_features(graph, company_name):
         'num_links': num_links,
         'mean_esg_neighbors': mean_esg_neighbors,
         'var_esg_neighbors': var_esg_neighbors,
-        'sum_esg_neighbors': sum_esg_neighbors,
         'sum_partnership': sum_partnership,
         'sum_customers': sum_customers,
         'sum_investment': sum_investment,
@@ -97,10 +94,10 @@ def train_save_model(companies_df, links_df, path):
         features.append(feature)
 
     features_df = pd.DataFrame(features)
-    feature_names = ['num_links', 'mean_esg_neighbors', 'var_esg_neighbors', 'sum_esg_neighbors', 'sum_partnership',
-                     'sum_customers', 'sum_investment', 'sum_competitor']
+    feature_names = ['num_links', 'mean_esg_neighbors', 'var_esg_neighbors', 'sum_partnership', 'sum_customers', 'sum_investment', 'sum_competitor']
 
-    X, y = balancing_kmeans(features_df[feature_names + ['esg']], n_cluster=12)
+    #X, y = balancing_kmeans(features_df[feature_names + ['esg']], n_cluster=3)
+    X, y = balancing_smogn(features_df[feature_names + ['esg']])
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     model = RandomForestRegressor(n_estimators=100, random_state=42)
@@ -123,8 +120,7 @@ def test_model(companies_df, links_df, company_name):
     G = create_graph(companies_df, links_df)
     company_features = extract_features(G, company_name)
 
-    feature_names = ['num_links', 'mean_esg_neighbors', 'var_esg_neighbors', 'sum_esg_neighbors',
-                     'sum_partnership', 'sum_customers', 'sum_investment', 'sum_competitor']
+    feature_names = ['num_links', 'mean_esg_neighbors', 'var_esg_neighbors', 'sum_partnership', 'sum_customers', 'sum_investment', 'sum_competitor']
     feature_vector = np.array([company_features[feature] for feature in feature_names]).reshape(1, -1)
 
     predicted_esg = model.predict(feature_vector)[0]
@@ -132,7 +128,7 @@ def test_model(companies_df, links_df, company_name):
 
 
 if __name__ == '__main__':
-    companies_df = pd.read_csv('../data/label_with_metrics.csv')
-    links_df = pd.read_csv('../data/filtered_links.csv')
+    companies_df = pd.read_csv('../../data/label_with_metrics.csv')
+    links_df = pd.read_csv('../../data/filtered_links.csv')
     train_save_model(companies_df, links_df, model_path)
     print(test_model(companies_df, links_df, 'IBM'))
